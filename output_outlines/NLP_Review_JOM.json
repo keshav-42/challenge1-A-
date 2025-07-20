@@ -1,0 +1,565 @@
+{
+  "title": "Untitled Document",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "CITATIONS\n48",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "5 authors, including:",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Logan Ward",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Argonne National Laboratory",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "147 PUBLICATIONS   7,031 CITATIONS",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "310 PUBLICATIONS   6,455 CITATIONS",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "SEE PROFILE",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Ben Blaiszik",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "University of Chicago",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "116 PUBLICATIONS   6,363 CITATIONS",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "SEE PROFILE",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Received: date / Accepted: date",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "1 Introduction",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Z. Hong* · Kyle Chard · Ben Blaiszik · Ian Foster\nUniversity of Chicago, Chicago, IL, USA\nE-mail: *hongzhi@uchicago.edu",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "2 Scientiﬁc Information Extraction Workﬂow",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "3 Challenge #1: The Computer-(un)friendly Formats of Scientiﬁc\nTexts",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "3.1 Historical Relic: Portable Document Format",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "3.2 Rising Star: Markup Language Formats",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "4 Challenge #2: The Need for (and Lack of ) Training Data",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "4.1 Harvesting Existing Data",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Harvesting\nExisting Data",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Distant-supervised and\nUnsupervised Methods",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Pros:",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Pros:",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "1) Minimum eﬀort",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "1) No manual labeling",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Cons:",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Cons:",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "1) Output can be",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "2) Standardization and",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Examples:",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Examples:",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "1) Polymer Handbook [5]\n2) PPPDB [40]",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "1) Standford OpenIE [30]\n2) TextRunner [28]",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "4.2 Crowdsourcing",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "4.3 Computer-aided Training Data Collection",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "4.4 Distant-supervised and Unsupervised Methods",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "5 Challenge #3: The Sparsity of Information of Interest in Literature",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "5.1 Heuristic-based Filtering",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Heuristic Methods",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Article Structure Filtering",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Cons:\n1) Ineﬀective for articles not strictly following",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Sentence-level Filtering",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Cons:\n1) Requires more manually-deﬁned rules than",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Article Structure Filtering",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "2) Recall is often lower than statistical methods.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Examples:\n1) Rule- and pattern-base sentence ﬁltering [86–88]",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "5.2 Filtering with Statistical Models",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "6 Challenge #4: The Diﬃculties of Applying Models Trained on\nGeneral Corpora to Scientiﬁc Text",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Standard datasets",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Pre-trained language models",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Diﬃculty level: High",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Diﬃculty level: Medium",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "1) Datasets compiled from",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "1) Recent language models are",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Solutions",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Solutions",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "1) Pre-trained language models",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "1) Compile SciIE datasets\nfrom scientiﬁc texts",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Examples",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Examples",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "1) BERT [103]\n2) SciBERT [50]",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "6.1 Standardized Datasets in NLP",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "6.2 Transfer Learning",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "6.3 Word Embedding",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "6.4 Language Model Fine Tuning",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "7 Enabling Better IE in Materials Research",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "7.1 Access to Well-Formatted Versions of Articles",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "7.2 Open Science Practices in Materials NLP Research",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "7.3 Publishing Structured Data",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "8 Conclusions and Outlook",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Conﬂict of Interest",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "References",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "D. Skinner, G. Ceder, et al., APL Materials 1(1), 011002 (2013)",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "1210 (1999)",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "G. Ceder, A. Jain, Nature 571(7763), 95 (2019)",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "33. PDFTron. PDF2Text.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "M. Blanchette, J. Waldisp¨uhl, PloS one 7(3), e31362 (2012)",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "4309 (2017)",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Zhi Hong et al.",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "E. Olivetti, Scientiﬁc Data 4(1), 1 (2017)",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "P. Shyam, G. Sastry, A. Askell, et al., arXiv preprint arXiv:2005.14165 (2020)",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "122. Google. Google News Word2Vec. https://code.google.com/archive/p/word2vec/",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Title Suppressed Due to Excessive Length",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "J. Hummelshøj, A. Kariryaa, B. Kozinsky, S. Kumbhar, M. Liu, N. Marzari, A.J. Mor-\nris, A.A. Mostoﬁ, K.A. Persson, G. Petretto, T. Purcell, F. Ricci, F. Rose, M. Schef-\nﬂer, D. Speckhard, M. Uhrin, A. Vaitkus, P. Villars, D. Waroquiers, C. Wolverton,\nM. Wu, X. Yang, Scientiﬁc Data 8(1) (2021). DOI 10.1038/s41597-021-00974-z. URL\nhttps://doi.org/10.1038/s41597-021-00974-z",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "View publication stats",
+      "page": 30
+    }
+  ]
+}
