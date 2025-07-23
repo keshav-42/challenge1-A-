@@ -2,12 +2,32 @@
   "title": "Parsippany -Troy Hills STEM Pathways",
   "outline": [
     {
-      "level": "H1",
+      "level": "H2",
+      "text": "Mission Statement:",
+      "page": 1
+    },
+    {
+      "level": "H2",
       "text": "Goals:",
       "page": 1
     },
     {
       "level": "H2",
+      "text": "•",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 1
+    },
+    {
+      "level": "H1",
       "text": "PATHWAY OPTIONS",
       "page": 1
     },
@@ -17,18 +37,13 @@
       "page": 1
     },
     {
-      "level": "H3",
-      "text": "- One must be a Computer \nScience/Technology Class",
+      "level": "H1",
+      "text": ". *",
       "page": 1
     },
     {
       "level": "H1",
-      "text": "● Join and actively participate in a",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "● Join and actively participate in a",
+      "text": "DISTINCTION PATHWAY",
       "page": 1
     },
     {
@@ -37,98 +52,73 @@
       "page": 2
     },
     {
-      "level": "H1",
-      "text": "Science",
+      "level": "H2",
+      "text": "•",
       "page": 2
     },
     {
       "level": "H2",
-      "text": "Math",
+      "text": "•••••",
       "page": 2
     },
     {
       "level": "H2",
-      "text": "Computer Science/ \nTechnology",
+      "text": "MythBusting: The Organic ChemistryGeneticsAstronomyBioethicsScience of Literature and Films",
       "page": 2
     },
     {
       "level": "H2",
-      "text": "+AP Calculus\n+AP Statistics\n+Calculus",
+      "text": "AP Calculus",
       "page": 2
     },
     {
       "level": "H2",
-      "text": "•\n•\n•\n• Probability,",
+      "text": "AP Statistics",
       "page": 2
     },
     {
       "level": "H2",
-      "text": "• Computer",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "Programming in C++",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "• AP Computer Science",
+      "text": "CalculusProbability, Statistics, and Discrete Math",
       "page": 2
     },
     {
       "level": "H1",
-      "text": "Science",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "Principles",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "Accounting 1\nInvestments",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "•\n• AP",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "• Networks (CCNA cert)\n• Switching, Routing, &",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "Economics",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "Wireless Essentials \n(CCNA cert)",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Science of \nLiterature and \nFilms",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "• Business \nOrg. \nManagement",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "• Cybersecurity (CCNA",
-      "page": 2
-    },
-    {
-      "level": "H2",
       "text": "What Colleges Say!",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "When asked the question,",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Drew University:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "SUNY Binghamton:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "NJIT:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Ithaca College:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Towson University:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Montclair University:",
       "page": 2
     }
   ]

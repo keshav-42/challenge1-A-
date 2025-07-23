@@ -1,128 +1,222 @@
 [
-    {
-        "text": "ADDRESS:",
-        "x0": 32.65,
-        "y0_top": 238.26,
-        "fontname": "Helvetica",
-        "fontsize": 12.4,
-        "width": 71.79,
-        "height": 12.4,
-        "page_number": 1,
-        "page_width": 326.04,
-        "page_height": 686.04,
-        "features": {
-            "font_size": 12.4,
-            "indentation": 32.65,
-            "is_bold": 0,
-            "centering_offset": 94.47,
-            "text_length": 8,
-            "word_count": 1,
-            "y_coordinate": 238.26
-        }
+  {
+    "text": "ADDRESS: TOPJUMP 3735",
+    "fontname": "Helvetica",
+    "fontsize": 12.4,
+    "page_number": 1,
+    "features": {
+      "font_size": 12.4,
+      "indentation": 32.65,
+      "is_bold": 0,
+      "y_coordinate": 238.26,
+      "centering_offset": 47.39,
+      "word_count": 3
     },
-    {
-        "text": "TOPJUMP \n3735 PARKWAY \nPIGEON  FORGE, TN  37863 \n(NEAR DIXIE STAMPEDE ON  THE  PARKWAY)",
-        "x0": 58.39,
-        "y0_top": 224.1,
-        "fontname": "Helvetica",
-        "fontsize": 9.4,
-        "width": 212.27,
-        "height": 50.91,
-        "page_number": 1,
-        "page_width": 326.04,
-        "page_height": 686.04,
-        "features": {
-            "font_size": 9.4,
-            "indentation": 58.39,
-            "is_bold": 0,
-            "centering_offset": 1.5,
-            "text_length": 87,
-            "word_count": 13,
-            "y_coordinate": 224.1
-        }
+    "feature_vector": [
+      12.4,
+      32.65,
+      0,
+      0.3473
+    ]
+  },
+  {
+    "text": "PARKWAY",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 12.4,
+    "page_number": 1,
+    "features": {
+      "font_size": 12.4,
+      "indentation": 146.85,
+      "is_bold": 1,
+      "y_coordinate": 210.17,
+      "centering_offset": 18.01,
+      "word_count": 1
     },
-    {
-        "text": "RSVP: ----------------",
-        "x0": 29.49,
-        "y0_top": 159.27,
-        "fontname": "Times-Roman",
-        "fontsize": 19.2,
-        "width": 267.34,
-        "height": 21.19,
-        "page_number": 1,
-        "page_width": 326.04,
-        "page_height": 686.04,
-        "features": {
-            "font_size": 19.2,
-            "indentation": 29.49,
-            "is_bold": 0,
-            "centering_offset": 0.14,
-            "text_length": 22,
-            "word_count": 2,
-            "y_coordinate": 159.27
-        }
+    "feature_vector": [
+      12.4,
+      146.85,
+      1,
+      0.3064
+    ]
+  },
+  {
+    "text": "PIGEON FORGE, TN 37863",
+    "fontname": "Helvetica",
+    "fontsize": 12.4,
+    "page_number": 1,
+    "features": {
+      "font_size": 12.4,
+      "indentation": 81.08,
+      "is_bold": 0,
+      "y_coordinate": 196.25,
+      "centering_offset": 2.11,
+      "word_count": 4
     },
-    {
-        "text": "CLOSED TOED SHOES ARE REQUIRED FOR CLIMBING",
-        "x0": 62.3,
-        "y0_top": 128.26,
-        "fontname": "Helvetica",
-        "fontsize": 7.2,
-        "width": 203.92,
-        "height": 7.2,
-        "page_number": 1,
-        "page_width": 326.04,
-        "page_height": 686.04,
-        "features": {
-            "font_size": 7.2,
-            "indentation": 62.3,
-            "is_bold": 0,
-            "centering_offset": 1.24,
-            "text_length": 43,
-            "word_count": 7,
-            "y_coordinate": 128.26
-        }
+    "feature_vector": [
+      12.4,
+      81.08,
+      0,
+      0.2861
+    ]
+  },
+  {
+    "text": "(NEAR DIXIE STAMPEDE ON THE PARKWAY)",
+    "fontname": "Helvetica",
+    "fontsize": 9.4,
+    "page_number": 1,
+    "features": {
+      "font_size": 9.4,
+      "indentation": 58.39,
+      "is_bold": 0,
+      "y_coordinate": 182.59,
+      "centering_offset": 1.5,
+      "word_count": 6
     },
-    {
-        "text": "PARENTS OR GUARDIANS NOT ATTENDING THE  PARTY, \nPLEASE VISIT TOPJUMP.COM TO  FILL OUT WAIVER \nSO YOUR CHILD CAN ATTEND.",
-        "x0": 59.61,
-        "y0_top": 112.18,
-        "fontname": "Helvetica",
-        "fontsize": 7.2,
-        "width": 209.1,
-        "height": 25.45,
-        "page_number": 1,
-        "page_width": 326.04,
-        "page_height": 686.04,
-        "features": {
-            "font_size": 7.2,
-            "indentation": 59.61,
-            "is_bold": 0,
-            "centering_offset": 1.14,
-            "text_length": 119,
-            "word_count": 19,
-            "y_coordinate": 112.18
-        }
+    "feature_vector": [
+      9.4,
+      58.39,
+      0,
+      0.2661
+    ]
+  },
+  {
+    "text": "RSVP:",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 12.4,
+    "page_number": 1,
+    "features": {
+      "font_size": 12.4,
+      "indentation": 29.49,
+      "is_bold": 1,
+      "y_coordinate": 159.27,
+      "centering_offset": 112.68,
+      "word_count": 1
     },
-    {
-        "text": "HOPE  To SEE  You THERE! \nWWW.TOPJUMP.COM",
-        "x0": 33.42,
-        "y0_top": 80.12,
-        "fontname": "Helvetica-Bold",
-        "fontsize": 26.41,
-        "width": 273.35,
-        "height": 48.59,
-        "page_number": 1,
-        "page_width": 326.04,
-        "page_height": 686.04,
-        "features": {
-            "font_size": 26.41,
-            "indentation": 33.42,
-            "is_bold": 1,
-            "centering_offset": 7.07,
-            "text_length": 41,
-            "word_count": 6,
-            "y_coordinate": 80.12
-        }
-    }
+    "feature_vector": [
+      12.4,
+      29.49,
+      1,
+      0.2322
+    ]
+  },
+  {
+    "text": "----------------",
+    "fontname": "Times-Roman",
+    "fontsize": 19.2,
+    "page_number": 1,
+    "features": {
+      "font_size": 19.2,
+      "indentation": 71.79,
+      "is_bold": 0,
+      "y_coordinate": 157.28,
+      "centering_offset": 21.29,
+      "word_count": 1
+    },
+    "feature_vector": [
+      19.2,
+      71.79,
+      0,
+      0.2293
+    ]
+  },
+  {
+    "text": "CLOSED TOED SHOES ARE REQUIRED FOR CLIMBING PARENTS OR GUARDIANS NOT ATTENDING THE PARTY, PLEASE VISIT",
+    "fontname": "Helvetica",
+    "fontsize": 7.2,
+    "page_number": 1,
+    "features": {
+      "font_size": 7.2,
+      "indentation": 59.61,
+      "is_bold": 0,
+      "y_coordinate": 128.26,
+      "centering_offset": 1.14,
+      "word_count": 16
+    },
+    "feature_vector": [
+      7.2,
+      59.61,
+      0,
+      0.187
+    ]
+  },
+  {
+    "text": "TOPJUMP.COM",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 7.2,
+    "page_number": 1,
+    "features": {
+      "font_size": 7.2,
+      "indentation": 119.0,
+      "is_bold": 1,
+      "y_coordinate": 102.81,
+      "centering_offset": 12.53,
+      "word_count": 1
+    },
+    "feature_vector": [
+      7.2,
+      119.0,
+      1,
+      0.1499
+    ]
+  },
+  {
+    "text": "TO FILL OUT WAIVER SO YOUR CHILD CAN ATTEND.",
+    "fontname": "Helvetica",
+    "fontsize": 7.2,
+    "page_number": 1,
+    "features": {
+      "font_size": 7.2,
+      "indentation": 106.71,
+      "is_bold": 0,
+      "y_coordinate": 102.81,
+      "centering_offset": 22.35,
+      "word_count": 9
+    },
+    "feature_vector": [
+      7.2,
+      106.71,
+      0,
+      0.1499
+    ]
+  },
+  {
+    "text": "HOPE To SEE You THERE!",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 26.41,
+    "page_number": 1,
+    "features": {
+      "font_size": 26.41,
+      "indentation": 33.42,
+      "is_bold": 1,
+      "y_coordinate": 80.12,
+      "centering_offset": 7.07,
+      "word_count": 5
+    },
+    "feature_vector": [
+      26.41,
+      33.42,
+      1,
+      0.1168
+    ]
+  },
+  {
+    "text": "WWW.TOPJUMP.COM",
+    "fontname": "Helvetica",
+    "fontsize": 23.41,
+    "page_number": 1,
+    "features": {
+      "font_size": 23.41,
+      "indentation": 93.79,
+      "is_bold": 0,
+      "y_coordinate": 54.94,
+      "centering_offset": 1.93,
+      "word_count": 1
+    },
+    "feature_vector": [
+      23.41,
+      93.79,
+      0,
+      0.0801
+    ]
+  }
 ]

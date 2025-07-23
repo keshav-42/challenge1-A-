@@ -31,7 +31,7 @@ def create_feature_vectors(input_json_path):
         indentation = features.get('indentation', 0)
         is_bold = features.get('is_bold', 0)
         centering_offset = features.get('centering_offset', 999)
-        text_length = features.get('text_length', 0)
+        word_count = features.get('word_count', 0)
         y_coordinate = features.get('y_coordinate', 0)
 
         # --- New Feature: Indent-to-Font Ratio ---
@@ -47,7 +47,7 @@ def create_feature_vectors(input_json_path):
             indentation,
             is_bold,
             centering_offset,
-            text_length,
+            word_count,
             y_coordinate,
             round(indent_to_font_ratio, 3) # Round for consistency
         ]

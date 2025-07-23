@@ -122,6 +122,6 @@ if __name__ == '__main__':
     #    - `output_outlines`: An empty folder for this script's final output.
     # 3. Run from your terminal:
     #
-    #   python generate_outline.py --input_dir output_labeled --output_dir output_outlines 
+    #    python generate_outline.py --input_dir output_labeled --output_dir output_outlines 
 
     process_directory(args.input_dir, args.output_dir)
