@@ -1,0 +1,72 @@
+{
+  "document_info": {
+    "filename": "STEMPathwaysFlyer.pdf",
+    "base_name": "STEMPathwaysFlyer",
+    "pipeline_stages": [
+      "parsing",
+      "build_vectors",
+      "cluster_and_label",
+      "generate_outline"
+    ]
+  },
+  "outline": {
+    "title": "Parsippany -Troy Hills STEM Pathways",
+    "outline": [
+      {
+        "level": "H3",
+        "text": "Goals:",
+        "page": 0
+      },
+      {
+        "level": "H1",
+        "text": "REGULAR PATHWAY",
+        "page": 0
+      },
+      {
+        "level": "H2",
+        "text": "DISTINCTION PATHWAY",
+        "page": 0
+      },
+      {
+        "level": "H1",
+        "text": "Elective Course Offerings",
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "Science\nMath\nComputer Science/\nTechnology\nArt\nApplied\nTechnology/\nFamily Consumer\nScience and Other",
+        "page": 1
+      },
+      {
+        "level": "H3",
+        "text": "•\n•\n•\n•\n•\n•",
+        "page": 1
+      },
+      {
+        "level": "H3",
+        "text": "•\n•\n•\n•",
+        "page": 1
+      },
+      {
+        "level": "H3",
+        "text": "• MythBusting: The\nOrganic Chemistry\nGenetics\nAstronomy\nBioethics\nScience of\nLiterature and\nFilms",
+        "page": 1
+      },
+      {
+        "level": "H2",
+        "text": "***AP\nCaptsone -\nSeminar and\nResearch w/\nadvisor\napproval",
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "What Colleges Say!",
+        "page": 1
+      },
+      {
+        "level": "H1",
+        "text": "For more information and our application please visit our website by clicking here.",
+        "page": 1
+      }
+    ]
+  }
+}

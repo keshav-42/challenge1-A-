@@ -1,0 +1,37 @@
+{
+  "document_info": {
+    "filename": "N1-mondai.pdf",
+    "base_name": "N1-mondai",
+    "pipeline_stages": [
+      "parsing",
+      "build_vectors",
+      "cluster_and_label",
+      "generate_outline"
+    ]
+  },
+  "outline": {
+    "title": "問題例\nN 1",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "言語知識（文字・語彙・文法）",
+        "page": 0
+      },
+      {
+        "level": "H1",
+        "text": "・読解",
+        "page": 0
+      },
+      {
+        "level": "H1",
+        "text": "問題例\nN 1",
+        "page": 19
+      },
+      {
+        "level": "H1",
+        "text": "聴解",
+        "page": 19
+      }
+    ]
+  }
+}

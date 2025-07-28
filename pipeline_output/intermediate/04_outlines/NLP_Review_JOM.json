@@ -1,0 +1,475 @@
+{
+  "title": "Challenges and Advances in Information Extraction from Scientiﬁc Literature:\na Review",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "147 PUBLICATIONS   7,031 CITATIONS\nREADS",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "1,843",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "Kyle Chard\nUniversity of Chicago",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "310 PUBLICATIONS   6,455 CITATIONS\nSEE PROFILE\nSEE PROFILE",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "116 PUBLICATIONS   6,363 CITATIONS",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "Ian Foster\nUniversity of Chicago",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "JOM manuscript No.",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Challenges and Advances in Information Extraction\nFrom Scientiﬁc Literature: A Review",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Zhi Hong · Logan Ward · Kyle Chard ·\nBen Blaiszik · Ian Foster",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "1 Introduction",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "2\nZhi Hong et al.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "2 Scientiﬁc Information Extraction Workﬂow",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n5",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Section 5).",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "6\nZhi Hong et al.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Section 5.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "3 Challenge #1: The Computer-(un)friendly Formats of Scientiﬁc\nTexts",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "8\nZhi Hong et al.",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "4 Challenge #2: The Need for (and Lack of ) Training Data",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n9",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Cons:\nCons:",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Examples:",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Examples:",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Cons:",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "1) Output can be\nuninformative and/or\nincoherent.\n2) Standardization and\nnormalization required.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Examples:",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "4.2 Crowdsourcing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Zhi Hong et al.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n11",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Rule-based and Dictionary-based Methods. Annotating a corpus does not have to",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "12\nZhi Hong et al.",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n13",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "14\nZhi Hong et al.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "5 Challenge #3: The Sparsity of Information of Interest in Literature",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n15",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Text Filtering\nHeuristic Methods\nStatistical Models\nArticle Structure Filtering\nClassiﬁcation Models\nPros:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Pros:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) Better recall than rule-based methods",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "1) More ﬁne-grained than Article Structure ﬁltering.\n2) Computationally inexpensive",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Cons:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) Requires additional labeled data",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Examples:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) SVN, KNN, naive Bayes [89, 90]",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Subjectivity Analysis\nPros:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) Solving the problem from a unique perspective\noften neglected by other methods",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Cons:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Examples:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1)Applying subjectivity analysis in IE [91–94]",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "1) Rule- and pattern-base sentence ﬁltering [86–88]",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Data Programming\nPros:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) Does not require that rules be independent\nor highly accurate\n2) Simple to implement",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Cons:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) Requires additional labeled data",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Examples:",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "16\nZhi Hong et al.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n17",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "6 Challenge #4: The Diﬃculties of Applying Models Trained on\nGeneral Corpora to Scientiﬁc Text",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "18\nZhi Hong et al.",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Solutions",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "1) Train word embeddings\non scientiﬁc texts to\nenrich the pre-trained\nembeddings.",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Examples",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Solutions",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Examples",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n19",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "20\nZhi Hong et al.",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n21",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "7 Enabling Better IE in Materials Research",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "22\nZhi Hong et al.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n23",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "8 Conclusions and Outlook",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "24\nZhi Hong et al.",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Conﬂict of Interest",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Pattern Recognition and Image Analysis (Springer, 2005), pp. 609–618",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "22. I. Kavasidis, C. Pino, S. Palazzo, F. Rundo, D. Giordano, P. Messina, C. Spampinato,",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "IEEE International Conference on Computer Vision (2015), pp. 19–27",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "29. F. Wu, D.S. Weld, in 48th Annual Meeting of the Association for Computational Lin-",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Methods in Natural Language Processing (2017), pp. 35–45",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "I. Foster, in 15th International Conference on eScience (IEEE, 2019), pp. 126–135",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "66. A.R. Camacho, in 14th IAPR International Workshop on Document Analysis Systems,",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "69. M. Surdeanu, J. Tibshirani, R. Nallapati, C.D. Manning, in Joint Conference on Em-",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "76. A. Fader, S. Soderland, O. Etzioni, in Conference on Empirical Methods in Natural",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "National Science Foundation (2019). https://ncses.nsf.gov/pubs/nsb20206/",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "81. E. Riloﬀ, in 11th National Conference on Artiﬁcial intelligence (1993), pp. 811–816",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "E. White, L. Hunter, in BioNLP 2009 Workshop Companion Volume for Shared Task",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "91. E. Riloﬀ, J. Wiebe, T. Wilson, in 7th Conference on Natural Language Learning (2003),",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "93. J. Wiebe, E. Riloﬀ, in International Conference on Intelligent Text Processing and Com-",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Mining and Knowledge Discovery (Springer, 2001), pp. 326–337",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "103. J. Devlin, M.W. Chang, K. Lee, K. Toutanova, in Conference of the North American",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Chapter of the Association for Computational Linguistics: Human Language Technolo-",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Sentiment in Social and Expressive Media: Approaches and Perspectives from AI (2013)",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "International Conference on Language Resources and Evaluation (European Language",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "28\nZhi Hong et al.",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "136. D. Metzler, Y. Tay, D. Bahri, M. Najork, arXiv preprint arXiv:2105.02274 (2021)",
+      "page": 29
+    }
+  ]
+}

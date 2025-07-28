@@ -1,0 +1,2474 @@
+[
+  {
+    "text": "Overview\nFoundation Level Extensions",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 24.0,
+    "page_number": 0,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 24.0,
+      "indentation": 139.35,
+      "is_bold": 1,
+      "y_coordinate": 599.69,
+      "centering_offset": 3.35,
+      "word_count": 4
+    },
+    "feature_vector": [
+      24.0,
+      139.35,
+      1,
+      3.35,
+      4,
+      599.69,
+      5.806
+    ]
+  },
+  {
+    "text": "Version 1.0",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 0,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 275.69,
+      "is_bold": 0,
+      "y_coordinate": 408.23,
+      "centering_offset": 1.75,
+      "word_count": 2
+    },
+    "feature_vector": [
+      12.0,
+      275.69,
+      0,
+      1.75,
+      2,
+      408.23,
+      22.974
+    ]
+  },
+  {
+    "text": "International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 18.0,
+    "page_number": 0,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 18.0,
+      "indentation": 103.34,
+      "is_bold": 0,
+      "y_coordinate": 324.28,
+      "centering_offset": 2.38,
+      "word_count": 5
+    },
+    "feature_vector": [
+      18.0,
+      103.34,
+      0,
+      2.38,
+      5,
+      324.28,
+      5.741
+    ]
+  },
+  {
+    "text": "Copyright Notice\nThis document may be copied in its entirety, or extracts made, if the source is acknowledged.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 0,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 138.6,
+      "centering_offset": 28.03,
+      "word_count": 18
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      28.03,
+      18,
+      138.6,
+      7.122
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 1,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board\nCopyright © International Software Testing Qualifications Board (hereinafter called ISTQB®).",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 1,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 9.11,
+      "word_count": 21
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      9.11,
+      21,
+      752.26,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 2 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 1,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.88,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.88,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 1,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "Revision History",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 15.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 15.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 681.28,
+      "centering_offset": 169.76,
+      "word_count": 2
+    },
+    "feature_vector": [
+      15.96,
+      70.94,
+      1,
+      169.76,
+      2,
+      681.28,
+      4.445
+    ]
+  },
+  {
+    "text": "Version",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 1,
+      "y_coordinate": 651.44,
+      "centering_offset": 211.91,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      1,
+      211.91,
+      1,
+      651.44,
+      7.472
+    ]
+  },
+  {
+    "text": "0.1\n0.2\n0.3\n0.7\n0.8\n1.0",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 639.08,
+      "centering_offset": 223.22,
+      "word_count": 6
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      223.22,
+      6,
+      639.08,
+      7.472
+    ]
+  },
+  {
+    "text": "Date",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 146.42,
+      "is_bold": 1,
+      "y_coordinate": 651.44,
+      "centering_offset": 147.39,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      146.42,
+      1,
+      147.39,
+      1,
+      651.44,
+      14.701
+    ]
+  },
+  {
+    "text": "18 JUNE 2013\n23 JULY 2013\n6 NOV 2013\n11 DEC 2013\n20 DEC 2013\n31 MAY 2014",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 146.42,
+      "is_bold": 0,
+      "y_coordinate": 639.08,
+      "centering_offset": 125.74,
+      "word_count": 18
+    },
+    "feature_vector": [
+      9.96,
+      146.42,
+      0,
+      125.74,
+      18,
+      639.08,
+      14.701
+    ]
+  },
+  {
+    "text": "Remarks",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 278.69,
+      "is_bold": 1,
+      "y_coordinate": 651.44,
+      "centering_offset": 4.86,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      278.69,
+      1,
+      4.86,
+      1,
+      651.44,
+      27.981
+    ]
+  },
+  {
+    "text": "Initial version\nWG reviewed and confirmed\namended population and diagram\nAmended Business Outcomes and Chapters matching\nWorking group updates on 0.7\nGA release for Agile Extension",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 278.69,
+      "is_bold": 0,
+      "y_coordinate": 639.08,
+      "centering_offset": 94.43,
+      "word_count": 26
+    },
+    "feature_vector": [
+      9.96,
+      278.69,
+      0,
+      94.43,
+      26,
+      639.08,
+      27.981
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 3 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.88,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.88,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 2,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "Table of Contents",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 15.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 15.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 681.28,
+      "centering_offset": 166.15,
+      "word_count": 3
+    },
+    "feature_vector": [
+      15.96,
+      70.94,
+      1,
+      166.15,
+      3,
+      681.28,
+      4.445
+    ]
+  },
+  {
+    "text": "Revision History\n..........................................................................................................................................\n3\nTable of Contents\n........................................................................................................................................\n4\n1.\n2.",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 646.16,
+      "centering_offset": 1.22,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      1,
+      1.22,
+      11,
+      646.16,
+      7.122
+    ]
+  },
+  {
+    "text": "Introduction to the Foundation Level Extensions\n............................................................................\n6",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 90.98,
+      "is_bold": 1,
+      "y_coordinate": 611.24,
+      "centering_offset": 11.23,
+      "word_count": 8
+    },
+    "feature_vector": [
+      9.96,
+      90.98,
+      1,
+      11.23,
+      8,
+      611.24,
+      9.135
+    ]
+  },
+  {
+    "text": "Introduction to Foundation Level Agile Tester Extension\n...............................................................\n7",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 90.98,
+      "is_bold": 1,
+      "y_coordinate": 593.72,
+      "centering_offset": 11.23,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      90.98,
+      1,
+      11.23,
+      9,
+      593.72,
+      9.135
+    ]
+  },
+  {
+    "text": "2.1\nIntended Audience\n2.2  Career Paths for Testers\nLearning Objectives\n2.3\nEntry Requirements\n2.4\nStructure and Course Duration\n2.5\nKeeping It Current\n2.6\n.....................................................................................................................\n............................................................................................................\n...................................................................................................................\n...................................................................................................................\n...................................................................................................\n......................................................................................................................\n7\n7\n7\n8\n8\n9",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 80.9,
+      "is_bold": 0,
+      "y_coordinate": 576.08,
+      "centering_offset": 6.2,
+      "word_count": 35
+    },
+    "feature_vector": [
+      9.96,
+      80.9,
+      0,
+      6.2,
+      35,
+      576.08,
+      8.122
+    ]
+  },
+  {
+    "text": "3.  Overview of the Foundation Level Extension – Agile Tester Syllabus\n.........................................\n10",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.95,
+      "is_bold": 1,
+      "y_coordinate": 501.15,
+      "centering_offset": 1.15,
+      "word_count": 13
+    },
+    "feature_vector": [
+      9.96,
+      70.95,
+      1,
+      1.15,
+      13,
+      501.15,
+      7.123
+    ]
+  },
+  {
+    "text": "3.1\n3.2  Content\nBusiness Outcomes\n.................................................................................................................\n....................................................................................................................................\n10\n10",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 80.9,
+      "is_bold": 0,
+      "y_coordinate": 483.51,
+      "centering_offset": 6.13,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      80.9,
+      0,
+      6.13,
+      9,
+      483.51,
+      8.122
+    ]
+  },
+  {
+    "text": "4.  References\n..........................................................................................................................................\n12",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 454.71,
+      "centering_offset": 1.15,
+      "word_count": 4
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      1,
+      1.15,
+      4,
+      454.71,
+      7.122
+    ]
+  },
+  {
+    "text": "Trademarks\n4.1\n4.2  Documents and Web Sites\n.............................................................................................................................\n.......................................................................................................\n12\n12",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 80.9,
+      "is_bold": 0,
+      "y_coordinate": 437.07,
+      "centering_offset": 6.13,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      80.9,
+      0,
+      6.13,
+      11,
+      437.07,
+      8.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 4 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.6,
+      "is_bold": 0,
+      "y_coordinate": 71.85,
+      "centering_offset": 1.12,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.6,
+      0,
+      1.12,
+      9,
+      71.85,
+      7.691
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 3,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "Acknowledgements",
+    "fontname": "Helvetica",
+    "fontsize": 15.96,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 15.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 681.28,
+      "centering_offset": 163.66,
+      "word_count": 1
+    },
+    "feature_vector": [
+      15.96,
+      70.94,
+      0,
+      163.66,
+      1,
+      681.28,
+      4.445
+    ]
+  },
+  {
+    "text": "This document was produced by a team from the International Software Testing Qualifications Board\nFoundation Level Working Group.\nThe Agile Extension team thanks the review team and the National Boards for their suggestions and input.\nAt the time the Foundation Level Agile Extension Syllabus was completed, the Agile Extension Working\nGroup had the following membership: Rex Black (Chair), Bertrand Cornanguer (Vice Chair), Gerry\nColeman (Learning Objectives Lead), Debra Friedenberg (Exam Lead), Alon Linetzki (Business Outcomes\nand Marketing Lead), Tauhida Parveen (Editor), and Leo van der Aalst (Development Lead).\nAuthors: Rex Black, Anders Claesson, Gerry Coleman, Bertrand Cornanguer, Istvan Forgacs, Alon\nLinetzki, Tilo Linz, Leo van der Aalst, Marie Walsh, and Stephan Weber.\nInternal Reviewers: Mette Bruhn-Pedersen, Christopher Clements, Alessandro Collino, Debra\nFriedenberg, Kari Kakkonen, Beata Karpinska, Sammy Kolluru, Jennifer Leger, Thomas Mueller, Tuula\nPääkkönen, Meile Posthuma, Gabor Puhalla, Lloyd Roden, Marko Rytkönen, Monika Stoecklein-Olsen,\nRobert Treffny, Chris Van Bael, and Erik van Veenendaal.\nThe team thanks also the following persons, from the National Boards and the Agile expert community,\nwho participated in reviewing, commenting, and balloting of the Foundation Agile Extension Syllabus: Dani\nAlmog, Richard Berns, Stephen Bird, Monika Bögge, Afeng Chai, Josephine Crawford, Tibor Csöndes,\nHuba Demeter, Arnaud Foucal, Cyril Fumery, Kobi Halperin, Inga Hansen, Hanne Hinz, Jidong Hu, Phill\nIsles, Shirley Itah, Martin Klonk, Kjell Lauren, Igal Levi, Rik Marselis, Johan Meivert, Armin Metzger, Peter",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 646.04,
+      "centering_offset": 0.91,
+      "word_count": 227
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      0.91,
+      227,
+      646.04,
+      7.122
+    ]
+  },
+  {
+    "text": "Morgan, Ninna Morin, Ingvar Nordstrom, Chris O’Dea, Klaus Olsen, Ismo Paukamainen, Nathalie Phung,",
+    "fontname": "Arial",
+    "fontsize": 9.96,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 381.44,
+      "centering_offset": 2.23,
+      "word_count": 13
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      2.23,
+      13,
+      381.44,
+      7.122
+    ]
+  },
+  {
+    "text": "Helmut Pichler, Salvatore Reale, Stuart Reid, Hans Rombouts, Petri Säilynoja, Soile Sainio, Lars-Erik\nSandberg, Dakar Shalom,  Jian Shen, Marco Sogliani, Lucjan Stapp, Yaron Tsubery, Sabine Uhde,\nStephanie Ulrich, Tommi Välimäki, Jurian Van de Laar, Marnix Van den Ent, António Vieira Melo, Wenye\nXu, Ester Zabar, Wenqiang Zheng, Peter Zimmerer, Stevan Zivanovic, and Terry Zuo.\nThis document was formally approved for release by the General Assembly of the ISTQB® on May 31,\n2014.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 370.07,
+      "centering_offset": 2.69,
+      "word_count": 72
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      2.69,
+      72,
+      370.07,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 5 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.82,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.82,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 4,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 5,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 5,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "1.  Introduction to the Foundation Level Extensions",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 15.96,
+    "page_number": 5,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 15.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 667.24,
+      "centering_offset": 37.52,
+      "word_count": 7
+    },
+    "feature_vector": [
+      15.96,
+      70.94,
+      1,
+      37.52,
+      7,
+      667.24,
+      4.445
+    ]
+  },
+  {
+    "text": "This  overview  document  is  intended  for  anyone  with  an  interest  in  the  ISTQB  Foundation  Level\nExtensions who wants a high-level introduction to the leading principles and an overview of the individual\nextension syllabi.\nFrom  time  to  time,  ISTQB  will  update  this  document  to  reflect  any  additional  extensions  that  shall  be\nintroduced  for  the  Foundation  Level,  or  to  reflect  major  changes  in  existing  ones.  Publications  of  the\nupdated document will be available on the ISTQB website.\nThe ISTQB Foundation and Advanced Level syllabi have been defined and have been on the market for\nsome  time.  New  topics  emerge  due  to  technology  and  methodology  changes  in  the  market  which  often\nare brought into the ISTQB program as new Expert Level syllabi. However, not all topics are suited for the\nExpert Level.  For this reason, the extension syllabi are established at the Foundation Level to expand the\nISTQB  program  to  incorporate  new  or  updated  knowledge.  New  extensions  shall  be  discussed  and\nintroduced by the ISTQB periodically. Extensions may be established at the Advanced Level  as well, but\nthat is beyond the scope of this document.\nThe following Foundation Level Extension syllabus has been released:\n  Agile Tester\nIn this document, each Foundation Level Extension syllabus is summarized and the associated Business\nOutcomes are stated.  The Business Outcomes communicate what can be expected from a person who\nachieves  a  Foundation  Level  Extension Certification in a particular subject  area  (e.g.,  Agile Tester),  and\nwill outline the benefits for companies that are considering the development of specific testing skills at this\nlevel.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 5,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 644.6,
+      "centering_offset": 1.52,
+      "word_count": 256
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.52,
+      256,
+      644.6,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 6 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 5,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.59,
+      "is_bold": 0,
+      "y_coordinate": 71.84,
+      "centering_offset": 1.13,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.59,
+      0,
+      1.13,
+      9,
+      71.84,
+      7.69
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 5,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "2.  Introduction to Foundation Level Agile Tester Extension",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 15.96,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 15.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 667.24,
+      "centering_offset": 8.99,
+      "word_count": 8
+    },
+    "feature_vector": [
+      15.96,
+      70.94,
+      1,
+      8.99,
+      8,
+      667.24,
+      4.445
+    ]
+  },
+  {
+    "text": "The  certification  for  Foundation  Level  Extension  –  Agile  Tester  is  designed  for  professionals  who  are\nworking  within  Agile  environments.\nIt  is  also  for  professionals  who  are  planning  to  start  implementing\nAgile  methods  in  the  near  future,  or  are  working  within  companies  that  plan  to  do  so,  The  certification\nprovides an advantage for those who would like to know the required Agile activities, roles, methods, and\nmethodologies specific to their role.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 644.6,
+      "centering_offset": 1.52,
+      "word_count": 70
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.52,
+      70,
+      644.6,
+      7.122
+    ]
+  },
+  {
+    "text": "2.1  Intended Audience",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 573.07,
+      "centering_offset": 161.17,
+      "word_count": 3
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      161.17,
+      3,
+      573.07,
+      5.053
+    ]
+  },
+  {
+    "text": "The Foundation Level Extension – Agile Tester qualification is aimed at four main groups of professionals:\n1.  Professionals  who  have  achieved  in-depth  testing  experience  in  traditional  methods  and  would\nlike to get an Agile Tester Certificate.\n2.  Junior  professional  testers  who  are  just  starting  in  the  testing  profession,  have  received  the\nFoundation  Level  certificate,  and  would  like  to  know  more  about  the  tester’s  role  in  an  Agile\nenvironment.\n3.  Professionals  who  are  relatively  new  to  testing  and  are  required  to  implement  test  approaches,\nmethods and techniques in their day to day job in Agile projects.\n4.  Professionals  who  are  experienced  in  their  role  (including  unit  testing)  and  need  more\nunderstanding  and  knowledge  about  how  to  perform  and  manage  testing  on  all  levels  in  Agile\nprojects.\nThese  professionals  include  people  who  are  in  roles  such  as  testers,  test  analysts,  test  engineers,  test\nconsultants, test managers, user acceptance testers, and software developers.\nThis  Foundation  Level  Extension  –  Agile  Tester  certification  may  also  be  appropriate  for  anyone  who\nwants  a  deeper  understanding  of  software  testing  in  the  Agile  world,  such  as  project  managers,  quality\nmanagers,  software  development  managers,  business  analysts,\nIT  directors,  and  management\nconsultants.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 550.01,
+      "centering_offset": 1.52,
+      "word_count": 192
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.52,
+      192,
+      550.01,
+      7.122
+    ]
+  },
+  {
+    "text": "2.2  Career Paths for Testers",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 305.9,
+      "centering_offset": 142.95,
+      "word_count": 5
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      142.95,
+      5,
+      305.9,
+      5.053
+    ]
+  },
+  {
+    "text": "Building  on  the  Foundation  Level,  the  Agile  Tester  Extension  supports  the  definition  of  career  paths  for\nprofessional testers.  A person with the Agile Tester  certificate has extended the broad understanding of\ntesting acquired at the Foundation Level to enable him or her to work effectively as a professional tester in\nan Agile project.\nPeople possessing an ISTQB Foundation Level Extension – Agile Tester certificate may use the Certified\nTester Foundation Level acronym CTFL-AT.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 282.87,
+      "centering_offset": 1.46,
+      "word_count": 73
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.46,
+      73,
+      282.87,
+      7.122
+    ]
+  },
+  {
+    "text": "2.3  Learning Objectives",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 176.75,
+      "centering_offset": 157.73,
+      "word_count": 3
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      157.73,
+      3,
+      176.75,
+      5.053
+    ]
+  },
+  {
+    "text": "In  general,  the  Foundation  Level syllabus  is  examinable  at  a  K1  level,  i.e.,  the candidate  will  recognize,\nremember and recall terms and concepts stated in the Foundation Level syllabus.\nIn  addition,  all  Foundation  Level  syllabus  learning  objectives  are  examinable  at  the  same  K- level  in  an\nextension exam.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 153.72,
+      "centering_offset": 1.43,
+      "word_count": 48
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.43,
+      48,
+      153.72,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 7 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.88,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.88,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 6,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board\nThat  said,  each  extension  level  exam  focuses  on  the  learning  objectives  defined  in  that  extension\nsyllabus. The relevant learning objectives at K1, K2, and K3 levels are provided at the beginning of each\nchapter within each particular extension syllabus.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 1.37,
+      "word_count": 50
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.37,
+      50,
+      752.26,
+      7.122
+    ]
+  },
+  {
+    "text": "2.4  Entry Requirements",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 633.43,
+      "centering_offset": 157.71,
+      "word_count": 3
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      157.71,
+      3,
+      633.43,
+      5.053
+    ]
+  },
+  {
+    "text": "To  be  able  to  participate  in  a  Foundation  Level  Extension  –  Agile  Tester  exam,  candidates  must  have\nobtained the ISTQB Foundation Level certificate.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 610.4,
+      "centering_offset": 1.45,
+      "word_count": 23
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.45,
+      23,
+      610.4,
+      7.122
+    ]
+  },
+  {
+    "text": "2.5  Structure and Course Duration",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 573.31,
+      "centering_offset": 124.55,
+      "word_count": 5
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      124.55,
+      5,
+      573.31,
+      5.053
+    ]
+  },
+  {
+    "text": "The  Foundation  Level  Extension  –  Agile  Tester  syllabus  has  no  shared  or  common  elements  with  the\nFoundation Level syllabus.\nThe syllabi must be taught in the following minimum number of days:",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 550.25,
+      "centering_offset": 1.39,
+      "word_count": 31
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.39,
+      31,
+      550.25,
+      7.122
+    ]
+  },
+  {
+    "text": "Syllabus",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 212.21,
+      "is_bold": 1,
+      "y_coordinate": 489.41,
+      "centering_offset": 71.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      212.21,
+      1,
+      71.89,
+      1,
+      489.41,
+      21.306
+    ]
+  },
+  {
+    "text": "Baseline: Foundation\nExtension: Agile Tester",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 212.21,
+      "is_bold": 0,
+      "y_coordinate": 471.29,
+      "centering_offset": 40.98,
+      "word_count": 5
+    },
+    "feature_vector": [
+      9.96,
+      212.21,
+      0,
+      40.98,
+      5,
+      471.29,
+      21.306
+    ]
+  },
+  {
+    "text": "Days",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 368.47,
+      "is_bold": 1,
+      "y_coordinate": 489.41,
+      "centering_offset": 75.74,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      368.47,
+      1,
+      75.74,
+      1,
+      489.41,
+      36.995
+    ]
+  },
+  {
+    "text": "3\n2\nThe  following  figure  shows  the  structure  of  the  Agile  Tester  Extension  and  its  relationship  to  the\nFoundation Level.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 471.29,
+      "centering_offset": 1.43,
+      "word_count": 20
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.43,
+      20,
+      471.29,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 8 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.88,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.88,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 7,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 8,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 8,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "2.6  Keeping It Current",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 8,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 656.47,
+      "centering_offset": 162.77,
+      "word_count": 4
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      162.77,
+      4,
+      656.47,
+      5.053
+    ]
+  },
+  {
+    "text": "The software industry changes rapidly.  To deal with these changes and to provide the stakeholders with\naccess  to  relevant  and  current  information,  the  ISTQB  working  groups  have  created  links  on  the\nwww.istqb.org web site which refer to supporting documents, changes to standards and new occurrences\nin the industry.  This information is not examinable under this syllabus.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 8,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 633.44,
+      "centering_offset": 1.45,
+      "word_count": 56
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.45,
+      56,
+      633.44,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 9 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 8,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.86,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.86,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 8,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "3.  Overview of the Foundation Level Extension – Agile Tester\nSyllabus",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 15.96,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 15.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 670.36,
+      "centering_offset": 0.01,
+      "word_count": 11
+    },
+    "feature_vector": [
+      15.96,
+      70.94,
+      1,
+      0.01,
+      11,
+      670.36,
+      4.445
+    ]
+  },
+  {
+    "text": "3.1  Business Outcomes",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 602.47,
+      "centering_offset": 157.39,
+      "word_count": 3
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      157.39,
+      3,
+      602.47,
+      5.053
+    ]
+  },
+  {
+    "text": "This section lists the Business Outcomes expected of a candidate who has achieved the Foundation Level\nExtension – Agile Tester certification.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 579.44,
+      "centering_offset": 1.23,
+      "word_count": 21
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.23,
+      21,
+      579.44,
+      7.122
+    ]
+  },
+  {
+    "text": "An Agile Tester can…",
+    "fontname": "Arial",
+    "fontsize": 9.96,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.93,
+      "is_bold": 0,
+      "y_coordinate": 544.94,
+      "centering_offset": 185.21,
+      "word_count": 4
+    },
+    "feature_vector": [
+      9.96,
+      70.93,
+      0,
+      185.21,
+      4,
+      544.94,
+      7.121
+    ]
+  },
+  {
+    "text": "AFM1  Collaborate in a cross-functional Agile team being familiar with principles and basic\npractices of Agile software development.\nAFM2  Adapt existing testing experience and knowledge to Agile values and principles.\nAFM3  Support the Agile team in planning test-related activities.\nAFM4  Apply relevant methods and techniques for testing in an Agile project.\nAFM5  Assist the Agile team in test automation activities.\nAFM6  Assist business stakeholders in defining understandable and testable user stories,\nscenarios, requirements and acceptance criteria as appropriate.\nAFM7  Work and share information with other team members using effective communication\nstyles and channels.\nIn general, a Certified Tester Foundation Level – Agile Tester is expected to have acquired the necessary\nskills to working effectively within an Agile team and environment.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 521.93,
+      "centering_offset": 0.76,
+      "word_count": 120
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      0.76,
+      120,
+      521.93,
+      7.122
+    ]
+  },
+  {
+    "text": "3.2  Content",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 257.42,
+      "centering_offset": 195.03,
+      "word_count": 2
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      195.03,
+      2,
+      257.42,
+      5.053
+    ]
+  },
+  {
+    "text": "Chapter 1: Agile Software Development\n  The tester should remember the basic concept of Agile software development based on the Agile\nManifesto.\n  The  tester  should  understand  the  advantages  of  the  whole-team  approach  and  the  benefits  of\nearly and frequent feedback.\n  The tester should recall Agile software development approaches.\n  The  tester  should  be  able  to  write  testable  user  stories  in  collaboration  with  developers  and\nbusiness representatives.\n  The  tester  should  understand  how  retrospectives  can  be  used  as  a  mechanism  for  process\nimprovement in Agile projects.\n  The tester should understand the use and purpose of continuous integration.\n  The tester should know the differences between iteration and release planning, and how a tester\nadds value in each of these activities.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 234.36,
+      "centering_offset": 1.42,
+      "word_count": 122
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.42,
+      122,
+      234.36,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 10 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.85,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.85,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 9,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 10,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board\nChapter 2: Fundamental Agile Testing Principles, Practices, and Processes\n  The  tester should  be  able  to  describe  the  differences between  testing  activities in  Agile  projects\nand non-Agile projects.\n  The  tester  should  be  able  to  describe  how  development  and  testing  activities  are  integrated  in\nAgile projects.\n  The tester should be able to describe the role of independent testing in Agile projects.\n  The tester should be able to describe the tools and techniques used to communicate the status of\ntesting in an Agile project, including test progress and product quality.\n  The tester should be able to describe the process of evolving tests  across multiple iterations and\nexplain why test automation is important to manage regression risk in Agile projects.\n  The tester should understand the skills (people, domain, and testing) of a tester in an Agile team.\n  The tester should be able to understand the role of a tester within an Agile team.\nChapter 3: Agile Testing Methods, Techniques, and Tools\n  The  tester  should  be  able  to  recall  the  concepts  of  test-driven  development,  acceptance  test-\ndriven development, and behavior-driven development.\n  The tester should be able to recall the concepts of the test pyramid.\n  The tester should be able to summarize the testing quadrants and their relationships with testing\nlevels and testing types.\n  For a given Agile project, the tester should be able to work as a tester in a Scrum team.\n  The tester should be able to assess quality risks within an Agile project.\n  The tester should be able to  estimate testing effort based on iteration content and quality risks.\n  The tester should be able to interpret relevant information to support testing activities.\n  The tester should be able to explain to business stakeholders how to define testable acceptance\ncriteria.\n  Given  a  user  story,  the  tester  should  be  able  to  write  acceptance  test-driven  development  test\ncases.\n  For both functional and non-functional behavior, the tester should be able to write test cases using\nblack box test design techniques based on given user stories.\n  The tester should be able to perform exploratory testing to support the testing of an Agile project.\n  The  tester  should  be  able  to  recall  different  tools  available  to  testers  according  to  their  purpose\nand to activities in Agile projects.",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 10,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 1.44,
+      "word_count": 396
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      1.44,
+      396,
+      752.26,
+      7.122
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 11 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 10,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.82,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.82,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 10,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  },
+  {
+    "text": "Overview",
+    "fontname": "Helvetica",
+    "fontsize": 12.0,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 12.0,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 749.08,
+      "centering_offset": 204.89,
+      "word_count": 1
+    },
+    "feature_vector": [
+      12.0,
+      74.42,
+      0,
+      204.89,
+      1,
+      749.08,
+      6.202
+    ]
+  },
+  {
+    "text": "Foundation Level Extension – Agile Tester\nInternational\nSoftware Testing\nQualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 74.42,
+      "is_bold": 0,
+      "y_coordinate": 752.26,
+      "centering_offset": 7.37,
+      "word_count": 11
+    },
+    "feature_vector": [
+      9.96,
+      74.42,
+      0,
+      7.37,
+      11,
+      752.26,
+      7.472
+    ]
+  },
+  {
+    "text": "4.  References",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 15.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 15.96,
+      "indentation": 70.94,
+      "is_bold": 1,
+      "y_coordinate": 667.24,
+      "centering_offset": 178.42,
+      "word_count": 2
+    },
+    "feature_vector": [
+      15.96,
+      70.94,
+      1,
+      178.42,
+      2,
+      667.24,
+      4.445
+    ]
+  },
+  {
+    "text": "4.1  Trademarks",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 619.03,
+      "centering_offset": 182.25,
+      "word_count": 2
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      182.25,
+      2,
+      619.03,
+      5.053
+    ]
+  },
+  {
+    "text": "The following registered trademarks and service marks are used in this document:\nISTQB®  is a registered trademark of the International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 596.0,
+      "centering_offset": 32.01,
+      "word_count": 24
+    },
+    "feature_vector": [
+      9.96,
+      70.94,
+      0,
+      32.01,
+      24,
+      596.0,
+      7.122
+    ]
+  },
+  {
+    "text": "4.2  Documents and Web Sites",
+    "fontname": "Helvetica",
+    "fontsize": 14.04,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 14.04,
+      "indentation": 70.94,
+      "is_bold": 0,
+      "y_coordinate": 532.96,
+      "centering_offset": 136.65,
+      "word_count": 5
+    },
+    "feature_vector": [
+      14.04,
+      70.94,
+      0,
+      136.65,
+      5,
+      532.96,
+      5.053
+    ]
+  },
+  {
+    "text": "Identifier",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.34,
+      "is_bold": 1,
+      "y_coordinate": 510.05,
+      "centering_offset": 207.2,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      76.34,
+      1,
+      207.2,
+      1,
+      510.05,
+      7.665
+    ]
+  },
+  {
+    "text": "[ISTQB-Web]",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.34,
+      "is_bold": 0,
+      "y_coordinate": 495.41,
+      "centering_offset": 198.58,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      76.34,
+      0,
+      198.58,
+      1,
+      495.41,
+      7.665
+    ]
+  },
+  {
+    "text": "Reference",
+    "fontname": "Helvetica-Bold",
+    "fontsize": 9.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 193.34,
+      "is_bold": 1,
+      "y_coordinate": 510.05,
+      "centering_offset": 87.15,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.96,
+      193.34,
+      1,
+      87.15,
+      1,
+      510.05,
+      19.412
+    ]
+  },
+  {
+    "text": "Web site of the International Software Testing Qualifications Board. Refer\nto this website for the latest ISTQB Glossary and Syllabi. (www.istqb.org)",
+    "fontname": "Helvetica",
+    "fontsize": 9.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 193.34,
+      "is_bold": 0,
+      "y_coordinate": 495.41,
+      "centering_offset": 50.91,
+      "word_count": 21
+    },
+    "feature_vector": [
+      9.96,
+      193.34,
+      0,
+      50.91,
+      21,
+      495.41,
+      19.412
+    ]
+  },
+  {
+    "text": "Version 2014\nPage 12 of 12\nMay 31, 2014",
+    "fontname": "ABCDEE+Trebuchet MS",
+    "fontsize": 9.96,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 9.96,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 71.88,
+      "centering_offset": 1.14,
+      "word_count": 9
+    },
+    "feature_vector": [
+      9.96,
+      76.58,
+      0,
+      1.14,
+      9,
+      71.88,
+      7.689
+    ]
+  },
+  {
+    "text": "© International Software Testing Qualifications Board",
+    "fontname": "Helvetica",
+    "fontsize": 6.0,
+    "page_number": 11,
+    "document_name": "E0CCG5S312",
+    "features": {
+      "font_size": 6.0,
+      "indentation": 76.58,
+      "is_bold": 0,
+      "y_coordinate": 54.44,
+      "centering_offset": 158.06,
+      "word_count": 6
+    },
+    "feature_vector": [
+      6.0,
+      76.58,
+      0,
+      158.06,
+      6,
+      54.44,
+      12.763
+    ]
+  }
+]

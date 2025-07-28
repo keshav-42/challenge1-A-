@@ -1,0 +1,652 @@
+[
+    {
+        "text": "Parsippany -Troy Hills STEM Pathways",
+        "fontname": "MUFUZY+Calibri-Bold",
+        "fontsize": 28.01,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 28.01,
+            "indentation": 125.82,
+            "is_bold": 1,
+            "y_coordinate": 754.63,
+            "centering_offset": 37.98,
+            "word_count": 5
+        },
+        "feature_vector": [
+            28.01,
+            125.82,
+            1,
+            37.98,
+            5,
+            754.63,
+            4.492
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Title"
+    },
+    {
+        "text": "Mission Statement:  To provide PTHSD high school students with the opportunity to\nconcentrate their studies, beyond those required in high school, in the areas of science,\ntechnology, engineering, and mathematics, and expose students to relevant real world\nexperiences through project work, conferences and presentations to enhance their high school\nexperience.",
+        "fontname": "MUFUZY+Calibri",
+        "fontsize": 12.0,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 12.0,
+            "indentation": 80.33,
+            "is_bold": 0,
+            "y_coordinate": 702.56,
+            "centering_offset": 6.07,
+            "word_count": 50
+        },
+        "feature_vector": [
+            12.0,
+            80.33,
+            0,
+            6.07,
+            50,
+            702.56,
+            6.694
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Goals:",
+        "fontname": "MUFUZY+Sniglet-Regular",
+        "fontsize": 14.01,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 14.01,
+            "indentation": 45.41,
+            "is_bold": 0,
+            "y_coordinate": 605.93,
+            "centering_offset": 242.24,
+            "word_count": 1
+        },
+        "feature_vector": [
+            14.01,
+            45.41,
+            0,
+            242.24,
+            1,
+            605.93,
+            3.241
+        ],
+        "cluster_label": 2,
+        "predicted_label": "H3"
+    },
+    {
+        "text": "• Inspire keen interest in mathematics, science, engineering, and\ntechnology, develop strong scholarship in the subject and\npromote the enjoyment of these studies in high school.\n• Expose students to potential career opportunities in the field.\n• Encourage students to pursue higher education and major in\nSTEM careers.\n• Promote interactions with STEM professionals to learn about\nfuture opportunities.\n• Support field experiences connected to the world outside of\nthe school building.\n• Signal to employers, universities, training programs, and\nmilitary that a student has completed a comprehensive course\nof study in a specialized area.\n• Cultivate transferable work habits such as perseverance, goal\nsetting, and self-direction.",
+        "fontname": "MUFUZY+Calibri",
+        "fontsize": 11.51,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.51,
+            "indentation": 39.68,
+            "is_bold": 0,
+            "y_coordinate": 581.19,
+            "centering_offset": 115.46,
+            "word_count": 107
+        },
+        "feature_vector": [
+            11.51,
+            39.68,
+            0,
+            115.46,
+            107,
+            581.19,
+            3.447
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "PATHWAY OPTIONS",
+        "fontname": "MUFUZY+Sniglet-Regular",
+        "fontsize": 15.31,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 15.31,
+            "indentation": 240.18,
+            "is_bold": 0,
+            "y_coordinate": 350.07,
+            "centering_offset": 3.34,
+            "word_count": 2
+        },
+        "feature_vector": [
+            15.31,
+            240.18,
+            0,
+            3.34,
+            2,
+            350.07,
+            15.688
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "REGULAR PATHWAY",
+        "fontname": "MUFUZY+Calibri-Bold",
+        "fontsize": 15.31,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 15.31,
+            "indentation": 117.18,
+            "is_bold": 1,
+            "y_coordinate": 324.25,
+            "centering_offset": 126.36,
+            "word_count": 2
+        },
+        "feature_vector": [
+            15.31,
+            117.18,
+            1,
+            126.36,
+            2,
+            324.25,
+            7.654
+        ],
+        "cluster_label": 4,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "4 credits of Math\n4 credits of Science\n4 credits of STEM-designated electives\n●\n●\n●\n● Maintain an overall 2.85 GPA\n●\nParticipate in a minimum of 3 STEM\npresentations/conferences each year\nwith a required minimum total of 12\npresentations/conferences throughout\nthe 4 years. *\nJoin and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance. -\n●\n●\n●\n●",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 11.01,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.01,
+            "indentation": 74.78,
+            "is_bold": 0,
+            "y_coordinate": 307.58,
+            "centering_offset": 104.9,
+            "word_count": 66
+        },
+        "feature_vector": [
+            11.01,
+            74.78,
+            0,
+            104.9,
+            66,
+            307.58,
+            6.792
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "DISTINCTION PATHWAY",
+        "fontname": "MUFUZY+Calibri-Bold",
+        "fontsize": 15.31,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 15.31,
+            "indentation": 351.72,
+            "is_bold": 1,
+            "y_coordinate": 324.25,
+            "centering_offset": 119.61,
+            "word_count": 2
+        },
+        "feature_vector": [
+            15.31,
+            351.72,
+            1,
+            119.61,
+            2,
+            324.25,
+            22.973
+        ],
+        "cluster_label": 3,
+        "predicted_label": "H2"
+    },
+    {
+        "text": "4 credits of Math - At least one math\ncourse should be an AP Math class.\n4 credits of Science- At least one\nscience course should be an AP\nScience class.\n4 credits of STEM-designated electives\n- One must be a Computer\nScience/Technology Class\n● Maintain an overall 3.5 GPA\n●\nParticipate in a minimum of 3 STEM\npresentations/conferences a year with a\nrequired minimum total of 12\npresentations/conferences throughout\nthe 4 years.\nJoin and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance.\nEither participate in an internship or\ndesign and implement a community\nimpact project.\n●\n●",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 11.01,
+        "page_number": 0,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.01,
+            "indentation": 320.78,
+            "is_bold": 0,
+            "y_coordinate": 307.58,
+            "centering_offset": 125.86,
+            "word_count": 103
+        },
+        "feature_vector": [
+            11.01,
+            320.78,
+            0,
+            125.86,
+            103,
+            307.58,
+            29.135
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Elective Course Offerings",
+        "fontname": "MUFUZY+Sniglet-Regular",
+        "fontsize": 22.01,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 22.01,
+            "indentation": 182.11,
+            "is_bold": 0,
+            "y_coordinate": 744.09,
+            "centering_offset": 0.87,
+            "word_count": 3
+        },
+        "feature_vector": [
+            22.01,
+            182.11,
+            0,
+            0.87,
+            3,
+            744.09,
+            8.274
+        ],
+        "cluster_label": 1,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "Science\nMath\nComputer Science/\nTechnology\nArt\nApplied\nTechnology/\nFamily Consumer\nScience and Other",
+        "fontname": "MUFUZY+Calibri-Bold",
+        "fontsize": 12.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 12.0,
+            "indentation": 69.65,
+            "is_bold": 1,
+            "y_coordinate": 702.14,
+            "centering_offset": 16.04,
+            "word_count": 13
+        },
+        "feature_vector": [
+            12.0,
+            69.65,
+            1,
+            16.04,
+            13,
+            702.14,
+            5.804
+        ],
+        "cluster_label": 4,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "•\n•\n•\n•\n•\n•",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 11.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.0,
+            "indentation": 36.32,
+            "is_bold": 0,
+            "y_coordinate": 638.57,
+            "centering_offset": 267.75,
+            "word_count": 6
+        },
+        "feature_vector": [
+            11.0,
+            36.32,
+            0,
+            267.75,
+            6,
+            638.57,
+            3.302
+        ],
+        "cluster_label": 2,
+        "predicted_label": "H3"
+    },
+    {
+        "text": "AP Biology\nAP Chemistry\nAP Physics C\nForensics\nHonors Anatomy\nand Physiology\nAP Environmental\nScience\n• Marine Biology",
+        "fontname": "MUFUZY+Calibri",
+        "fontsize": 11.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.0,
+            "indentation": 36.32,
+            "is_bold": 0,
+            "y_coordinate": 638.13,
+            "centering_offset": 218.27,
+            "word_count": 18
+        },
+        "feature_vector": [
+            11.0,
+            36.32,
+            0,
+            218.27,
+            18,
+            638.13,
+            3.302
+        ],
+        "cluster_label": 2,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "•\n•\n•\n•",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 11.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.0,
+            "indentation": 36.32,
+            "is_bold": 0,
+            "y_coordinate": 517.02,
+            "centering_offset": 267.75,
+            "word_count": 4
+        },
+        "feature_vector": [
+            11.0,
+            36.32,
+            0,
+            267.75,
+            4,
+            517.02,
+            3.302
+        ],
+        "cluster_label": 2,
+        "predicted_label": "H3"
+    },
+    {
+        "text": "• MythBusting: The\nOrganic Chemistry\nGenetics\nAstronomy\nBioethics\nScience of\nLiterature and\nFilms",
+        "fontname": "MUFUZY+Calibri",
+        "fontsize": 11.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.0,
+            "indentation": 36.32,
+            "is_bold": 0,
+            "y_coordinate": 516.58,
+            "centering_offset": 218.37,
+            "word_count": 13
+        },
+        "feature_vector": [
+            11.0,
+            36.32,
+            0,
+            218.37,
+            13,
+            516.58,
+            3.302
+        ],
+        "cluster_label": 2,
+        "predicted_label": "H3"
+    },
+    {
+        "text": "•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n+AP Calculus\n+AP Statistics\n+Calculus\nProbability,\nStatistics,\nand Discrete\nMath\n+Precalculus\nAlgebra 3 &\nTrigonometry\nApplied Math\nHonors\nAccounting 1\nInvestments\nAP\nEconomics\nBusiness\nOrg.\nManagement",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 10.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 10.0,
+            "indentation": 156.32,
+            "is_bold": 0,
+            "y_coordinate": 639.86,
+            "centering_offset": 109.03,
+            "word_count": 37
+        },
+        "feature_vector": [
+            10.0,
+            156.32,
+            0,
+            109.03,
+            37,
+            639.86,
+            15.632
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "•\n•\n•\n•\n•\n•\n•\n•\n•",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 11.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.0,
+            "indentation": 254.27,
+            "is_bold": 0,
+            "y_coordinate": 638.57,
+            "centering_offset": 49.8,
+            "word_count": 9
+        },
+        "feature_vector": [
+            11.0,
+            254.27,
+            0,
+            49.8,
+            9,
+            638.57,
+            23.115
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Computer\nProgramming in C++\nRobotics\nComputer Science and\nProgramming Concepts\nwith Python\nAP Computer Science\nPrinciples\nAP Computer Science A\nHonors Data Structures\nand Advanced\nProgramming",
+        "fontname": "MUFUZY+Calibri",
+        "fontsize": 11.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.0,
+            "indentation": 275.13,
+            "is_bold": 0,
+            "y_coordinate": 638.13,
+            "centering_offset": 22.36,
+            "word_count": 26
+        },
+        "feature_vector": [
+            11.0,
+            275.13,
+            0,
+            22.36,
+            26,
+            638.13,
+            25.012
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Networks (CCNA cert)\nSwitching, Routing, &\nWireless Essentials\n(CCNA cert)\nCybersecurity (CCNA\ncert)\n• Graphic\nDesign\n• Digital\n•\nPhotography\nAdvanced\nDigital\nPhotography",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 10.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 10.0,
+            "indentation": 275.13,
+            "is_bold": 0,
+            "y_coordinate": 638.74,
+            "centering_offset": 64.86,
+            "word_count": 23
+        },
+        "feature_vector": [
+            10.0,
+            275.13,
+            0,
+            64.86,
+            23,
+            638.74,
+            27.513
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "***AP\nCaptsone -\nSeminar and\nResearch w/\nadvisor\napproval",
+        "fontname": "MUFUZY+Arial-BoldMT",
+        "fontsize": 10.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 10.0,
+            "indentation": 403.14,
+            "is_bold": 1,
+            "y_coordinate": 458.67,
+            "centering_offset": 128.51,
+            "word_count": 9
+        },
+        "feature_vector": [
+            10.0,
+            403.14,
+            1,
+            128.51,
+            9,
+            458.67,
+            40.314
+        ],
+        "cluster_label": 3,
+        "predicted_label": "H2"
+    },
+    {
+        "text": "•\n• Nutrition for an\nActive Lifestyle\nEngineering\nCAD and Design\nFoundations\nTelevision\nProduction I / II\n•\n• Careers in\nMedicine (Phys\nEd department)\n• Woods Tech 1\nand 2\n• Honors\nEngineering and\nDesign",
+        "fontname": "MUFUZY+ArialMT",
+        "fontsize": 10.0,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 10.0,
+            "indentation": 482.14,
+            "is_bold": 0,
+            "y_coordinate": 638.74,
+            "centering_offset": 223.27,
+            "word_count": 36
+        },
+        "feature_vector": [
+            10.0,
+            482.14,
+            0,
+            223.27,
+            36,
+            638.74,
+            48.214
+        ],
+        "cluster_label": 3,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "What Colleges Say!",
+        "fontname": "MUFUZY+TimesNewRomanPS-BoldMT",
+        "fontsize": 18.01,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 18.01,
+            "indentation": 229.62,
+            "is_bold": 1,
+            "y_coordinate": 311.62,
+            "centering_offset": 1.37,
+            "word_count": 3
+        },
+        "feature_vector": [
+            18.01,
+            229.62,
+            1,
+            1.37,
+            3,
+            311.62,
+            12.75
+        ],
+        "cluster_label": 4,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "When asked the question,  “Would participation in the\nSTEM Pathways set PTHSD students apart when applying",
+        "fontname": "MUFUZY+Calibri-Bold",
+        "fontsize": 11.01,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.01,
+            "indentation": 35.26,
+            "is_bold": 1,
+            "y_coordinate": 277.07,
+            "centering_offset": 140.1,
+            "word_count": 16
+        },
+        "feature_vector": [
+            11.01,
+            35.26,
+            1,
+            140.1,
+            16,
+            277.07,
+            3.203
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "to your school?”, colleges responded with the following:\nDrew University: “Yes,it would show that they are\nchallenging themselves in the classroom.”\nSUNY Binghamton:  “Yes. We are a R1 research institution\nand students with a strong STEM curriculum that includes\nresearch or lab work are generally more competitive in our\napplicant pool and more success as students at\nBinghamton because of their early HS experience.”\nNJIT: “Yes- this would demonstrate to Admissions that a\nstudent is interested in STEM programs, and would be a\nstrong candidate for our programs.”\nIthaca College:  “Yes, we look for students who participate\nin classes and activities that enhance their knowledge and\nskills in their area of interest.”\nTowson University: “Participation in this program would\nshow us that the student is challenging him/herself in their\ncourses which is something we look at when reviewing\napplications.”\nMontclair University:  “Rigorous math and science lab\nclasses beyond standard curriculum could be looked at for\nscholarship eligibility along with high GPA.”",
+        "fontname": "MUFUZY+Calibri",
+        "fontsize": 11.01,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 11.01,
+            "indentation": 35.26,
+            "is_bold": 0,
+            "y_coordinate": 277.07,
+            "centering_offset": 1.07,
+            "word_count": 161
+        },
+        "feature_vector": [
+            11.01,
+            35.26,
+            0,
+            1.07,
+            161,
+            277.07,
+            3.203
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "For more information and our application please visit our website by clicking here.",
+        "fontname": "MUFUZY+Arial-BoldMT",
+        "fontsize": 12.01,
+        "page_number": 1,
+        "document_name": "STEMPathwaysFlyer",
+        "features": {
+            "font_size": 12.01,
+            "indentation": 69.13,
+            "is_bold": 1,
+            "y_coordinate": 70.16,
+            "centering_offset": 0.29,
+            "word_count": 13
+        },
+        "feature_vector": [
+            12.01,
+            69.13,
+            1,
+            0.29,
+            13,
+            70.16,
+            5.756
+        ],
+        "cluster_label": 4,
+        "predicted_label": "H1"
+    }
+]

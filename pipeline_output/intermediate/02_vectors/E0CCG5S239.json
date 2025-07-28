@@ -1,0 +1,386 @@
+[
+  {
+    "text": "Application form for grant of LTC advance",
+    "fontname": "OIKOMH+Arial,Bold",
+    "fontsize": 11.67,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 11.67,
+      "indentation": 199.86,
+      "is_bold": 1,
+      "y_coordinate": 734.57,
+      "centering_offset": 21.03,
+      "word_count": 7
+    },
+    "feature_vector": [
+      11.67,
+      199.86,
+      1,
+      21.03,
+      7,
+      734.57,
+      17.126
+    ]
+  },
+  {
+    "text": "1.\n2.\n3.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.02,
+      "is_bold": 1,
+      "y_coordinate": 704.06,
+      "centering_offset": 221.43,
+      "word_count": 3
+    },
+    "feature_vector": [
+      9.74,
+      70.02,
+      1,
+      221.43,
+      3,
+      704.06,
+      7.189
+    ]
+  },
+  {
+    "text": "Name of the Government Servant\nDesignation\nDate  of  entering  the  Central  Government\nService\nPAY + SI + NPA",
+    "fontname": "OILBGN+Tahoma",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 96.0,
+      "is_bold": 0,
+      "y_coordinate": 707.0,
+      "centering_offset": 101.49,
+      "word_count": 18
+    },
+    "feature_vector": [
+      9.74,
+      96.0,
+      0,
+      101.49,
+      18,
+      707.0,
+      9.856
+    ]
+  },
+  {
+    "text": "4.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.02,
+      "is_bold": 1,
+      "y_coordinate": 632.19,
+      "centering_offset": 221.43,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.74,
+      70.02,
+      1,
+      221.43,
+      1,
+      632.19,
+      7.189
+    ]
+  },
+  {
+    "text": "5.  Whether permanent or temporary",
+    "fontname": "OILBGN+Tahoma",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.02,
+      "is_bold": 0,
+      "y_coordinate": 617.08,
+      "centering_offset": 140.44,
+      "word_count": 5
+    },
+    "feature_vector": [
+      9.74,
+      70.02,
+      0,
+      140.44,
+      5,
+      617.08,
+      7.189
+    ]
+  },
+  {
+    "text": "6.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.02,
+      "is_bold": 1,
+      "y_coordinate": 598.9,
+      "centering_offset": 221.43,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.74,
+      70.02,
+      1,
+      221.43,
+      1,
+      598.9,
+      7.189
+    ]
+  },
+  {
+    "text": "Home Town as recorded in the Service Book\nWhether  wife  /  husband  is  employed  and  if",
+    "fontname": "OILBGN+Tahoma",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 96.0,
+      "is_bold": 0,
+      "y_coordinate": 598.9,
+      "centering_offset": 101.53,
+      "word_count": 16
+    },
+    "feature_vector": [
+      9.74,
+      96.0,
+      0,
+      101.53,
+      16,
+      598.9,
+      9.856
+    ]
+  },
+  {
+    "text": "7.\n8.\n9.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.02,
+      "is_bold": 1,
+      "y_coordinate": 574.95,
+      "centering_offset": 221.43,
+      "word_count": 3
+    },
+    "feature_vector": [
+      9.74,
+      70.02,
+      1,
+      221.43,
+      3,
+      574.95,
+      7.189
+    ]
+  },
+  {
+    "text": "so whether entitled to LTC\nWhether  the  concession  is  to  be  availed  for\nvisiting home  town and  if  so block for  which\nLTC is to be availed.\n(a)  If  the  concession  is  to  visit  anywhere  in\nIndia, the place to be visited.\n(b) Block for which to be availed.\nSingle\nrail\nfare/bus\nfare\nfrom\nthe",
+    "fontname": "OILBGN+Tahoma",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 96.0,
+      "is_bold": 0,
+      "y_coordinate": 569.14,
+      "centering_offset": 101.46,
+      "word_count": 55
+    },
+    "feature_vector": [
+      9.74,
+      96.0,
+      0,
+      101.46,
+      55,
+      569.14,
+      9.856
+    ]
+  },
+  {
+    "text": "10.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.02,
+      "is_bold": 1,
+      "y_coordinate": 423.82,
+      "centering_offset": 218.34,
+      "word_count": 1
+    },
+    "feature_vector": [
+      9.74,
+      70.02,
+      1,
+      218.34,
+      1,
+      423.82,
+      7.189
+    ]
+  },
+  {
+    "text": "headquarters  to  home  town/place  of  visit  by\nshortest route.\nPersons in respect of whom LTC is proposed to be availed.",
+    "fontname": "OILBGN+Tahoma",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 96.0,
+      "is_bold": 0,
+      "y_coordinate": 426.82,
+      "centering_offset": 74.12,
+      "word_count": 20
+    },
+    "feature_vector": [
+      9.74,
+      96.0,
+      0,
+      74.12,
+      20,
+      426.82,
+      9.856
+    ]
+  },
+  {
+    "text": "Name\nAge\nRelationship\nS.No\n1.\n2.\n3.\n4.\n5.\n6.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 96.0,
+      "is_bold": 1,
+      "y_coordinate": 375.93,
+      "centering_offset": 4.79,
+      "word_count": 10
+    },
+    "feature_vector": [
+      9.74,
+      96.0,
+      1,
+      4.79,
+      10,
+      375.93,
+      9.856
+    ]
+  },
+  {
+    "text": "Amount of advance required.\nRs.",
+    "fontname": "OILBGN+Tahoma",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 96.01,
+      "is_bold": 0,
+      "y_coordinate": 278.86,
+      "centering_offset": 89.11,
+      "word_count": 5
+    },
+    "feature_vector": [
+      9.74,
+      96.01,
+      0,
+      89.11,
+      5,
+      278.86,
+      9.857
+    ]
+  },
+  {
+    "text": "11.\n12.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.02,
+      "is_bold": 1,
+      "y_coordinate": 341.38,
+      "centering_offset": 218.33,
+      "word_count": 2
+    },
+    "feature_vector": [
+      9.74,
+      70.02,
+      1,
+      218.33,
+      2,
+      341.38,
+      7.189
+    ]
+  },
+  {
+    "text": "I  declare  that  the  particulars  furnished  above  are  true  and  correct  to  the  best  of  my  knowledge.\nI\nundertake to produce the tickets for the outward journey within ten days of receipt of the advance.\nIn  the  event  of  cancellation  of  the  journey  or  if  I  fail  to  produce  the  tickets  within  ten  days  of  receipt of\nadvance, I undertake to refund the entire advance in one lump sum.",
+    "fontname": "OILBGN+Tahoma",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.03,
+      "is_bold": 0,
+      "y_coordinate": 243.16,
+      "centering_offset": 24.1,
+      "word_count": 69
+    },
+    "feature_vector": [
+      9.74,
+      70.03,
+      0,
+      24.1,
+      69,
+      243.16,
+      7.19
+    ]
+  },
+  {
+    "text": "Date\nSignature of Government Servant.",
+    "fontname": "OIKPLG+Tahoma-Bold",
+    "fontsize": 9.74,
+    "page_number": 0,
+    "document_name": "E0CCG5S239",
+    "features": {
+      "font_size": 9.74,
+      "indentation": 70.04,
+      "is_bold": 1,
+      "y_coordinate": 161.01,
+      "centering_offset": 24.01,
+      "word_count": 5
+    },
+    "feature_vector": [
+      9.74,
+      70.04,
+      1,
+      24.01,
+      5,
+      161.01,
+      7.191
+    ]
+  }
+]

@@ -1,0 +1,2446 @@
+[
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 0,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 0,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【文字・語彙】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 0,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 484.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 218.33,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            484.33,
+            0,
+            218.33,
+            1,
+            784.07,
+            53.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "問題例\nN 1",
+        "fontname": "KCMHJC+ShinGo-Medium",
+        "fontsize": 48.0,
+        "page_number": 0,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 48.0,
+            "indentation": 226.72,
+            "is_bold": 0,
+            "y_coordinate": 641.14,
+            "centering_offset": 9.21,
+            "word_count": 3
+        },
+        "feature_vector": [
+            48.0,
+            226.72,
+            0,
+            9.21,
+            3,
+            641.14,
+            4.723
+        ],
+        "cluster_label": 2,
+        "predicted_label": "Title"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）",
+        "fontname": "KCMHJC+ShinGo-Medium",
+        "fontsize": 26.0,
+        "page_number": 0,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 26.0,
+            "indentation": 90.72,
+            "is_bold": 0,
+            "y_coordinate": 396.17,
+            "centering_offset": 5.54,
+            "word_count": 1
+        },
+        "feature_vector": [
+            26.0,
+            90.72,
+            0,
+            5.54,
+            1,
+            396.17,
+            3.489
+        ],
+        "cluster_label": 3,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "・読解",
+        "fontname": "KCMHJC+ShinGo-Medium",
+        "fontsize": 39.0,
+        "page_number": 0,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 39.0,
+            "indentation": 240.22,
+            "is_bold": 0,
+            "y_coordinate": 331.17,
+            "centering_offset": 7.71,
+            "word_count": 1
+        },
+        "feature_vector": [
+            39.0,
+            240.22,
+            0,
+            7.71,
+            1,
+            331.17,
+            6.159
+        ],
+        "cluster_label": 3,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "7",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 0,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 294.29,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            294.29,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.422
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 1,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 1,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【文字・語彙】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 1,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 484.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 218.61,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            484.61,
+            0,
+            218.61,
+            1,
+            784.07,
+            53.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "8",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 1,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 294.56,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            294.56,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.445
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 2,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 2,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【文字・語彙】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 2,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 484.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 218.33,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            484.33,
+            0,
+            218.33,
+            1,
+            784.07,
+            53.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "9",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 2,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 294.29,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            294.29,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.422
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 3,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 3,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【文法】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 3,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "10",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 3,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 4,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 4,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【文法】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 4,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "11",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 4,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 5,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 5,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【文法】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 5,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "12",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 5,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 6,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 6,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【文法】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 6,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "13",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 6,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 7,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 7,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 7,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "14",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 7,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 8,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 8,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 8,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "15",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 8,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 9,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 9,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 9,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "16",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 9,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 10,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 10,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 10,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "17",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 10,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 11,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 11,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 11,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "18",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 11,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 12,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 12,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 12,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "19",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 12,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 13,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 13,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 13,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "20",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 13,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 14,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 14,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 14,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "21",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 14,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 15,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 15,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 15,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "22",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 15,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 16,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 16,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 16,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "23",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 16,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 17,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            1,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 17,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 410.27,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 177.06,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            410.27,
+            0,
+            177.06,
+            1,
+            796.69,
+            58.61
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 17,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.61,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 232.11,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.61,
+            0,
+            232.11,
+            1,
+            784.07,
+            56.846
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "24",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 17,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 18,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            1,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "言語知識（文字・語彙・文法）・読解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 7.0,
+        "page_number": 18,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 7.0,
+            "indentation": 409.99,
+            "is_bold": 0,
+            "y_coordinate": 796.69,
+            "centering_offset": 176.79,
+            "word_count": 1
+        },
+        "feature_vector": [
+            7.0,
+            409.99,
+            0,
+            176.79,
+            1,
+            796.69,
+            58.57
+        ],
+        "cluster_label": 4,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "【読解】",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 18,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 511.33,
+            "is_bold": 0,
+            "y_coordinate": 784.07,
+            "centering_offset": 231.83,
+            "word_count": 1
+        },
+        "feature_vector": [
+            9.0,
+            511.33,
+            0,
+            231.83,
+            1,
+            784.07,
+            56.814
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "25",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 18,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "問題例\nN 1",
+        "fontname": "KCMHJC+ShinGo-Medium",
+        "fontsize": 48.0,
+        "page_number": 19,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 48.0,
+            "indentation": 226.5,
+            "is_bold": 0,
+            "y_coordinate": 619.13,
+            "centering_offset": 8.99,
+            "word_count": 3
+        },
+        "feature_vector": [
+            48.0,
+            226.5,
+            0,
+            8.99,
+            3,
+            619.13,
+            4.719
+        ],
+        "cluster_label": 2,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "聴解",
+        "fontname": "KCMHJC+ShinGo-Medium",
+        "fontsize": 39.0,
+        "page_number": 19,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 39.0,
+            "indentation": 259.5,
+            "is_bold": 0,
+            "y_coordinate": 374.15,
+            "centering_offset": 7.49,
+            "word_count": 1
+        },
+        "feature_vector": [
+            39.0,
+            259.5,
+            0,
+            7.49,
+            1,
+            374.15,
+            6.654
+        ],
+        "cluster_label": 3,
+        "predicted_label": "H1"
+    },
+    {
+        "text": "26",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 19,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１\n聴解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 20,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 2
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            2,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "27",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 20,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１\n聴解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 21,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 2
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            2,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "28",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 21,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１\n聴解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 22,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 2
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            2,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "29",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 22,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１\n聴解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 23,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 2
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            2,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "30",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 23,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１\n聴解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 24,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.58,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.08,
+            "word_count": 2
+        },
+        "feature_vector": [
+            9.0,
+            520.58,
+            0,
+            232.08,
+            2,
+            810.69,
+            57.842
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "31",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 24,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 290.94,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.14,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            290.94,
+            1,
+            0.14,
+            1,
+            48.29,
+            24.144
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "Ｎ１\n聴解",
+        "fontname": "KCMEOF+Jun201-regular",
+        "fontsize": 9.0,
+        "page_number": 25,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 9.0,
+            "indentation": 520.86,
+            "is_bold": 0,
+            "y_coordinate": 810.69,
+            "centering_offset": 232.36,
+            "word_count": 2
+        },
+        "feature_vector": [
+            9.0,
+            520.86,
+            0,
+            232.36,
+            2,
+            810.69,
+            57.873
+        ],
+        "cluster_label": 1,
+        "predicted_label": "Body"
+    },
+    {
+        "text": "32",
+        "fontname": "KCMIDJ+FutoGoB101-Bold",
+        "fontsize": 12.05,
+        "page_number": 25,
+        "document_name": "N1-mondai",
+        "features": {
+            "font_size": 12.05,
+            "indentation": 291.22,
+            "is_bold": 1,
+            "y_coordinate": 48.29,
+            "centering_offset": 0.41,
+            "word_count": 1
+        },
+        "feature_vector": [
+            12.05,
+            291.22,
+            1,
+            0.41,
+            1,
+            48.29,
+            24.168
+        ],
+        "cluster_label": 0,
+        "predicted_label": "Body"
+    }
+]
