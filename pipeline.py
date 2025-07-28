@@ -21,23 +21,17 @@ class DocumentProcessingPipeline:
     Features:
     - Automatic directory cleanup on new runs
     - Sequential stage execution with dependency management
-    - Intermediate results stored in organized directories
-    - Final consolidated output.json
+    - In-memory processing without intermediate files
+    - Final output files only (no intermediate folders)
     """
     
     def __init__(self, input_path: str, output_dir: str):
         self.input_path = input_path
         self.output_dir = output_dir
-        self.stages_dir = os.path.join(output_dir, "intermediate")
-        
-        # Stage directories
-        self.parsed_dir = os.path.join(self.stages_dir, "01_parsed")
-        self.vectors_dir = os.path.join(self.stages_dir, "02_vectors") 
-        self.clustered_dir = os.path.join(self.stages_dir, "03_clustered")
-        self.outlines_dir = os.path.join(self.stages_dir, "04_outlines")
+        # Remove intermediate directory - process in memory instead
         
     def reset_environment(self):
-        """Clean and recreate all output directories."""
+        """Clean output directory."""
         print("Resetting pipeline environment...")
         
         # For Docker environments, we can't remove mounted volumes
@@ -52,21 +46,7 @@ class DocumentProcessingPipeline:
                     shutil.rmtree(item_path)
             print(f"  Cleaned contents of output directory: {self.output_dir}")
         
-        # Create fresh intermediate directory structure
-        intermediate_directories = [
-            self.stages_dir,
-            self.parsed_dir,
-            self.vectors_dir,
-            self.clustered_dir,
-            self.outlines_dir
-        ]
-        
-        for dir_path in intermediate_directories:
-            if os.path.exists(dir_path):
-                shutil.rmtree(dir_path)
-            os.makedirs(dir_path, exist_ok=True)
-        
-        print("  Created fresh directory structure")
+        print("  Ready for processing")
     
     def get_input_files(self) -> List[str]:
         """Get list of PDF files to process."""
@@ -136,7 +116,7 @@ class DocumentProcessingPipeline:
         try:
             # Stage 1: Parsing and Feature Engineering
             print("Stage 1: Parsing and feature engineering...")
-            parsed_data = self.stage1_parsing(pdf_path, base_name)
+            parsed_data = self.stage1_parsing(pdf_path)
             if not parsed_data:
                 print(f"  Failed to parse {filename}")
                 return None
@@ -144,7 +124,7 @@ class DocumentProcessingPipeline:
             
             # Stage 2: Build Vectors
             print("Stage 2: Building vectors...")
-            vectors_data = self.stage2_build_vectors(base_name)
+            vectors_data = self.stage2_build_vectors(parsed_data)
             if not vectors_data:
                 print(f"  Failed to build vectors for {filename}")
                 return None
@@ -152,7 +132,7 @@ class DocumentProcessingPipeline:
             
             # Stage 3: Cluster and Label
             print("Stage 3: Clustering and labeling...")
-            clustered_data = self.stage3_cluster_and_label(base_name)
+            clustered_data = self.stage3_cluster_and_label(vectors_data)
             if not clustered_data:
                 print(f"  Failed to cluster {filename}")
                 return None
@@ -160,7 +140,7 @@ class DocumentProcessingPipeline:
             
             # Stage 4: Generate Outline
             print("Stage 4: Generating outline...")
-            outline_data = self.stage4_generate_outline(base_name)
+            outline_data = self.stage4_generate_outline(clustered_data)
             if not outline_data:
                 print(f"  Failed to generate outline for {filename}")
                 return None
@@ -183,71 +163,113 @@ class DocumentProcessingPipeline:
             print(f"Error processing {filename}: {e}\n")
             return None
     
-    def stage1_parsing(self, pdf_path: str, base_name: str) -> List[Dict[str, Any]]:
+    def stage1_parsing(self, pdf_path: str) -> List[Dict[str, Any]]:
         """Stage 1: Parse PDF and extract features."""
         try:
             blocks = parse_and_feature_engineer(pdf_path)
-            
-            if blocks:
-                output_path = os.path.join(self.parsed_dir, f"{base_name}.json")
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(blocks, f, ensure_ascii=False, indent=2)
-            
             return blocks
         except Exception as e:
             print(f"    Error in parsing stage: {e}")
             return []
     
-    def stage2_build_vectors(self, base_name: str) -> List[Dict[str, Any]]:
+    def stage2_build_vectors(self, parsed_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Stage 2: Build vector representations."""
         try:
-            input_path = os.path.join(self.parsed_dir, f"{base_name}.json")
-            vectors_data = create_feature_vectors(input_path)
-            
-            if vectors_data:
-                output_path = os.path.join(self.vectors_dir, f"{base_name}.json")
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(vectors_data, f, ensure_ascii=False, indent=2)
-            
+            # Process the data directly in memory using build_vectors module
+            # We need to modify this to work with data instead of file paths
+            vectors_data = self.create_feature_vectors_from_data(parsed_data)
             return vectors_data
         except Exception as e:
             print(f"    Error in build vectors stage: {e}")
             return []
     
-    def stage3_cluster_and_label(self, base_name: str) -> List[Dict[str, Any]]:
+    def create_feature_vectors_from_data(self, blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Create feature vectors from block data directly."""
+        # Import the function we need from build_vectors
+        import tempfile
+        import os
+        
+        # Create a temporary file to pass to the existing function
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as temp_file:
+            json.dump(blocks, temp_file, ensure_ascii=False, indent=2)
+            temp_path = temp_file.name
+        
+        try:
+            # Use the existing function
+            vectors_data = create_feature_vectors(temp_path)
+            return vectors_data
+        finally:
+            # Clean up the temporary file
+            os.unlink(temp_path)
+    
+    def stage3_cluster_and_label(self, vectors_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Stage 3: Cluster blocks and assign labels."""
         try:
-            input_path = os.path.join(self.vectors_dir, f"{base_name}.json")
-            output_path = os.path.join(self.clustered_dir, f"{base_name}.json")
-            
-            run_pipeline_for_file(input_path, output_path)
-            
-            # Read the generated file to return the data
-            if os.path.exists(output_path):
-                with open(output_path, 'r', encoding='utf-8') as f:
-                    clustered_data = json.load(f)
-                return clustered_data
-            
-            return []
+            # Process the data directly in memory using cluster_and_label module
+            clustered_data = self.cluster_and_label_from_data(vectors_data)
+            return clustered_data
         except Exception as e:
             print(f"    Error in clustering stage: {e}")
             return []
     
-    def stage4_generate_outline(self, base_name: str) -> Dict[str, Any]:
+    def cluster_and_label_from_data(self, blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Cluster and label blocks from data directly."""
+        import tempfile
+        import os
+        
+        # Create a temporary file to pass to the existing function
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as temp_file:
+            json.dump(blocks, temp_file, ensure_ascii=False, indent=2)
+            temp_path = temp_file.name
+        
+        # Create another temp file for output
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as temp_output:
+            temp_output_path = temp_output.name
+        
+        try:
+            # Use the existing function
+            run_pipeline_for_file(temp_path, temp_output_path)
+            
+            # Read the result
+            if os.path.exists(temp_output_path):
+                with open(temp_output_path, 'r', encoding='utf-8') as f:
+                    clustered_data = json.load(f)
+                return clustered_data
+            return []
+        finally:
+            # Clean up the temporary files
+            if os.path.exists(temp_path):
+                os.unlink(temp_path)
+            if os.path.exists(temp_output_path):
+                os.unlink(temp_output_path)
+    
+    def stage4_generate_outline(self, clustered_data: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Stage 4: Generate document outline."""
         try:
-            input_path = os.path.join(self.clustered_dir, f"{base_name}.json")
-            outline_data = generate_outline(input_path)
-            
-            if outline_data:
-                output_path = os.path.join(self.outlines_dir, f"{base_name}.json")
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(outline_data, f, ensure_ascii=False, indent=2)
-            
+            # Process the data directly in memory using generate_outline module
+            outline_data = self.generate_outline_from_data(clustered_data)
             return outline_data
         except Exception as e:
             print(f"    Error in outline generation stage: {e}")
             return {}
+    
+    def generate_outline_from_data(self, blocks: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Generate outline from block data directly."""
+        import tempfile
+        import os
+        
+        # Create a temporary file to pass to the existing function
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as temp_file:
+            json.dump(blocks, temp_file, ensure_ascii=False, indent=2)
+            temp_path = temp_file.name
+        
+        try:
+            # Use the existing function
+            outline_data = generate_outline(temp_path)
+            return outline_data
+        finally:
+            # Clean up the temporary file
+            os.unlink(temp_path)
     
     def save_individual_output(self, result: Dict[str, Any]):
         """Save individual output file for each processed document."""
@@ -266,9 +288,21 @@ class DocumentProcessingPipeline:
 
 def main():
     """Main function to run the pipeline."""
-    # Docker-compatible directories
-    input_directory = "/app/input"          # Docker input mount point
-    output_directory = "/app/output"        # Docker output mount point
+    import sys
+    
+    # Check if running in Docker or locally
+    if len(sys.argv) >= 3:
+        # Command line arguments provided
+        input_directory = sys.argv[1]
+        output_directory = sys.argv[2]
+    elif os.path.exists("/app/input"):
+        # Docker environment detected
+        input_directory = "/app/input"          # Docker input mount point
+        output_directory = "/app/output"        # Docker output mount point
+    else:
+        # Local environment fallback
+        input_directory = "input"
+        output_directory = "output"
     
     print(f"Using input directory: {os.path.abspath(input_directory)}")
     print(f"Using output directory: {os.path.abspath(output_directory)}")
@@ -298,7 +332,7 @@ def main():
     
     if success:
         print("\nPipeline completed successfully!")
-        print(f"Check your results in: {os.path.abspath(output_directory)}")
+        
     else:
         print("\nPipeline failed!")
     
