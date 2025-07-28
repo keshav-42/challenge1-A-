@@ -3,7 +3,7 @@
         "text": "Parsippany -Troy Hills STEM Pathways",
         "fontname": "MUFUZY+Calibri-Bold",
         "fontsize": 28.01,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 28.01,
             "indentation": 125.82,
@@ -23,48 +23,25 @@
         ]
     },
     {
-        "text": "Mission Statement:",
-        "fontname": "MUFUZY+Sniglet-Regular",
-        "fontsize": 14.01,
-        "page_number": 1,
-        "features": {
-            "font_size": 14.01,
-            "indentation": 80.33,
-            "is_bold": 0,
-            "y_coordinate": 699.87,
-            "centering_offset": 165.19,
-            "word_count": 2
-        },
-        "feature_vector": [
-            14.01,
-            80.33,
-            0,
-            165.19,
-            2,
-            699.87,
-            5.734
-        ]
-    },
-    {
-        "text": "To provide PTHSD high school students with the opportunity to concentrate their studies, beyond those required in high school, in the areas of science, technology, engineering, and mathematics, and expose students to relevant real world experiences through project work, conferences and presentations to enhance their high school experience.",
+        "text": "Mission Statement:  To provide PTHSD high school students with the opportunity to\nconcentrate their studies, beyond those required in high school, in the areas of science,\ntechnology, engineering, and mathematics, and expose students to relevant real world\nexperiences through project work, conferences and presentations to enhance their high school\nexperience.",
         "fontname": "MUFUZY+Calibri",
         "fontsize": 12.0,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 12.0,
             "indentation": 80.33,
             "is_bold": 0,
-            "y_coordinate": 698.92,
+            "y_coordinate": 702.56,
             "centering_offset": 6.07,
-            "word_count": 48
+            "word_count": 50
         },
         "feature_vector": [
             12.0,
             80.33,
             0,
             6.07,
-            48,
-            698.92,
+            50,
+            702.56,
             6.694
         ]
     },
@@ -72,7 +49,7 @@
         "text": "Goals:",
         "fontname": "MUFUZY+Sniglet-Regular",
         "fontsize": 14.01,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 14.01,
             "indentation": 45.41,
@@ -92,140 +69,25 @@
         ]
     },
     {
-        "text": "•",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 11.51,
-        "page_number": 1,
-        "features": {
-            "font_size": 11.51,
-            "indentation": 41.38,
-            "is_bold": 0,
-            "y_coordinate": 581.19,
-            "centering_offset": 262.6,
-            "word_count": 1
-        },
-        "feature_vector": [
-            11.51,
-            41.38,
-            0,
-            262.6,
-            1,
-            581.19,
-            3.595
-        ]
-    },
-    {
-        "text": "Inspire keen interest in mathematics, science, engineering, andtechnology, develop strong scholarship in the subject and promote the enjoyment of these studies in high school.",
+        "text": "• Inspire keen interest in mathematics, science, engineering, and\ntechnology, develop strong scholarship in the subject and\npromote the enjoyment of these studies in high school.\n• Expose students to potential career opportunities in the field.\n• Encourage students to pursue higher education and major in\nSTEM careers.\n• Promote interactions with STEM professionals to learn about\nfuture opportunities.\n• Support field experiences connected to the world outside of\nthe school building.\n• Signal to employers, universities, training programs, and\nmilitary that a student has completed a comprehensive course\nof study in a specialized area.\n• Cultivate transferable work habits such as perseverance, goal\nsetting, and self-direction.",
         "fontname": "MUFUZY+Calibri",
         "fontsize": 11.51,
-        "page_number": 1,
-        "features": {
-            "font_size": 11.51,
-            "indentation": 45.41,
-            "is_bold": 0,
-            "y_coordinate": 580.73,
-            "centering_offset": 112.59,
-            "word_count": 24
-        },
-        "feature_vector": [
-            11.51,
-            45.41,
-            0,
-            112.59,
-            24,
-            580.73,
-            3.945
-        ]
-    },
-    {
-        "text": "•",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 11.51,
-        "page_number": 1,
-        "features": {
-            "font_size": 11.51,
-            "indentation": 41.38,
-            "is_bold": 0,
-            "y_coordinate": 540.66,
-            "centering_offset": 262.6,
-            "word_count": 1
-        },
-        "feature_vector": [
-            11.51,
-            41.38,
-            0,
-            262.6,
-            1,
-            540.66,
-            3.595
-        ]
-    },
-    {
-        "text": "Expose students to potential career opportunities in the field.",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.51,
-        "page_number": 1,
-        "features": {
-            "font_size": 11.51,
-            "indentation": 45.41,
-            "is_bold": 0,
-            "y_coordinate": 540.2,
-            "centering_offset": 115.91,
-            "word_count": 9
-        },
-        "feature_vector": [
-            11.51,
-            45.41,
-            0,
-            115.91,
-            9,
-            540.2,
-            3.945
-        ]
-    },
-    {
-        "text": "•",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 11.51,
-        "page_number": 1,
-        "features": {
-            "font_size": 11.51,
-            "indentation": 41.38,
-            "is_bold": 0,
-            "y_coordinate": 527.15,
-            "centering_offset": 262.6,
-            "word_count": 1
-        },
-        "feature_vector": [
-            11.51,
-            41.38,
-            0,
-            262.6,
-            1,
-            527.15,
-            3.595
-        ]
-    },
-    {
-        "text": "Encourage students to pursue higher education and major in STEM careers.• Promote interactions with STEM professionals to learn about future opportunities.• Support field experiences connected to the world outside of the school building.• Signal to employers, universities, training programs, and military that a student has completed a comprehensive course of study in a specialized area.• Cultivate transferable work habits such as perseverance, goal setting, and self-direction.",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.51,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 11.51,
             "indentation": 39.68,
             "is_bold": 0,
-            "y_coordinate": 526.69,
-            "centering_offset": 116.89,
-            "word_count": 66
+            "y_coordinate": 581.19,
+            "centering_offset": 115.46,
+            "word_count": 107
         },
         "feature_vector": [
             11.51,
             39.68,
             0,
-            116.89,
-            66,
-            526.69,
+            115.46,
+            107,
+            581.19,
             3.447
         ]
     },
@@ -233,7 +95,7 @@
         "text": "PATHWAY OPTIONS",
         "fontname": "MUFUZY+Sniglet-Regular",
         "fontsize": 15.31,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 15.31,
             "indentation": 240.18,
@@ -256,7 +118,7 @@
         "text": "REGULAR PATHWAY",
         "fontname": "MUFUZY+Calibri-Bold",
         "fontsize": 15.31,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 15.31,
             "indentation": 117.18,
@@ -276,70 +138,24 @@
         ]
     },
     {
-        "text": "4 credits of Math4 credits of Science4 credits of STEM-designated electives●●●●Maintain an overall 2.85 GPA●Participate in a minimum of 3 STEM presentations/conferences each year with a required minimum total of 12 presentations/conferences throughout the 4 years",
+        "text": "4 credits of Math\n4 credits of Science\n4 credits of STEM-designated electives\n●\n●\n●\n● Maintain an overall 2.85 GPA\n●\nParticipate in a minimum of 3 STEM\npresentations/conferences each year\nwith a required minimum total of 12\npresentations/conferences throughout\nthe 4 years. *\nJoin and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance. -\n●\n●\n●\n●",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 11.01,
-        "page_number": 1,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 74.78,
-            "is_bold": 0,
-            "y_coordinate": 289.57,
-            "centering_offset": 123.52,
-            "word_count": 36
-        },
-        "feature_vector": [
-            11.01,
-            74.78,
-            0,
-            123.52,
-            36,
-            289.57,
-            6.792
-        ]
-    },
-    {
-        "text": ". *",
-        "fontname": "MUFUZY+Arial-BoldMT",
-        "fontsize": 11.01,
-        "page_number": 1,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 153.86,
-            "is_bold": 1,
-            "y_coordinate": 181.49,
-            "centering_offset": 146.95,
-            "word_count": 2
-        },
-        "feature_vector": [
-            11.01,
-            153.86,
-            1,
-            146.95,
-            2,
-            181.49,
-            13.975
-        ]
-    },
-    {
-        "text": "Join and actively participate in a STEM-related extracurricular activity or club every year of attendance. - ●●●●",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 11.01,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 11.01,
             "indentation": 74.78,
             "is_bold": 0,
             "y_coordinate": 307.58,
             "centering_offset": 104.9,
-            "word_count": 17
+            "word_count": 66
         },
         "feature_vector": [
             11.01,
             74.78,
             0,
             104.9,
-            17,
+            66,
             307.58,
             6.792
         ]
@@ -348,7 +164,7 @@
         "text": "DISTINCTION PATHWAY",
         "fontname": "MUFUZY+Calibri-Bold",
         "fontsize": 15.31,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 15.31,
             "indentation": 351.72,
@@ -368,24 +184,24 @@
         ]
     },
     {
-        "text": "4 credits of Math - At least one math course should be an AP Math class.4 credits of Science- At least one science course should be an AP Science class.4 credits of STEM-designated electives - One must be a Computer Science/Technology Class●Maintain an overall 3.5 GPA ●Participate in a minimum of 3 STEM presentations/conferences a year with a required minimum total of 12 presentations/conferences throughout the 4 years.Join and actively participate in a STEM-related extracurricular activity or club every year of attendance. Either participate in an internship or design and implement a community impact project.●●",
+        "text": "4 credits of Math - At least one math\ncourse should be an AP Math class.\n4 credits of Science- At least one\nscience course should be an AP\nScience class.\n4 credits of STEM-designated electives\n- One must be a Computer\nScience/Technology Class\n● Maintain an overall 3.5 GPA\n●\nParticipate in a minimum of 3 STEM\npresentations/conferences a year with a\nrequired minimum total of 12\npresentations/conferences throughout\nthe 4 years.\nJoin and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance.\nEither participate in an internship or\ndesign and implement a community\nimpact project.\n●\n●",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 11.01,
-        "page_number": 1,
+        "page_number": 0,
         "features": {
             "font_size": 11.01,
             "indentation": 320.78,
             "is_bold": 0,
             "y_coordinate": 307.58,
             "centering_offset": 125.86,
-            "word_count": 95
+            "word_count": 103
         },
         "feature_vector": [
             11.01,
             320.78,
             0,
             125.86,
-            95,
+            103,
             307.58,
             29.135
         ]
@@ -394,7 +210,7 @@
         "text": "Elective Course Offerings",
         "fontname": "MUFUZY+Sniglet-Regular",
         "fontsize": 22.01,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 22.01,
             "indentation": 182.11,
@@ -414,447 +230,217 @@
         ]
     },
     {
-        "text": "ScienceMathComputer Science/ TechnologyArtApplied Technology/ Family Consumer Science and Other",
+        "text": "Science\nMath\nComputer Science/\nTechnology\nArt\nApplied\nTechnology/\nFamily Consumer\nScience and Other",
         "fontname": "MUFUZY+Calibri-Bold",
         "fontsize": 12.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 12.0,
             "indentation": 69.65,
             "is_bold": 1,
             "y_coordinate": 702.14,
             "centering_offset": 16.04,
-            "word_count": 9
+            "word_count": 13
         },
         "feature_vector": [
             12.0,
             69.65,
             1,
             16.04,
-            9,
+            13,
             702.14,
             5.804
         ]
     },
     {
-        "text": "••••••",
+        "text": "•\n•\n•\n•\n•\n•",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 11.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.0,
             "indentation": 36.32,
             "is_bold": 0,
             "y_coordinate": 638.57,
             "centering_offset": 267.75,
-            "word_count": 1
+            "word_count": 6
         },
         "feature_vector": [
             11.0,
             36.32,
             0,
             267.75,
-            1,
+            6,
             638.57,
             3.302
         ]
     },
     {
-        "text": "AP BiologyAP ChemistryAP Physics CForensicsHonors Anatomy and PhysiologyAP Environmental Science",
+        "text": "AP Biology\nAP Chemistry\nAP Physics C\nForensics\nHonors Anatomy\nand Physiology\nAP Environmental\nScience\n• Marine Biology",
         "fontname": "MUFUZY+Calibri",
         "fontsize": 11.0,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.0,
-            "indentation": 57.18,
-            "is_bold": 0,
-            "y_coordinate": 638.13,
-            "centering_offset": 207.84,
-            "word_count": 10
-        },
-        "feature_vector": [
-            11.0,
-            57.18,
-            0,
-            207.84,
-            10,
-            638.13,
-            5.198
-        ]
-    },
-    {
-        "text": "•",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 11.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.0,
             "indentation": 36.32,
             "is_bold": 0,
-            "y_coordinate": 530.52,
-            "centering_offset": 267.75,
-            "word_count": 1
+            "y_coordinate": 638.13,
+            "centering_offset": 218.27,
+            "word_count": 18
         },
         "feature_vector": [
             11.0,
             36.32,
             0,
-            267.75,
-            1,
-            530.52,
+            218.27,
+            18,
+            638.13,
             3.302
         ]
     },
     {
-        "text": "Marine Biology",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.0,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.0,
-            "indentation": 57.18,
-            "is_bold": 0,
-            "y_coordinate": 530.08,
-            "centering_offset": 215.06,
-            "word_count": 2
-        },
-        "feature_vector": [
-            11.0,
-            57.18,
-            0,
-            215.06,
-            2,
-            530.08,
-            5.198
-        ]
-    },
-    {
-        "text": "•••••",
+        "text": "•\n•\n•\n•",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 11.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.0,
             "indentation": 36.32,
             "is_bold": 0,
             "y_coordinate": 517.02,
             "centering_offset": 267.75,
-            "word_count": 1
+            "word_count": 4
         },
         "feature_vector": [
             11.0,
             36.32,
             0,
             267.75,
-            1,
+            4,
             517.02,
             3.302
         ]
     },
     {
-        "text": "MythBusting: The Organic ChemistryGeneticsAstronomyBioethicsScience of Literature and Films",
+        "text": "• MythBusting: The\nOrganic Chemistry\nGenetics\nAstronomy\nBioethics\nScience of\nLiterature and\nFilms",
         "fontname": "MUFUZY+Calibri",
         "fontsize": 11.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.0,
-            "indentation": 57.18,
+            "indentation": 36.32,
             "is_bold": 0,
             "y_coordinate": 516.58,
-            "centering_offset": 207.94,
-            "word_count": 8
+            "centering_offset": 218.37,
+            "word_count": 13
         },
         "feature_vector": [
             11.0,
-            57.18,
+            36.32,
             0,
-            207.94,
-            8,
+            218.37,
+            13,
             516.58,
-            5.198
+            3.302
         ]
     },
     {
-        "text": "•••••••••••",
+        "text": "•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n+AP Calculus\n+AP Statistics\n+Calculus\nProbability,\nStatistics,\nand Discrete\nMath\n+Precalculus\nAlgebra 3 &\nTrigonometry\nApplied Math\nHonors\nAccounting 1\nInvestments\nAP\nEconomics\nBusiness\nOrg.\nManagement",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 10.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 10.0,
             "indentation": 156.32,
             "is_bold": 0,
-            "y_coordinate": 638.74,
-            "centering_offset": 147.93,
-            "word_count": 1
+            "y_coordinate": 639.86,
+            "centering_offset": 109.03,
+            "word_count": 37
         },
         "feature_vector": [
             10.0,
             156.32,
             0,
-            147.93,
-            1,
-            638.74,
+            109.03,
+            37,
+            639.86,
             15.632
         ]
     },
     {
-        "text": "+",
-        "fontname": "MUFUZY+Arial-BoldMT",
-        "fontsize": 6.67,
-        "page_number": 2,
-        "features": {
-            "font_size": 6.67,
-            "indentation": 177.83,
-            "is_bold": 1,
-            "y_coordinate": 639.86,
-            "centering_offset": 126.22,
-            "word_count": 1
-        },
-        "feature_vector": [
-            6.67,
-            177.83,
-            1,
-            126.22,
-            1,
-            639.86,
-            26.661
-        ]
-    },
-    {
-        "text": "AP Calculus",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 10.0,
-        "page_number": 2,
-        "features": {
-            "font_size": 10.0,
-            "indentation": 181.72,
-            "is_bold": 0,
-            "y_coordinate": 638.74,
-            "centering_offset": 97.14,
-            "word_count": 2
-        },
-        "feature_vector": [
-            10.0,
-            181.72,
-            0,
-            97.14,
-            2,
-            638.74,
-            18.172
-        ]
-    },
-    {
-        "text": "+",
-        "fontname": "MUFUZY+Arial-BoldMT",
-        "fontsize": 6.67,
-        "page_number": 2,
-        "features": {
-            "font_size": 6.67,
-            "indentation": 177.83,
-            "is_bold": 1,
-            "y_coordinate": 627.85,
-            "centering_offset": 126.22,
-            "word_count": 1
-        },
-        "feature_vector": [
-            6.67,
-            177.83,
-            1,
-            126.22,
-            1,
-            627.85,
-            26.661
-        ]
-    },
-    {
-        "text": "AP Statistics",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 10.0,
-        "page_number": 2,
-        "features": {
-            "font_size": 10.0,
-            "indentation": 181.72,
-            "is_bold": 0,
-            "y_coordinate": 626.73,
-            "centering_offset": 96.33,
-            "word_count": 2
-        },
-        "feature_vector": [
-            10.0,
-            181.72,
-            0,
-            96.33,
-            2,
-            626.73,
-            18.172
-        ]
-    },
-    {
-        "text": "+",
-        "fontname": "MUFUZY+Arial-BoldMT",
-        "fontsize": 6.67,
-        "page_number": 2,
-        "features": {
-            "font_size": 6.67,
-            "indentation": 177.83,
-            "is_bold": 1,
-            "y_coordinate": 615.85,
-            "centering_offset": 126.22,
-            "word_count": 1
-        },
-        "feature_vector": [
-            6.67,
-            177.83,
-            1,
-            126.22,
-            1,
-            615.85,
-            26.661
-        ]
-    },
-    {
-        "text": "CalculusProbability, Statistics, and Discrete Math",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 10.0,
-        "page_number": 2,
-        "features": {
-            "font_size": 10.0,
-            "indentation": 177.83,
-            "is_bold": 0,
-            "y_coordinate": 614.73,
-            "centering_offset": 98.72,
-            "word_count": 5
-        },
-        "feature_vector": [
-            10.0,
-            177.83,
-            0,
-            98.72,
-            5,
-            614.73,
-            17.783
-        ]
-    },
-    {
-        "text": "+",
-        "fontname": "MUFUZY+Arial-BoldMT",
-        "fontsize": 6.67,
-        "page_number": 2,
-        "features": {
-            "font_size": 6.67,
-            "indentation": 177.83,
-            "is_bold": 1,
-            "y_coordinate": 555.82,
-            "centering_offset": 126.22,
-            "word_count": 1
-        },
-        "feature_vector": [
-            6.67,
-            177.83,
-            1,
-            126.22,
-            1,
-            555.82,
-            26.661
-        ]
-    },
-    {
-        "text": "PrecalculusAlgebra 3 & TrigonometryApplied MathHonors Accounting 1InvestmentsAP EconomicsBusiness Org. Management",
-        "fontname": "MUFUZY+ArialMT",
-        "fontsize": 10.0,
-        "page_number": 2,
-        "features": {
-            "font_size": 10.0,
-            "indentation": 177.83,
-            "is_bold": 0,
-            "y_coordinate": 554.71,
-            "centering_offset": 98.9,
-            "word_count": 10
-        },
-        "feature_vector": [
-            10.0,
-            177.83,
-            0,
-            98.9,
-            10,
-            554.71,
-            17.783
-        ]
-    },
-    {
-        "text": "•••••••••",
+        "text": "•\n•\n•\n•\n•\n•\n•\n•\n•",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 11.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.0,
             "indentation": 254.27,
             "is_bold": 0,
             "y_coordinate": 638.57,
             "centering_offset": 49.8,
-            "word_count": 1
+            "word_count": 9
         },
         "feature_vector": [
             11.0,
             254.27,
             0,
             49.8,
-            1,
+            9,
             638.57,
             23.115
         ]
     },
     {
-        "text": "Computer Programming in C++Robotics Computer Science and Programming Concepts with Python AP Computer Science PrinciplesAP Computer Science AHonors Data Structures and Advanced Programming",
+        "text": "Computer\nProgramming in C++\nRobotics\nComputer Science and\nProgramming Concepts\nwith Python\nAP Computer Science\nPrinciples\nAP Computer Science A\nHonors Data Structures\nand Advanced\nProgramming",
         "fontname": "MUFUZY+Calibri",
         "fontsize": 11.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.0,
             "indentation": 275.13,
             "is_bold": 0,
             "y_coordinate": 638.13,
             "centering_offset": 22.36,
-            "word_count": 23
+            "word_count": 26
         },
         "feature_vector": [
             11.0,
             275.13,
             0,
             22.36,
-            23,
+            26,
             638.13,
             25.012
         ]
     },
     {
-        "text": "Networks (CCNA cert)Switching, Routing, & Wireless Essentials (CCNA cert)Cybersecurity (CCNA cert)•Graphic Design•Digital •PhotographyAdvanced Digital Photography",
+        "text": "Networks (CCNA cert)\nSwitching, Routing, &\nWireless Essentials\n(CCNA cert)\nCybersecurity (CCNA\ncert)\n• Graphic\nDesign\n• Digital\n•\nPhotography\nAdvanced\nDigital\nPhotography",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 10.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 10.0,
             "indentation": 275.13,
             "is_bold": 0,
             "y_coordinate": 638.74,
             "centering_offset": 64.86,
-            "word_count": 15
+            "word_count": 23
         },
         "feature_vector": [
             10.0,
             275.13,
             0,
             64.86,
-            15,
+            23,
             638.74,
             27.513
         ]
     },
     {
-        "text": "***AP Captsone - Seminar and Research w/ advisor approval",
+        "text": "***AP\nCaptsone -\nSeminar and\nResearch w/\nadvisor\napproval",
         "fontname": "MUFUZY+Arial-BoldMT",
         "fontsize": 10.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 10.0,
             "indentation": 403.14,
@@ -874,24 +460,24 @@
         ]
     },
     {
-        "text": "••Nutrition for an Active LifestyleEngineering CAD and Design FoundationsTelevision Production I / II••Careers in Medicine (Phys Ed department)•Woods Tech 1 and 2•Honors Engineering and Design",
+        "text": "•\n• Nutrition for an\nActive Lifestyle\nEngineering\nCAD and Design\nFoundations\nTelevision\nProduction I / II\n•\n• Careers in\nMedicine (Phys\nEd department)\n• Woods Tech 1\nand 2\n• Honors\nEngineering and\nDesign",
         "fontname": "MUFUZY+ArialMT",
         "fontsize": 10.0,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 10.0,
             "indentation": 482.14,
             "is_bold": 0,
             "y_coordinate": 638.74,
             "centering_offset": 223.27,
-            "word_count": 25
+            "word_count": 36
         },
         "feature_vector": [
             10.0,
             482.14,
             0,
             223.27,
-            25,
+            36,
             638.74,
             48.214
         ]
@@ -900,7 +486,7 @@
         "text": "What Colleges Say!",
         "fontname": "MUFUZY+TimesNewRomanPS-BoldMT",
         "fontsize": 18.01,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 18.01,
             "indentation": 229.62,
@@ -920,355 +506,56 @@
         ]
     },
     {
-        "text": "When asked the question,",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 35.26,
-            "is_bold": 0,
-            "y_coordinate": 277.07,
-            "centering_offset": 211.28,
-            "word_count": 4
-        },
-        "feature_vector": [
-            11.01,
-            35.26,
-            0,
-            211.28,
-            4,
-            277.07,
-            3.203
-        ]
-    },
-    {
-        "text": "“Would participation in the STEM Pathways set PTHSD students apart when applying to your school?”,",
+        "text": "When asked the question,  “Would participation in the\nSTEM Pathways set PTHSD students apart when applying",
         "fontname": "MUFUZY+Calibri-Bold",
         "fontsize": 11.01,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.01,
             "indentation": 35.26,
             "is_bold": 1,
             "y_coordinate": 277.07,
             "centering_offset": 140.1,
-            "word_count": 15
+            "word_count": 16
         },
         "feature_vector": [
             11.01,
             35.26,
             1,
             140.1,
-            15,
+            16,
             277.07,
             3.203
         ]
     },
     {
-        "text": "colleges responded with the following:",
+        "text": "to your school?”, colleges responded with the following:\nDrew University: “Yes,it would show that they are\nchallenging themselves in the classroom.”\nSUNY Binghamton:  “Yes. We are a R1 research institution\nand students with a strong STEM curriculum that includes\nresearch or lab work are generally more competitive in our\napplicant pool and more success as students at\nBinghamton because of their early HS experience.”\nNJIT: “Yes- this would demonstrate to Admissions that a\nstudent is interested in STEM programs, and would be a\nstrong candidate for our programs.”\nIthaca College:  “Yes, we look for students who participate\nin classes and activities that enhance their knowledge and\nskills in their area of interest.”\nTowson University: “Participation in this program would\nshow us that the student is challenging him/herself in their\ncourses which is something we look at when reviewing\napplications.”\nMontclair University:  “Rigorous math and science lab\nclasses beyond standard curriculum could be looked at for\nscholarship eligibility along with high GPA.”",
         "fontname": "MUFUZY+Calibri",
         "fontsize": 11.01,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 11.01,
-            "indentation": 111.91,
-            "is_bold": 0,
-            "y_coordinate": 250.04,
-            "centering_offset": 106.68,
-            "word_count": 5
-        },
-        "feature_vector": [
-            11.01,
-            111.91,
-            0,
-            106.68,
-            5,
-            250.04,
-            10.164
-        ]
-    },
-    {
-        "text": "Drew University:",
-        "fontname": "MUFUZY+Calibri-Bold",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.05,
-            "is_bold": 1,
-            "y_coordinate": 277.07,
-            "centering_offset": 45.4,
-            "word_count": 2
-        },
-        "feature_vector": [
-            11.01,
-            312.05,
-            1,
-            45.4,
-            2,
-            277.07,
-            28.342
-        ]
-    },
-    {
-        "text": "“Yes,it would show that they are challenging themselves in the classroom.”",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.05,
+            "indentation": 35.26,
             "is_bold": 0,
             "y_coordinate": 277.07,
-            "centering_offset": 118.9,
-            "word_count": 11
+            "centering_offset": 1.07,
+            "word_count": 161
         },
         "feature_vector": [
             11.01,
-            312.05,
+            35.26,
             0,
-            118.9,
-            11,
+            1.07,
+            161,
             277.07,
-            28.342
-        ]
-    },
-    {
-        "text": "SUNY Binghamton:",
-        "fontname": "MUFUZY+Calibri-Bold",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 35.26,
-            "is_bold": 1,
-            "y_coordinate": 223.02,
-            "centering_offset": 227.47,
-            "word_count": 2
-        },
-        "feature_vector": [
-            11.01,
-            35.26,
-            1,
-            227.47,
-            2,
-            223.02,
             3.203
-        ]
-    },
-    {
-        "text": "“Yes. We are a R1 research institution and students with a strong STEM curriculum that includes research or lab work are generally more competitive in our applicant pool and more success as students at Binghamton because of their early HS experience.”",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 35.26,
-            "is_bold": 0,
-            "y_coordinate": 223.02,
-            "centering_offset": 138.48,
-            "word_count": 41
-        },
-        "feature_vector": [
-            11.01,
-            35.26,
-            0,
-            138.48,
-            41,
-            223.02,
-            3.203
-        ]
-    },
-    {
-        "text": "NJIT:",
-        "fontname": "MUFUZY+Calibri-Bold",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.05,
-            "is_bold": 1,
-            "y_coordinate": 236.53,
-            "centering_offset": 18.21,
-            "word_count": 1
-        },
-        "feature_vector": [
-            11.01,
-            312.05,
-            1,
-            18.21,
-            1,
-            236.53,
-            28.342
-        ]
-    },
-    {
-        "text": "“Yes- this would demonstrate to Admissions that a student is interested in STEM programs, and would be a strong candidate for our programs.”",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.03,
-            "is_bold": 0,
-            "y_coordinate": 236.54,
-            "centering_offset": 131.75,
-            "word_count": 23
-        },
-        "feature_vector": [
-            11.01,
-            312.03,
-            0,
-            131.75,
-            23,
-            236.54,
-            28.341
-        ]
-    },
-    {
-        "text": "Ithaca College:",
-        "fontname": "MUFUZY+Calibri-Bold",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.03,
-            "is_bold": 1,
-            "y_coordinate": 182.49,
-            "centering_offset": 39.47,
-            "word_count": 2
-        },
-        "feature_vector": [
-            11.01,
-            312.03,
-            1,
-            39.47,
-            2,
-            182.49,
-            28.341
-        ]
-    },
-    {
-        "text": "“Yes, we look for students who participate in classes and activities that enhance their knowledge and skills in their area of interest.”",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.03,
-            "is_bold": 0,
-            "y_coordinate": 182.49,
-            "centering_offset": 137.32,
-            "word_count": 22
-        },
-        "feature_vector": [
-            11.01,
-            312.03,
-            0,
-            137.32,
-            22,
-            182.49,
-            28.341
-        ]
-    },
-    {
-        "text": "Towson University:",
-        "fontname": "MUFUZY+Calibri-Bold",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 35.26,
-            "is_bold": 1,
-            "y_coordinate": 141.96,
-            "centering_offset": 226.22,
-            "word_count": 2
-        },
-        "feature_vector": [
-            11.01,
-            35.26,
-            1,
-            226.22,
-            2,
-            141.96,
-            3.203
-        ]
-    },
-    {
-        "text": "“Participation in this program would show us that the student is challenging him/herself in their courses which is something we look at when reviewing applications.”",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 35.26,
-            "is_bold": 0,
-            "y_coordinate": 141.96,
-            "centering_offset": 138.19,
-            "word_count": 25
-        },
-        "feature_vector": [
-            11.01,
-            35.26,
-            0,
-            138.19,
-            25,
-            141.96,
-            3.203
-        ]
-    },
-    {
-        "text": "Montclair University:",
-        "fontname": "MUFUZY+Calibri-Bold",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.03,
-            "is_bold": 1,
-            "y_coordinate": 128.45,
-            "centering_offset": 54.1,
-            "word_count": 2
-        },
-        "feature_vector": [
-            11.01,
-            312.03,
-            1,
-            54.1,
-            2,
-            128.45,
-            28.341
-        ]
-    },
-    {
-        "text": "“Rigorous math and science lab classes beyond standard curriculum could be looked at for scholarship eligibility along with high GPA.”",
-        "fontname": "MUFUZY+Calibri",
-        "fontsize": 11.01,
-        "page_number": 2,
-        "features": {
-            "font_size": 11.01,
-            "indentation": 312.03,
-            "is_bold": 0,
-            "y_coordinate": 128.45,
-            "centering_offset": 136.72,
-            "word_count": 20
-        },
-        "feature_vector": [
-            11.01,
-            312.03,
-            0,
-            136.72,
-            20,
-            128.45,
-            28.341
         ]
     },
     {
         "text": "For more information and our application please visit our website by clicking here.",
         "fontname": "MUFUZY+Arial-BoldMT",
         "fontsize": 12.01,
-        "page_number": 2,
+        "page_number": 1,
         "features": {
             "font_size": 12.01,
             "indentation": 69.13,

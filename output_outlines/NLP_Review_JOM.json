@@ -1,1775 +1,475 @@
 {
-  "title": "SEE PROFILESEE PROFILE",
+  "title": "Challenges and Advances in Information Extraction from Scientiﬁc Literature:\na Review",
   "outline": [
     {
       "level": "H1",
-      "text": "DOI: 10.1007/s11837-021-04902-9",
-      "page": 1
+      "text": "147 PUBLICATIONS   7,031 CITATIONS\nREADS",
+      "page": 0
     },
     {
-      "level": "H1",
-      "text": "CITATIONS",
-      "page": 1
-    },
-    {
-      "level": "H1",
-      "text": "PUBLICATIONS",
-      "page": 1
-    },
-    {
-      "level": "H1",
-      "text": "CITATIONS",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "READS",
-      "page": 1
-    },
-    {
-      "level": "H2",
+      "level": "H3",
       "text": "1,843",
-      "page": 1
+      "page": 0
     },
     {
-      "level": "H2",
-      "text": "Kyle ChardUniversity of Chicago",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "PUBLICATIONS",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "CITATIONS",
-      "page": 1
+      "level": "H3",
+      "text": "Kyle Chard\nUniversity of Chicago",
+      "page": 0
     },
     {
       "level": "H1",
-      "text": "Ben BlaiszikUniversity of Chicago",
-      "page": 1
+      "text": "310 PUBLICATIONS   6,455 CITATIONS\nSEE PROFILE\nSEE PROFILE",
+      "page": 0
     },
     {
       "level": "H1",
-      "text": "PUBLICATIONS",
-      "page": 1
+      "text": "116 PUBLICATIONS   6,363 CITATIONS",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "Ian Foster\nUniversity of Chicago",
+      "page": 0
     },
     {
       "level": "H1",
-      "text": "CITATIONS",
+      "text": "JOM manuscript No.",
       "page": 1
     },
     {
       "level": "H1",
-      "text": "Ian FosterUniversity of Chicago",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "PUBLICATIONS",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "CITATIONS",
+      "text": "Challenges and Advances in Information Extraction\nFrom Scientiﬁc Literature: A Review",
       "page": 1
     },
     {
       "level": "H1",
-      "text": "SEE PROFILESEE PROFILE",
+      "text": "Zhi Hong · Logan Ward · Kyle Chard ·\nBen Blaiszik · Ian Foster",
       "page": 1
     },
     {
       "level": "H1",
-      "text": "JOMmanuscriptNo.",
+      "text": "1 Introduction",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "2\nZhi Hong et al.",
       "page": 2
     },
     {
       "level": "H1",
-      "text": "ChallengesandAdvancesinInformationExtractionFromScientiﬁcLiterature:AReview",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "ZhiHong",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "LoganWard",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "KyleChard",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "BenBlaiszik",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "IanFoster",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Received:date/Accepted:date",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Abstract",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Scientiﬁcarticleshavelongbeentheprimarymeansofdisseminatingscientiﬁcdiscoveries.Overthecenturies,valuabledataandpotentiallyground-breakinginsightshavebeencollectedandburieddeepinthemountainofpublica-tions.Inmaterialsengineering,suchdataarespreadacrosstechnicalhandbooksspeciﬁcationsheets,journalarticles,andlaboratorynotebooksinmyriadforfor-mats.Extractinginformationfrompapersonalargescalehasbeenatediousandtime-consumingjobtowhichfewresearcherswantedtodevotetheirlimitedtimeandeﬀort,yetisanactivitythatisessentialformoderndata-drivendesignpractices.However,inrecentyears,signiﬁcantprogresshasbeenmadebythecomputersciencecommunityontechniquesforautomatedinformationextractionfromfreetext.Yet,transformativeapplicationofthesetechniquestoscientiﬁclit-eratureremainselusive—duenottoalackofinterestoreﬀort,buttotechnicalandlogisticalchallenges.Usingthechallengesinthematerialsscienceliteratureasadrivingmotivation,wereviewthegapsbetweenstate-of-the-artinformationex-tractionmethodsandthepracticalapplicationofsuchmethodstoscientiﬁctexts,andoﬀeracomprehensiveoverviewofworkthatcanbeundertakentoclosethesegaps.",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Keywords",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "1Introduction",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "“Thereisaninformationoverloadinscientiﬁcliterature”[1],accordingto",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "Nature",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": ".Abibliometricsstudyshowsthatapproximately2.5millionnewpapersarepub-lishedeachyear[2].Suchenormousvolumesofnewinformationarewellbeyondanyhuman’sabilitytoread,letalonetodigestandabsorb.Inevitably,valuable",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Z.Hong*",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "KyleChard",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "BenBlaiszik",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "IanFosterUniversityofChicago,Chicago,IL,USAE-mail:*hongzhi@uchicago.eduLoganWard",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "KyleChard",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "BenBlaiszik",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "·",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "IanFosterArgonneNationalLaboratory,Lemont,IL,USA",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "2ZhiHongetal.",
+      "text": "2 Scientiﬁc Information Extraction Workﬂow",
       "page": 3
     },
     {
       "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength3",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Fig.1",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "ThethreestepsinaScientiﬁcInformationExtraction(SciIE)pipeline:Pre-processing(blue),datacuration(orange),andlearning(green).Componentsmarkedwitharedalarmsymbolareparticularlychallenging.",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Inthispaper,wepresentanoverviewofthescientiﬁcIE(SciIE)processwithaparticularemphasisonthechallengesandopportunitiesformaterialsscienceandengineering.Ourgoalistoexaminethespeciﬁcchallengesandrelevantadvancesinapplyingstate-of-the-artmethodsdevelopedbycomputerscientiststoreal-worldmaterialsSciIEproblems.Finally,weidentifyimportantopenresearchareasthatshouldbeexploredtoadvancetheapplicationofSciIE.",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "2ScientiﬁcInformationExtractionWorkﬂow",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "BeforedivingintothespeciﬁcbarriersfacedbySciIE,weprovideanoverviewofthecommonstepsinvolvedinaSciIEpipeline(Fig.1):datapreprocessing,curationandannotation,andlearning.Theﬁrststep,preprocessing,istobreakdownscientiﬁcarticlesintochunksofcleantextforlatersteps.Inadditiontotextinthebodyofanarticle,scien-tiﬁcdocumentsmayalsohaveﬁgures,tables,andpublisherembellishments(e.g.,logos,runningtitles,pagenumbers).Theﬁrststepinpreprocessingisthusto",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Section3.",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Whiletablesandﬁguresmayalsocontainvaluablefacts,extractinginformationfromthemreliesonacompletelydiﬀerentsetoftechnologies,suchascomputervision,whicharebeyondthescopeofthisreview.Interestedreadersmayreferto[19–22]forrelevantresearch.Afterdocumentparsing,textsarethensplit",
-      "page": 4
-    },
-    {
-      "level": "H2",
-      "text": "Curation &Annotation",
-      "page": 4
-    },
-    {
-      "level": "H2",
-      "text": "Rule-and Heuristic-based Methods",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "ScientificLiteratureTextFigureTableWord VectorsGold Standard Training Examples",
-      "page": 4
-    },
-    {
-      "level": "H2",
-      "text": "Supervised Modelw/ Pre-trained WeightsUnsupervised ModelSupervised Model",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "InputOutputScientific Fact Database",
-      "page": 4
-    },
-    {
-      "level": "H2",
-      "text": "TrainingTrainingFine-tuning",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Unlabeled TextsSelected Examples",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Document ParsingTokenizationWord EmbeddingFiltering & Prediction",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Texts not selected for annotation",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "4ZhiHongetal.",
+      "text": "Title Suppressed Due to Excessive Length\n5",
       "page": 5
     },
     {
       "level": "H1",
-      "text": "Fig.2",
+      "text": "Section 5).",
       "page": 5
     },
     {
       "level": "H1",
-      "text": "ExampletasksinSciIE(visualizedwithProdi.gy[18]):(a)Classifyingsentencesbasedonwhethertheymentionpolymers,(b)recognizingnamedentitiessuchaspolymers,and(c)identifyingrelationsbetweennamedentities(e.g.,polymers,properties,propertyvalues).",
-      "page": 5
-    },
-    {
-      "level": "H1",
-      "text": ".Sentencetokenizationsplitspassagesintosentences,whichistheexpectedinputformatformanylatersteps.Wordtokenizationfurthersplitssentencesintotokenstoreducetheentropyofthevocabulary(e.g.,“is,”“does,”“isn’t,”“doesn’t”canbetokenizedintothreetokens:“is,”“does,”and“n’t.”)Oncetextareextractedandcleaned,thenextstepistocreatethetoolsthatallowforso-calledintelligentprocessingofthelanguage.Theentireprocessofextractinginformationfromtextisaccomplishedbyapipelineofcomplementarytoolsratherthanasingleprogramthatproducesdatadirectlyfromtokenizedtext.Thestepsinthesepipelinesofteninclude(Fig.2):1.",
-      "page": 5
-    },
-    {
-      "level": "H1",
-      "text": "VocabularyGeneration",
-      "page": 5
-    },
-    {
-      "level": "H1",
-      "text": "TextClassiﬁcation",
-      "page": 5
-    },
-    {
-      "level": "H1",
-      "text": "NamedEntityRecognition",
-      "page": 5
-    },
-    {
-      "level": "H1",
-      "text": "(NER)classiﬁeswhetherawordorphrasebelongstoaspeciﬁccategory.Categoriescouldbebroad(e.g.,noun)orspeciﬁc(e.g.,placename,polymer).4.",
-      "page": 5
-    },
-    {
-      "level": "H1",
-      "text": "RelationshipExtraction",
-      "page": 5
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength5",
+      "text": "6\nZhi Hong et al.",
       "page": 6
     },
     {
       "level": "H1",
-      "text": "Section4",
+      "text": "Section 5.",
       "page": 6
     },
     {
       "level": "H1",
-      "text": "Section5",
+      "text": "3 Challenge #1: The Computer-(un)friendly Formats of Scientiﬁc\nTexts",
       "page": 6
     },
     {
       "level": "H1",
-      "text": ").Theﬁnalstepinthepipelineis",
-      "page": 6
-    },
-    {
-      "level": "H1",
-      "text": ".MachinelearningmodelsforNLPareclassiﬁedintotwocategories:supervisedandunsupervisedmodels.MostmodelsusedinIEaresupervised,meaninglabelsarerequiredtoaccompanythetrainingdata.Forexample,commonNERapproachesusetheembeddingsandotherfeaturesofaword(e.g.,length,whetheritcontainsdigits)andthoseofitscontext(i.e.,wordsaheadoforbehindit)asinputintoasimpleMLmodellikeadecisiontreeorsupportvectormachine(SVM)topredictwhetherthatwordbelongstoacategory.State-of-the-arttechniquesuseneuralnetworksthatautomaticallyaccountforthecontextofaword(e.g.,recurrent,convolutionalnetworks)andareﬂexibleenoughtoexpresstheexquisitelycomplicatedmodelformsrequiredforexpressinglanguage[24,25].ModernNLPresearchhasfocusedonreducingtheamountofdatarequiredtotrainsupervisedlearningmodels.Fine-tuningmethodstakepre-traineddatafromapreviousNLPproblemand(re)trainpartofthemodelonannotateddataspeciﬁctothetaskathand.Google’sBERTlanguagemodel,whichistrainedontheBooksCorpus[26](800Mwords)andEnglishWikipedia(2500Mwords),whenﬁne-tunedwithjust2432relevantpaperabstracts,achievedaF-1scoreof74.7%onextractingandclassifyingchemical-proteininteractions(e.g.,“Regula-tor”,“Agonist”,“Antagonist”,etc.)fromtheCHEMPROTcorpus[27].TheF-1score,orF-score,istheharmonicmeanofamodel’sprecision(thefractionofcorrectly-predictedpositiveexamplesamongthealltheexamplesthatthemodelpredictedaspositive)andrecall(thefractionofcorrectly-predictedpositiveexam-plesamongallthepositiveexamplesinthedataset).Itisoftenusedtomeasureamodel’spredictionaccuracy.UnsupervisedmodelssuchasOpenInformationExtraction(OpenIE)systemshavealsobeengainingtractionbecausetheydonotrequirelabeleddata.SuchsystemshavebeendemonstratedtooutperformothertraditionalIEmethodsinmultiplestudies[28–30].Howeverpromising,theuseofthesesmall-datasetlearningtechniquesforscientiﬁctasksiscomplicatedbytheesotericlanguageoftenusedinscienceaswellasthevariationinlanguagesusedtodescribethesameconcept(see",
-      "page": 6
-    },
-    {
-      "level": "H2",
-      "text": "Section6",
-      "page": 6
-    },
-    {
-      "level": "H1",
-      "text": ").Finally,thediﬃcultyinaccuratelyextractinginformationcombinedwiththehighstandardsforsuccessmandatethatNLPtoolsmustbeusedwithcare.Thekeychallengeinapplyingmodelsisoftenthesparsityofdesiredinformationin",
-      "page": 6
-    },
-    {
-      "level": "H1",
-      "text": "6ZhiHongetal.",
-      "page": 7
-    },
-    {
-      "level": "H1",
-      "text": "Section5",
-      "page": 7
-    },
-    {
-      "level": "H1",
-      "text": ".Inthefollowingsections,wecarefullyexaminethemajorchallengesfacedbySciIE,includingthescarcityoflabeleddata,thesparsityofinterestedinformationinpublications,andthediﬃcultiesofapplyingMLorDLmodelstrainedongeneralcorporatoscientiﬁctexts.Relevantadvancesarediscussedaspotentialsolutionsto,ormethodsforalleviating,thesechallenges.",
-      "page": 7
-    },
-    {
-      "level": "H1",
-      "text": "3Challenge#1:TheComputer-(un)friendlyFormatsofScientiﬁcTexts",
-      "page": 7
-    },
-    {
-      "level": "H1",
-      "text": "ThedataneededtotrainoruseNLPmodelsaretexts,ideallyclean,well-formedtextsthatcanbeeasilyingestedbycomputers(andhumans).ManygenericNLPdatasetsexist,suchastheCoNLL-2003datasetfortrainingNamedEntityRecog-nition(NER)models[31]andtheTACREDdatasetforrelationextractionmod-els[32].OnecommonfeatureoftheseNLPdatasetsisthattheyaredistributedasplaintextandhavewell-deﬁnedhomogeneousinternalformats.Forexample,intheCoNLLdataset,eachwordisplacedonaseparatelinewithanemptylineattheendofeachsentence,andoneachline,thewordisfollowedbythreetags:apart-of-speechtag,asyntactictag,andanamedentitytag.Suchstructureddatasetscanbefedintoamodelwithonlyafewlinesofcodeandwithoutanyextrapre-processing.Feedingscientiﬁcliteraturetomodels,unfortunately,isquiteadiﬀerentstory.Usefuldocumentsinmaterialengineeringarestoredinafewdiﬀerentkindsofdocumentseachwithdiﬀerentprocessingchallenges.Speciﬁcationsheetsandhandbooksoftenexpressdataintabularformatsinsteadofnaturallanguageandarebesttreatedwithspecial-purposesoftwaretailoredtotheirspeciﬁcformatsgiventhepredictableforminwhichdataareexpressed.Informationfromjournalarticles,conferenceproceedingsandtechnicalreportareheldintextinavarietyofdocumentformats.Olderarticlesareoftenonlyavailableasscannedimageswhereasmoremodernarticlesareexpressedinavarietyofdigitalformats.Aswedetailhere,thismultitudeofformatsforengineeringtextpresentsamajorbarriertoextractingknowledge.3.1HistoricalRelic:PortableDocumentFormatMostpapersareshareddigitallyinthePortableDocumentFormat(PDF).Inordertostrictlymaintaindocumenttypesetting,PDFstoresaﬁxedlayoutofthecontent,includingtexts,ﬁgures,andtables.However,itdoesnotrecordstructuralinformation(Fig.3).Whilehumanscantellifanumberispartofthebody,apagenumber,oralinenumberbasedonvisualclues,itisdiﬃculttodosoprogrammatically.Intheworstcase(commonforpaperspublishedpriorto2000),aPDFﬁlemaybeascannedimageoftheprintedcopy.Insuchcases,Optical",
-      "page": 7
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength7",
+      "text": "8\nZhi Hong et al.",
       "page": 8
     },
     {
       "level": "H1",
-      "text": "Fig.3",
+      "text": "4 Challenge #2: The Need for (and Lack of ) Training Data",
       "page": 8
     },
     {
       "level": "H1",
-      "text": "PDF(left)ﬁlesaredesignedtocapturepagelayout,whileHTML(right)ﬁlesaredesignedtosavelogicalstructure.ItisthusmucheasiertoidentifywhichpartsofaﬁlearethedesiredbodytextswiththehelpofHTMLtags.",
-      "page": 8
-    },
-    {
-      "level": "H1",
-      "text": "CharacterRecognition(OCR)mustbeperformedtorecognizethelettersandnumbersinthepaper,priortoproceedingwiththerestofthepipeline.ThecomplexlayoutsofscientiﬁcpapersmakesitdiﬃculttoextracttheactualnarrativefromPDFﬁles.Thewidely-adopteddouble-columnformatcanconfuseautomatedmethodsforidentifyingtheﬂowoftextblocks.Pagesareoftendec-oratedwithpublishernames,runningtitles,pagenumbers,etc.General-purposetoolkitssuchasPDF2Text[33]arenotequippedtohandlesuchcomplexitiesandthustheyoftenproduceoutputsinwhichusefulbodytextismixedwithtypeset-tingembellishments.Systemsspeciﬁcallydesignedtoextractfromscientiﬁcarticlescommonlyem-ployalayout-aware(e.g.,two-columnvs.one-column)approach.Bothmanually-deﬁnedrulesandstatisticalmodelsmaybeusedtoestimatethestructuralinforma-tionmissinginPDFs.Forexample,LA-PDFText[34]detectswordsbelongingtothesameblockbasedontheirfont,height,andhorizontalandverticaldistancetothenearestwords.Then,arule-basedclassiﬁercategorizeseachblockintosections(e.g.,Abstract,Introduction,Methods,Discussion),andﬁnallytextsclassiﬁedintothesamesectionsarestitchedtogethertoformtheﬁnalcleanoutput.AlthoughexperimentalevaluationsshowthatLA-PDFTextreachesanF-1scoreof91%inidentifyingandclassifyingtextsinscientiﬁcarticles,itisstillnotperfectandre-quiresmanuallydeﬁningrulesaccordingtothetypesettingstyle,whichvariesfromjournaltojournalorevenfromtimetotimeforthesamejournal.Thus,applyingLA-PDFTexttoalargecollectionofheterogeneousPDFpapersisimpracticalformanypurposes.",
-      "page": 8
-    },
-    {
-      "level": "H1",
-      "text": "Title",
-      "page": 8
-    },
-    {
-      "level": "H1",
-      "text": "Lorem",
-      "page": 8
-    },
-    {
-      "level": "H2",
-      "text": "<!DOCTYPEhtml><html><head><title>Title</title></head><body><h1>First",
-      "page": 8
-    },
-    {
-      "level": "H2",
-      "text": "Heading</h1><p>First",
-      "page": 8
-    },
-    {
-      "level": "H1",
-      "text": "8ZhiHongetal.",
+      "text": "Title Suppressed Due to Excessive Length\n9",
       "page": 9
     },
     {
-      "level": "H1",
-      "text": "4Challenge#2:TheNeedfor(andLackof)TrainingData",
+      "level": "H3",
+      "text": "Cons:\nCons:",
       "page": 9
     },
     {
-      "level": "H1",
-      "text": "Modernartiﬁcialintelligence(AI)methodsderivestheir“intelligence”fromthedataonwhichtheyaretrained.Nomodelarchitecture,regardlessofitssophistica-tion,candobetterthanrandomguessingwithouttrainingdata.Moreover,havingthedataitselfisoftennotsuﬃcient.Manymodelsarecreatedforpredictivepur-poses,i.e.,torespondtoaquery:“Given",
+      "level": "H3",
+      "text": "Examples:",
       "page": 9
     },
     {
-      "level": "H2",
-      "text": ".”Havingthedata(",
+      "level": "H3",
+      "text": "Examples:",
       "page": 9
     },
     {
-      "level": "H2",
-      "text": ").Suchmodelsarecalled",
-      "page": 9
-    },
-    {
-      "level": "H1",
-      "text": ",",
-      "page": 9
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength9",
-      "page": 10
-    },
-    {
-      "level": "H1",
-      "text": "TrainingDataCollectionHarvestingExistingDataCrowdSourcingComputer-aidedDataCollectionDistant-supervisedandUnsupervisedMethodsPros:Pros:Pros:Pros:",
-      "page": 10
-    },
-    {
-      "level": "H1",
-      "text": "1)Minimumeﬀortrequired",
-      "page": 10
-    },
-    {
-      "level": "H1",
+      "level": "H3",
       "text": "Cons:",
-      "page": 10
+      "page": 9
     },
     {
-      "level": "H1",
-      "text": "1)Suchdatamaybeunavailableinthedesireddomain",
-      "page": 10
+      "level": "H3",
+      "text": "1) Output can be\nuninformative and/or\nincoherent.\n2) Standardization and\nnormalization required.",
+      "page": 9
     },
     {
-      "level": "H1",
+      "level": "H3",
       "text": "Examples:",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "4.2 Crowdsourcing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Zhi Hong et al.",
       "page": 10
     },
     {
       "level": "H1",
-      "text": "1)PolymerHandbook[5]2)PPPDB[40]1)Afast,scalablewaytogetlargeamountsofdata2)Relativelylowcost1)Reducesoreliminatesmanualworkload2)Interactivelyanditerativelyreceiveshumaninput",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "Cons:Cons:",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "1)Requirescarefuldecompositionofmegatasksintomicrotasks2)Qualityofcollecteddatamayvary",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "Examples:",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "1)Annotatingdiseasementionsinabstracts[41]2)Digitizingsatelliteimages[42]1)Updatingmodelaftereachlooptakestime2)Eﬃciencyandeﬀectivenessdependonmodelquality",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "Examples:",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "1)Ruleanddictionary-basedmethods[43,44]2)Model-in-the-pipeline[45,46]3)Model-in-the-loop[38,47,48]1)Nomanuallabelingrequired",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "Cons:",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "1)Outputcanbeuninformativeand/orincoherent.2)Standardizationandnormalizationrequired.",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "Examples:",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "1)StandfordOpenIE[30]2)TextRunner[28]",
-      "page": 10
-    },
-    {
-      "level": "H1",
-      "text": "Fig.4",
-      "page": 10
-    },
-    {
-      "level": "H1",
-      "text": "Comparisonofdatacollectionandannotationsolutions:Harvestingexistingdatatakestheleasteﬀortifsuchdataisavailable;crowdsourcingisthemoststraightforward,butrequirescarefultaskdecomposition;computer-aidedmethodsreducemanualworkloadbutqualitymayvary;distant-supervisedandunsupervisedmethodsdonotrequiremanuallabelingbutmayproduceambiguousorincoherentlabels.",
-      "page": 10
-    },
-    {
-      "level": "H1",
-      "text": "4.2Crowdsourcing",
+      "text": "Title Suppressed Due to Excessive Length\n11",
       "page": 11
     },
     {
       "level": "H2",
-      "text": "ZhiHongetal.",
+      "text": "Rule-based and Dictionary-based Methods. Annotating a corpus does not have to",
       "page": 11
     },
     {
       "level": "H1",
-      "text": "Traditionally,datasetshavebeencuratedviaslowandexpensivemanualprocesses.Forexample,from1989to1992,ateamattheUniversityofPennsylvaniaspentthreeyearsannotatingacorpusofover4.5millionEnglishwordswithpart-of-speech(POS)andsentenceskeletalparsinginformation[51].TheresultingPennTreebankdatasetisstillwidelyusedtotrainNLPmodelsforPOStaggingandsentenceparsingtoday,almost30yearslater,becausefewcanaﬀordthehighcostofbuildingacorpusofsuchscale.WiththeincreasingpenetrationrateofInternet-connecteddevicesamongthepopulation,crowdsourcinghasbecomeamoreviableapproachtoanumberoflabor-intensivetasks,corpusannotationincluded.OnlineservicessuchasAmazonMechanicalTurk(AMT)andCrowdFlower(CF)oﬀerplatformstopostcrowd-sourcingjobsandtoengagethepublictocontributeformonetaryrewards.Therearealsotoolsthathelpstreamlinethecrowdsourcingprocess.TheGATEcrowd-sourcingpluginautomatesthemappingofdocumentstocrowdsourcingunitsandgeneratesuserinterfacesforcommonNLPcrowdsourcingtasks[52].Crowdsourc-inghasbeenshowntobeeﬀectiveatsolvingtheproblemoftrainingdataannota-tion.Granted,thequalityofannotationsproducedbyanuntrainedcrowdcouldvary,soitiscommontoassignthesametaskstomultipleworkersandapplyamajorityvotingsystemtoimproveannotationquality.Forexample,145AMTparticipantsannotatedacorpusof593biologicalabstractsfordiseasementions,achievinganoverallF-1scoreof87.2%withacostof",
-      "page": 11
-    },
-    {
-      "level": "H2",
-      "text": "$",
-      "page": 11
-    },
-    {
-      "level": "H1",
-      "text": "[55].CHEMDNERisanotherchemistrycorpusthatcon-tains10000PubMedabstractsannotatedbyabout50scientistsfromaround30institutions[56].TheSynthesisProjectfromMIToﬀersannotationsfor230mate-rialsciencepapers[57].Thewell-known",
-      "page": 11
-    },
-    {
-      "level": "H2",
-      "text": "PolymerHandbook",
-      "page": 11
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength11",
+      "text": "12\nZhi Hong et al.",
       "page": 12
     },
     {
       "level": "H1",
-      "text": "Inadditiontobeingdrasticallymoreexpensive,italsorestrictstheeligible“crowd”toasmallgroup,andsuchpeopletypicallyhavelimitedbandwidthforsuchtasks.Inourexperience,ittookthreematerialsscientistsovertwomonthstoannotatejust150paragraphsforglasstransitiontemperatures(Tg)ofpolymers,sinceitwasdiﬃculttoﬁndtimetoworkonitwiththeirbusyschedules.Inordertotakefulladvantageofcrowdsourcing,megatasksneedtobedividedintosmallerandsimplermicrotasks.Onewayofdoingsoistocreatea",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "(GWAP)[59].CarefullydesignedGWAPshavebeenusedtoaddressmanycomplexscientiﬁcproblemsthatwouldotherwisebeincomprehensibletoanuntrainedperson.Inbiology,themultiplegenesequencealignmentproblemhasbeenpresentedasacolor-matchinggametocrowdsourcedworkers[60].GWAPshavealsobeenusedinannotatingcomplexlanguageresources[61].Whendesign-ingGWAPsforcomplexscientiﬁctextannotation,thekeyistodecomposethemegatasks.Forexample,insteadofassigningaworkerafullpaper,assignthemaparagraphorevenasentence;insteadofaskingthemtolabeleverymaterialprop-erty,assignonlythetaskspertainingtoasingleproperty,sothattheyhavelessinformationtoremember.PartitioningmegatasksintomicrotasksalsoenablesthemappingofmicrotaskstodiﬀerentlevelsinaGWAPbasedondiﬃculty,givingtheworkersasenseofachievementastheyincreasetheirskill,whichcancontributetokeepingthemengaged.4.3Computer-aidedTrainingDataCollection",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "Rule-basedandDictionary-basedMethods.",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "Annotatingacorpusdoesnothavetobedoneentirelybyhumans.Forcertaintasks,thehelpofmachinescangreatlyreducethemanualeﬀortrequiredtoannotateacorpus.Inmanysciencedomains,systematicnomenclaturesanduniqueidentiﬁersarecommonlyused.Inchemistry,thereistheInternationalUnionofPureandAppliedChemistry(IUPAC)nomen-clature[62]andChemicalAbstractsService(CAS)registrynumbers[63],bothareusedtorefertochemicalsinliterature.Inbiology,standardizednomenclaturehasbeendeﬁnedforhumangenemutations[44].Rule-basedapproaches(e.g.,regularexpressions)areagreatﬁttoautomaticallyannotatetheirmentionsintexts[43,44].Rulescanalsobeconstructedwithformalgrammars[43],whichworksbestwhentherearecommonlyadoptedlanguagesinadomainforpresentingcertaintypesofinformationintheliterature.Rule-basedmethodsarenotsuﬃcientiftheinformationwewanttoannotatehasnoobviouspattern.However,therearedictionariesavailableinmanydomains.Forexample,DBpedia—astructureddatabasebuiltfromWikipediathatincludescategoriessuchasChemicalCompound,Mineral,Gene,andProtein[64]—canbeleveragedtolabelautomaticallysuchentitiesinfreetext.Granted,rulesanddictionariesmaynotbe100%accurateorcomprehensive,somanualreviewisoftennecessary,butreviewingisstillmuchmoreeﬃcientthanmanuallabeling.",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "Model-in-the-pipelineMethods:",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "ResearchershaverecentlyexploredtheuseofML/DLmodelstocreatedatasetsthatarethenusedtotrainbiggerandbettermodels.Theirworkﬂowsbeginwiththemanualannotationofasmallsubsetofthecorpus.Theannotatedtextsareusedtotrainamodel,whichmaybeasimpliﬁedorasmallerversionofthefullmodeltobetrainedonthefullyannotatedcorpus.The",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "12ZhiHongetal.",
+      "text": "Title Suppressed Due to Excessive Length\n13",
       "page": 13
     },
     {
       "level": "H1",
-      "text": "Model-in-the-loopMethods.",
-      "page": 13
-    },
-    {
-      "level": "H1",
-      "text": "Model-in-the-pipelinemethodsforcorpusannotationhaveamajordrawback:thequalityofthemodelinthepipelineissolelydependentonthechoiceoftheinitialtrainingexamples.Iftheinitiallyselectedexamplesarenotrepresentativeoftheoveralldistributioninthecorpus,whichisnotunlikelyforlargecorporawithhundredsofthousandsofarticles,themodelwillbelesseﬀec-tive,andthehumanannotatorswouldspendprecioustimeoncorrectingthesamemistakerepeatedly.Incontrast,",
-      "page": 13
-    },
-    {
-      "level": "H1",
-      "text": "Distant-supervisedmethods",
-      "page": 13
-    },
-    {
-      "level": "H2",
-      "text": "Multi-instancelearning",
-      "page": 13
-    },
-    {
-      "level": "H1",
-      "text": "(MIL)isdesignedtomitigatethisproblem.Insteadofassigningalabeltoeverytrainingexample,examplesthatwouldgetthesamelabelsareputinabag,andlabelsareassignedtothebagratherthantheexamples.Theintuitionisthat",
-      "page": 13
-    },
-    {
-      "level": "H1",
-      "text": "Multi-instancemulti-labellearning",
-      "page": 13
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength13",
+      "text": "14\nZhi Hong et al.",
       "page": 14
     },
     {
       "level": "H1",
-      "text": "14ZhiHongetal.",
+      "text": "5 Challenge #3: The Sparsity of Information of Interest in Literature",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n15",
       "page": 15
     },
     {
       "level": "H1",
-      "text": "5Challenge#3:TheSparsityofInformationofInterestinLiterature",
+      "text": "Text Filtering\nHeuristic Methods\nStatistical Models\nArticle Structure Filtering\nClassiﬁcation Models\nPros:",
       "page": 15
     },
     {
-      "level": "H1",
-      "text": "SciIEmustaddressachallengingrangeofscales.Atoneextreme,accordingtoabibliographicalstudyonglobalpublicationsfrom2000to2018bytheNationalScienceFoundation(NSF)[80],thescientiﬁcliteraturepublishedinthattimespanencompassessome35.5Marticles,whichultimatelywewouldliketoanalyzeintheirentirety.Attheotherextreme,theliteratureassociatedwithindividualdisciplinesandsubdisciplines,eachcharacterizedbydistinctvocabulariesandcon-ventionsforcommunicatinginformation,aremuchsmaller.Forexample,thesamestudyﬁndsthatthematerialsscienceliteratureencompasses1.1Marticlesduringthatperiod:3.1%ofthetotal.Aparticularsubdiscipline,suchaspolymerscience,accountsforjustaportionofthose1.1Marticles,ofwhichayetsmallersubsetcontaininformationrelevanttoanyspeciﬁcquestion.Thus,evenifwecanidentifytherelevantpublicationsaccuratelyandeﬃ-ciently,thesparsityofinterestinginformationintextcanbeyetanotherobstacletoeﬃcaciousIEfromscientiﬁcliterature[81,82].Onestudyonextractingglasstransitiontemperature(Tg)showsthatonly64(0.67%)of9518sentencesin31papersfrom",
-      "page": 15
-    },
-    {
-      "level": "H1",
-      "text": "ArticleStructure-basedFiltering.",
-      "page": 15
-    },
-    {
-      "level": "H1",
-      "text": "Scientiﬁcpapersusuallyfollowsastructuredfor-matmadeupofsectionsandsubsections.Sectionssuchas“Introduction,”“Re-latedWork,”and“ExperimentalResults”arewidelyusedinmanydomains.Somepublishersevenhavestandardizedsectionheadingsthateverymanuscriptmusthave.Withsomebackgroundknowledgewecantellwithconﬁdencethatsomesec-tionswillnothavetheinformationwewanttoextract:the“References”sectionisprobablynotthebestplacetolookifwewanttoextractthesynthesisprocess",
-      "page": 15
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength15",
-      "page": 16
-    },
-    {
-      "level": "H1",
-      "text": "TextFilteringHeuristicMethodsStatisticalModelsArticleStructureFilteringClassiﬁcationModelsPros:",
-      "page": 16
-    },
-    {
-      "level": "H1",
-      "text": "1)Canquicklyremovelargechunksofirrelevanttext2)Computationallyinexpensive",
-      "page": 16
-    },
-    {
-      "level": "H2",
+      "level": "H3",
       "text": "Pros:",
-      "page": 16
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) Better recall than rule-based methods",
+      "page": 15
     },
     {
       "level": "H2",
-      "text": "1)Betterrecallthanrule-basedmethods",
-      "page": 16
+      "text": "1) More ﬁne-grained than Article Structure ﬁltering.\n2) Computationally inexpensive",
+      "page": 15
     },
     {
-      "level": "H1",
+      "level": "H3",
       "text": "Cons:",
-      "page": 16
+      "page": 15
     },
     {
-      "level": "H1",
-      "text": "1)Ineﬀectiveforarticlesnotstrictlyfollowingconventionalstructures",
-      "page": 16
+      "level": "H3",
+      "text": "1) Requires additional labeled data",
+      "page": 15
     },
     {
-      "level": "H1",
+      "level": "H3",
       "text": "Examples:",
-      "page": 16
+      "page": 15
     },
     {
-      "level": "H1",
-      "text": "1)FilteringHTMLtextsbytags2)Amulti-passapproachforPDFﬁles[85]",
-      "page": 16
+      "level": "H3",
+      "text": "1) SVN, KNN, naive Bayes [89, 90]",
+      "page": 15
     },
     {
-      "level": "H1",
-      "text": "Sentence-levelFilteringPros:",
-      "page": 16
+      "level": "H3",
+      "text": "Subjectivity Analysis\nPros:",
+      "page": 15
     },
     {
-      "level": "H1",
-      "text": "1)Moreﬁne-grainedthanArticleStructureﬁltering.2)Computationallyinexpensive",
-      "page": 16
+      "level": "H3",
+      "text": "1) Solving the problem from a unique perspective\noften neglected by other methods",
+      "page": 15
     },
     {
-      "level": "H1",
+      "level": "H3",
       "text": "Cons:",
-      "page": 16
+      "page": 15
     },
     {
-      "level": "H1",
-      "text": "1)Requiresmoremanually-deﬁnedrulesthanArticleStructureFiltering2)Recallisoftenlowerthanstatisticalmethods.",
-      "page": 16
+      "level": "H3",
+      "text": "Examples:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1)Applying subjectivity analysis in IE [91–94]",
+      "page": 15
     },
     {
       "level": "H2",
+      "text": "1) Rule- and pattern-base sentence ﬁltering [86–88]",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Data Programming\nPros:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1) Does not require that rules be independent\nor highly accurate\n2) Simple to implement",
+      "page": 15
+    },
+    {
+      "level": "H3",
       "text": "Cons:",
-      "page": 16
+      "page": 15
     },
     {
-      "level": "H2",
-      "text": "1)Requiresadditionallabeleddata",
-      "page": 16
+      "level": "H3",
+      "text": "1) Requires additional labeled data",
+      "page": 15
     },
     {
-      "level": "H2",
+      "level": "H3",
       "text": "Examples:",
-      "page": 16
+      "page": 15
     },
     {
-      "level": "H2",
-      "text": "1)SVN,KNN,naiveBayes[89,90]",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "SubjectivityAnalysisPros:",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "1)Solvingtheproblemfromauniqueperspectiveoftenneglectedbyothermethods",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "Cons:",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "1)Needtobeusedinconjunctionwithothermethodstoachievethebestperformance2)Requiresadditionallabeleddata",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "Examples:",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "1)ApplyingsubjectivityanalysisinIE[91–94]",
+      "level": "H1",
+      "text": "16\nZhi Hong et al.",
       "page": 16
     },
     {
       "level": "H1",
-      "text": "Examples:",
-      "page": 16
-    },
-    {
-      "level": "H1",
-      "text": "1)Rule-andpattern-basesentenceﬁltering[86–88]",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "DataProgrammingPros:",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "1)Doesnotrequirethatrulesbeindependentorhighlyaccurate2)Simpletoimplement",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "Cons:",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "1)Requiresadditionallabeleddata",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "Examples:",
-      "page": 16
-    },
-    {
-      "level": "H2",
-      "text": "1)ELSIE[83]",
-      "page": 16
-    },
-    {
-      "level": "H1",
-      "text": "Fig.5",
-      "page": 16
-    },
-    {
-      "level": "H1",
-      "text": "Comparisonoftextﬁlteringtechniques.Heuristicmethodsaresimpletoimplement,andoftenachievehigherprecisionbutlowerrecall.Statisticalmodelsaremorecomplex,andcommonlyhavehigherrecallbutlowerprecision.",
-      "page": 16
-    },
-    {
-      "level": "H1",
-      "text": "16ZhiHongetal.",
+      "text": "Title Suppressed Due to Excessive Length\n17",
       "page": 17
     },
     {
       "level": "H1",
-      "text": "SentenceLevelFiltering.",
+      "text": "6 Challenge #4: The Diﬃculties of Applying Models Trained on\nGeneral Corpora to Scientiﬁc Text",
       "page": 17
     },
     {
       "level": "H1",
-      "text": "Sectionﬁlteringaloneisnotalwaysenoughsincenoisytextsexistsineverysection,eventhepotentiallyusefulones.Sentenceﬁlteringoﬀersmoreﬁne-grainedcontrol.Withmanually-deﬁnedrulesorpatternsitcanachievehighprecision,butoftenatthecostofrecallduetothesmallnumberofrulesdeﬁned[86,87].Statisticalmethodscanautomaticallylearnalargenumberofrulesandthusincreaserecall,butprecisionislostasaresult.Manyeﬀortshavebeenmadetoimprovethequalityoftherule-baseﬁlters.Droppingruleswhosekeywordstriggersmorefalsepositivesthantruepositives,limitingthemaximumlengthofsentencesthatcanbematched,andtuningthethresholdofwhatisconsideredasamatcharesimpleyeteﬀectivetricksthatenabledarule-basedﬁltertooutperformamoresophisticatedmethodbasedonminimumdescriptionlengthfrominformationtheory[88].5.2FilteringwithStatisticalModelsUnlikeheuristic-basedﬁltering,statisticalmodelsdonotrelyonexplicitrules.Theylearnwhatis(andisnot)interestedinformationfromthecontextembed-dedinwordembeddings.Traditionalclassiﬁersarethemostintuitivechoiceforthistask,andmoresophisticatedmethodssuchassubjectivityanalysisanddataprogramminghavealsobeenusedrecently.",
-      "page": 17
-    },
-    {
-      "level": "H1",
-      "text": "ClassiﬁcationModels.",
-      "page": 17
-    },
-    {
-      "level": "H1",
-      "text": "Textfragmentﬁlteringisatypeofclassiﬁcationtask,sointuitivelyMLclassiﬁershavebeenappliedtothistask.Populartraditionalclas-siﬁersincludedecisiontree,SVM,k-nearestneighbors,naiveBayes,importancevalueindex(IVI),andC4.5[89,90].Overtheyearsamendmentshavebeenmadetotheiralgorithmstoimproveperformancespeciﬁcallyontextclassiﬁcation,andeachmethodhasitsownadvantages.TheNaiveBayesclassiﬁerhasbeenshowntohavethebestperformancewithoutanyfeatureselection,whereaswhenfeatures(words)wereselectedbyitscapacitytoindependentlycharacterizeaclass,theIVIclassiﬁercametothetop[95].SVMworkswellontwo-classclassiﬁcationprob-lems,anddecisiontreedoesnotrequireindependentfeaturestobeeﬀective[96].Inshort,nosingleclassiﬁerhassigniﬁcantadvantagesoverallothers,andthechoiceofwhichclassiﬁertouseshouldbemadebasedonthefeaturesusedandthetaskathand.",
-      "page": 17
-    },
-    {
-      "level": "H1",
-      "text": "SubjectivityAnalysis.",
-      "page": 17
-    },
-    {
-      "level": "H1",
-      "text": "AnothercommonsourceoferrorforIEsystemsissubjec-tivelanguagesuchasopinions,arguments,andspeculations,whichshouldbeexcludedwhenaimingtoextractscientiﬁcfacts.RemovingsubjectivesentenceswithaNaiveBayesclassiﬁerincreasedtheprecisionofaIEsystemby10%whilelosinglessthan2%ofrecall[92].AnotherseriesofstudydemonstratedthatIEandsubjectivityanalysisaremutuallybeneﬁcialbecauseasubjectivityclassiﬁercanbebootstrappedfromclueslearntbyIEtechniques,andusedtoimproveprecisiononIEsystems[91–94].",
-      "page": 17
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength17",
+      "text": "18\nZhi Hong et al.",
       "page": 18
     },
     {
-      "level": "H1",
-      "text": "DataProgramming.",
-      "page": 18
-    },
-    {
-      "level": "H1",
-      "text": "ThisalternativeML-basedapproachtoﬁlteringtextfrag-mentsforIEisusedinSnorkel,asystemforrapidcollectionoftrainingdata[97,98].Snorkelisaweaklysupervisedmethodsinceitdoesnotrequireanymanualla-beling.Instead,userswrite",
-      "page": 18
-    },
-    {
-      "level": "H1",
-      "text": "(LFs).ALFassignslabelstoinputs.Itcanbebasedonarbitraryrulesorheuristics.DiﬀerentLFscanhaveunknownaccuraciesandnotbeindependentofeachother.Foreachinput,Snorkelaggre-gatesthelabelsfromallLFs,learningabouttheperformanceofthediﬀerentLFsintheprocess,andeventuallyoutputsahighqualitylabelfortheinput.Theensemblelabelingtowardsscientiﬁcinformationextraction(ELSIE)sys-tembuildsonSnorkel.Itsgoalisnottoextractrelationsfromsentences,buttodeterminewhetheraparticularsentenceexistsinatextfragment.Insteadofhav-ingeachLFindependentlyclassifyasentenceandthendenoisingtheiroutputs,itgroupsitsLFsintobuckets,witheachbucketresponsiblefordeterminingwhetherapartofthetargetrelationexistsinthesentence.Allbucketscollectivelyaimtodetermineifthetargetrelationisexpressedinthetext.ELSIEcansuccessfullyﬁltersentenceswith94%recalland87%F-1[83].",
-      "page": 18
-    },
-    {
-      "level": "H1",
-      "text": "6Challenge#4:TheDiﬃcultiesofApplyingModelsTrainedonGeneralCorporatoScientiﬁcText",
-      "page": 18
-    },
-    {
-      "level": "H1",
-      "text": "ItisstandardpracticeinmostapplicationsofNLPtore-useMLmodelstrainedonplentifullyavailabletext(e.g.,websites,newspapers),withonly",
-      "page": 18
-    },
-    {
-      "level": "H1",
-      "text": "18ZhiHongetal.",
-      "page": 19
-    },
-    {
-      "level": "H1",
-      "text": "ApplyingGenericNLPResourcestoSciIEStandarddatasetsPre-trainedembeddingsPre-trainedlanguagemodelsDiﬃcultylevel:HighDiﬃcultylevel:MediumDiﬃcultylevel:Medium",
-      "page": 19
-    },
-    {
-      "level": "H1",
-      "text": "1)Datasetscompiledfromnewsarticles,webpages,etc.cannotbeusedtodeveloportestSciIEModels",
-      "page": 19
-    },
-    {
-      "level": "H1",
+      "level": "H3",
       "text": "Solutions",
-      "page": 19
+      "page": 18
     },
     {
-      "level": "H1",
-      "text": "1)CompileSciIEdatasetsfromscientiﬁctexts",
-      "page": 19
+      "level": "H3",
+      "text": "1) Train word embeddings\non scientiﬁc texts to\nenrich the pre-trained\nembeddings.",
+      "page": 18
     },
     {
-      "level": "H1",
+      "level": "H3",
       "text": "Examples",
-      "page": 19
+      "page": 18
     },
     {
-      "level": "H1",
-      "text": "1)CoNLL-2003[31]1)Manywordsinscientiﬁcarticleshavethesamemeaningasingenerictexts2)Someterminologiesmaybeuniquetotheirdomain",
-      "page": 19
-    },
-    {
-      "level": "H2",
+      "level": "H3",
       "text": "Solutions",
-      "page": 19
+      "page": 18
     },
     {
-      "level": "H2",
-      "text": "1)Trainwordembeddingsonscientiﬁctextstoenrichthepre-trainedembeddings.",
-      "page": 19
-    },
-    {
-      "level": "H2",
+      "level": "H3",
       "text": "Examples",
-      "page": 19
+      "page": 18
     },
     {
-      "level": "H2",
-      "text": "1)GlobalVectors(GloVe)[31]2)SynthesisProjectWordVectors[111,112]1)Recentlanguagemodelsarepre-trainedonmillionsorbillionsoftexts,butwithnospecialfocusonscientiﬁcarticles.",
-      "page": 19
-    },
-    {
-      "level": "H2",
-      "text": "Solutions",
-      "page": 19
-    },
-    {
-      "level": "H2",
-      "text": "1)Pre-trainedlanguagemodelscanbeﬁne-tunedonascientiﬁccorpus.Finetuningrequiressigniﬁcantlylessdataandcomputationalpowercomparedtotheinitialtraining.",
-      "page": 19
-    },
-    {
-      "level": "H2",
-      "text": "Examples",
-      "page": 19
-    },
-    {
-      "level": "H2",
-      "text": "1)BERT[103]2)SciBERT[50]",
+      "level": "H1",
+      "text": "Title Suppressed Due to Excessive Length\n19",
       "page": 19
     },
     {
       "level": "H1",
-      "text": "Fig.6",
-      "page": 19
-    },
-    {
-      "level": "H1",
-      "text": "ChallengeswithapplyinggenericNLPmethodstoSciIE:Datasetscompiledfromnon-scientiﬁcsourcescannotbeappliedtotrainSciIEmodels;wordembeddingspre-trainedongenerictextsneedtobeenrichedwithembeddingstrainedonscientiﬁctextstoincludeterminologies;pre-trainedlanguagemodelsrequiresﬁne-tuningonscientiﬁctextstoachievebetterunderstandingofdomain-speciﬁclanguage.",
-      "page": 19
-    },
-    {
-      "level": "H1",
-      "text": "Inthissection,wewillexaminethemanygapsthatpreventstate-of-the-artNLPmodelsfromreachingtheirfullpotentialonscientiﬁcliterature,aswellastechniquesproposedtobridgethegaps.6.1StandardizedDatasetsinNLPAsdiscussedinSection4,assemblinganNLPdatasetoftenrequiresconsiderabletimeandeﬀort,whichmakesmanyresearchersturntoprecompileddatasets.UsingthesedatasetssavesNLPresearchersvaluabletimeandresourcesandprovidesalevelplayingﬁeldforcomparingmodelperformance,soitisnosurprisetoﬁndthatmanymodelsaresolelydevelopedandtestedonstandardizeddatasets.However,anoften-overlookedproblemisthatthesecarefullycurateddatasetsarenotrepresentativeoftextfound“inthewild”.Understandably,curatorswanttheirdatasetstobeofhighquality,i.e.,comprisedofrich,balanced,andcleantrainingexamples.However,thiscurationprocesscanleadtodatasetsandthusmodelsthatpresentadistortedviewofhowlanguageandtextsareused.",
-      "page": 19
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength19",
+      "text": "20\nZhi Hong et al.",
       "page": 20
     },
     {
       "level": "H1",
-      "text": "Asanexample,CoNLL-2003isawidelyuseddatasetcompiledfromReutersnewsstoriestotrainNamedEntityRecognitionmodels[31].Thereareover31000entities(location,organization,person,andmisc)amongits22000sentences,av-eragingtoabout1.5entitiespersentence.Incontrast,whendevelopingapolymerNERmodel,wefoundthataround84%of12000sentencesrandomlyselectedfrompublicationsinthejournal",
-      "page": 20
-    },
-    {
-      "level": "H1",
-      "text": ".In-ductivelearningreusesamodelforadiﬀerenttaskinthesamedomain,whereasintransductivelearning,themodelisappliedtoadiﬀerentdomainbutthetaskissimilartotheoneithasbeentrainedon.TransductivelearningisparticularlyhelpfulinSciIE,sincethereisaplethoraofmodelsdesignedforvarioustasksbuttrainedongenerictexts.CommonmethodsfortransductivelearninginNLPin-cludeleveragingpre-trainedwordembeddingsandﬁne-tuningpre-trainedmodels.6.3WordEmbeddingWordembeddingmodelsmaphuman-friendlywordstocomputer-friendlyvectors,inwhichthesensesofwordsareembedded.Withtraining,thewordembeddingvectorsareﬁttocapturethemeaning(s)ofawordfromthecontextsitisusedin.",
-      "page": 20
-    },
-    {
-      "level": "H1",
-      "text": "20ZhiHongetal.",
+      "text": "Title Suppressed Due to Excessive Length\n21",
       "page": 21
     },
     {
       "level": "H1",
-      "text": "Duetothediﬃcultyofdirectlyjudgingwhetheranumericvectoraccuratelyrepre-sentsaword’ssemanticandsyntacticinformation,mostwordembeddingmodelsaretrainedforspeciﬁcallydesignedtasksthatarecloselyrelatedtohowlanguagesareused.Whenvectorscanachievesatisfactoryperformanceonthetrainingtask,theyarepresumedtobeaccuraterepresentationsoftheoriginalwords.Forex-ample,Word2Vec,oneofthemostpopulartraditionalwordembeddingmodels,istrainedforpredictingamissingwordbasedonitscontext[119,120].Aftertrain-ing,wordvectorsarederivedfromtheweightsofthehiddenlayersinthemodelandmaybeusedintransferlearningapplications.Sincewordvectorsarelearnedfromcontext,themoreoftenandaccuratelytheyarerepresentedinthetrainingcorpus,thehigherqualitytheywillbe.Althoughwordembeddingmodelscanbetrainedusingunsupervisedmethods,trainingonalargecorpusisofteninfeasiblebecauseoftheassociatedcomputationalrequire-ments[121].Therefore,wordvectorsaretheprimaryformoftransferlearninginNLPandanumberofwordembeddingmodelspre-trainedonlargequantitiesoftextsareavailable.TheGoogleNewsvectorsare300-dimensionalWord2Vecvec-torspre-trainedontheGoogleNewsdatasetofover100billionwords[122].TheGlobalVectors(GloVe)modelofwordrepresentationshasbeenusedtoproducewordembeddingspre-trainedonover900billionwordsfromtheWeb[101].Fast-TextextendstheWord2Vecmodelwithcharactern-gramembeddingsandoﬀerspre-trainedwordvectorsfor157languages[123].Inmaterialsciencespeciﬁcally,theSynthesisProjectoﬀerspre-trainedembeddingsoftheWord2Vec,FastText,andELMomodels[111,112].Transferlearningwithwordembeddingsisbasedontheassumptionthatthemeaningofawordisinvariantacrosscorpora,sothatthevectorforawordlearnedfromonetextorcorporatecanbeusedtorepresentthesamewordinadiﬀerenttext.Also,unlikehumandictionaries,whereonewordcanhavemultipledeﬁ-nitions,dictionariesgeneratedbywordembeddingmodelsonlyhaveonevector(value)foreachword(key)inthevocabulary.However,multi-sensewordsarein-herentinnaturallanguages,anddiscipline-speciﬁcjargonmakestheproblemyetmorecomplex.Sense2Vec,proposedtodisambiguatewordvectors[109],createsmultiplevectorscorrespondingtothediﬀerentsensesofaword.Tothisend,itrequiresthetrainingcorpustohavedisambiguationlabels.Althoughsomedis-ambiguationcanbeautomaticallyinferredfrompart-of-speechlabelsorsentenceparsinginformation,othercasesstillrequiremanualannotation,sacriﬁcingthemostvaluabletraitofwordembedding—unsupervisedtraining.Another,morewidelyadopted,solutiontothemulti-sensewordproblemintransferlearningissimplytoincreasethesizeofthewordvectors,hopingthattheextradimensionswillallowasinglevectortoembedmultiplesenses.Thissolutionismorewidelyusedthanthesensevectorsolutionbecauseitdoesnotaﬀecttheunsupervisedtrainingprocess.Instead,responsibilityforlearningtheproperweightsforthedimensionsofthewordvectorspaceishandedoﬀtothedownstreammodels.Thedownsideofthismethodisthatitinﬂatesdownstreammodels,butwiththerapidlyincreasingcomputationalpoweroﬀeredbyhardwareacceleratorslikeGPUsandTPUs,thistrade-oﬀisgettingeasiertobear.",
+      "text": "7 Enabling Better IE in Materials Research",
       "page": 21
     },
     {
       "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength21",
+      "text": "22\nZhi Hong et al.",
       "page": 22
     },
     {
       "level": "H1",
-      "text": "7EnablingBetterIEinMaterialsResearch",
-      "page": 22
-    },
-    {
-      "level": "H1",
-      "text": "Asdescribedabove,signiﬁcantchallengesmustbeaddressedbeforethedatapub-lishedoverdecadesinvariousscientiﬁcliteraturescanbemadereadilyaccessible.ManychallengesrequireimprovementsinNLPtechniques,whicharenotneces-sarilythedomainofresearchersworkingindisciplinessuchasmaterialscienceandengineering.However,wenoteafewactionsthatthematerialscommunitycanperformtomakethemostofthecurrentstate-of-the-artandtoensuresteadyinnovationinthefuture.7.1AccesstoWell-FormattedVersionsofArticlesAccesstomachine-readablefull-textarticles(i.e.,inHTML,XML,orJSONfor-mats)isaprerequisiteforrobustSciIE,butobtainingsuchaccess,whenpossibleatall,ofteninvolveslengthynegotiationswithpublishers.Suchbarrierslimitgrowthofthisﬁeld.Movestowardsopenpublicationofarticlesinwaysthatenableunfet-teredaccess,whetherbytraditionalpublishersorviatechnical-society-sponsored",
-      "page": 22
-    },
-    {
-      "level": "H1",
-      "text": "22ZhiHongetal.",
+      "text": "Title Suppressed Due to Excessive Length\n23",
       "page": 23
     },
     {
       "level": "H1",
-      "text": "Preprocessingcodes",
+      "text": "8 Conclusions and Outlook",
       "page": 23
     },
     {
       "level": "H1",
-      "text": "Trainingsets",
-      "page": 23
-    },
-    {
-      "level": "H1",
-      "text": "Wordembeddings",
-      "page": 23
-    },
-    {
-      "level": "H1",
-      "text": "Trainedmodels",
-      "page": 23
-    },
-    {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength23",
+      "text": "24\nZhi Hong et al.",
       "page": 24
     },
     {
       "level": "H1",
-      "text": "8ConclusionsandOutlook",
+      "text": "Conﬂict of Interest",
       "page": 24
-    },
-    {
-      "level": "H1",
-      "text": "Dataaretakingcenterstageinmaterialsengineeringandanincreasingnumberofscienceﬁelds,yetvastamountsofdataremainandcontinuetobeburiedinwrittenpapers,inaccessibletohumansandmachines.Inthispaper,wehaveexaminedthemajorfactorsobstructingpracticalapplicationsofcomputer-aidedinformationextractiononscientiﬁccorpora,includingtheﬁleformatsofscientiﬁcpublications,thelackofdomain-speciﬁctrainingdata,thesparsityofinterestedinformationinpapers,aswellasthediﬃcultiesinherentintransferringamodeltrainedongenerictextstoscientiﬁcliterature.Wereviewedpotentialsolutionsorremediesfortheproblems,anddiscussedtheirstrengthsandweaknesses.Weintendthatthispaperprovideaclearoverviewofthecurrentlandscapeofscientiﬁcinformationextractionandshinelightonthemanyobstaclesthatfutureresearcheﬀortscantakeon.InformationextractionrepresentsonlyaninitialsteptowardsusingNLPtoaidresearchinscienceandengineeringbytakingontaskscurrentlyperformedbyhumanscientists.Outsidescience,modernNLPtechnologiesarebeingusedforincreasinglycomplextasks,suchasansweringquestionsinprose(e.g.,Google’squestion-answeringsearchengine[136]).AfutureNLPtoolcouldusefactsandqualitativerelationshipsextractedfrompaperstoenableautonomousreasoningenginescapableofproducingandtestinghypothesesfromtheliterature,oriden-",
-      "page": 24
-    },
-    {
-      "level": "H1",
-      "text": "24ZhiHongetal.",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "Acknowledgements",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "Thisworkwasperformedunderﬁnancialassistanceaward70NANB19H005fromtheU.S.DepartmentofCommerce,NationalInstituteofStandardsandTechnology,aspartoftheCenterforHierarchicalMaterialsDesign(CHiMaD),andwasalsosupportedinpartbytheU.S.DepartmentofEnergy,OﬃceofScience,AdvancedScientiﬁcComputingResearch,underContractDE-AC02-06CH11357,andbytheJointCenterforEnergyStorageResearch(JCESR),anEnergyInnovationHubfundedbytheU.S.DepartmentofEnergy(DOE),OﬃceofScience,OﬃceofBasicEnergySciences.",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "ConﬂictofInterest",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "Onbehalfofallauthors,thecorrespondingauthorstatesthattherearenoconﬂictsofinterest.",
-      "page": 25
     },
     {
       "level": "H1",
       "text": "References",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Pattern Recognition and Image Analysis (Springer, 2005), pp. 609–618",
       "page": 25
     },
     {
       "level": "H1",
-      "text": "1.E.Landhuis,Nature",
+      "text": "22. I. Kavasidis, C. Pino, S. Palazzo, F. Rundo, D. Giordano, P. Messina, C. Spampinato,",
       "page": 25
     },
     {
       "level": "H1",
-      "text": "(7612),457(2016)2.M.Ware,M.Mabe,",
+      "text": "IEEE International Conference on Computer Vision (2015), pp. 19–27",
       "page": 25
     },
     {
       "level": "H1",
-      "text": "TheSTMreport:Anoverviewofscientiﬁcandscholarlyjournalpub-lishing",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(InternationalAssociationofScientiﬁc,TechnicalandMedicalPublishers,Oxford,UnitedKingdom,2015)3.G.Olson,ScriptaMaterialia",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": ",1(2014)4.J.J.dePablo,N.E.Jackson,M.A.Webb,L.Q.Chen,J.E.Moore,D.Morgan,R.Jacobs,T.Pollock,D.G.Schlom,E.S.Toberer,J.Analytis,I.Dabo,D.M.DeLongchamp,G.A.Fiete,G.M.Grason,G.Hautier,Y.Mo,K.Rajan,E.J.Reed,E.Rodriguez,V.Stevanovic,J.Suntivich,K.Thornton,J.C.Zhao,npjComputationalMaterials",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(1)(2019)5.J.Brandrup,E.H.Immergut,E.A.Grulke(eds.),",
+      "text": "29. F. Wu, D.S. Weld, in 48th Annual Meeting of the Association for Computational Lin-",
       "page": 25
     },
     {
       "level": "H2",
-      "text": "PolymerHandbook,4thEdition",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(4),726(2009)7.S.Kirklin,J.E.Saal,B.Meredig,A.Thompson,J.W.Doak,M.Aykol,S.R¨uhl,C.Wolver-ton,npjComputationalMaterials",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2015)8.C.Kim,A.Chandrasekaran,T.D.Huan,D.Das,R.Ramprasad,TheJournalofPhysicalChemistryC",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(31),17575(2018)9.A.Jain,S.P.Ong,G.Hautier,W.Chen,W.D.Richards,S.Dacek,S.Cholia,D.Gunter,D.Skinner,G.Ceder,etal.,APLMaterials",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(1),011002(2013)10.C.Borkowski,J.SperlingMartin,JournaloftheAmericanSocietyforInformationScience",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(2),94(1975)11.F.B.Rogers,BulletinoftheMedicalLibraryAssociation",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(1),150(1964)12.R.J.Roberts,ProceedingsoftheNationalAcademyofSciences",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(2),381(2001).DOI10.1073/pnas.98.2.381.URL",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "13.D.R.Swanson,N.R.Smalheiser,ArtiﬁcialIntelligence",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(2),183(1997)14.L.Tanabe,U.Scherf,L.Smith,J.Lee,L.Hunter,J.Weinstein,Biotechniques",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(6),1210(1999)15.E.A.Olivetti,J.M.Cole,E.Kim,O.Kononova,G.Ceder,T.Y.J.Han,A.M.Hiszpanski,AppliedPhysicsReviews",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(4),041317(2020)16.O.Kononova,H.Huo,T.He,Z.Rong,T.Botari,W.Sun,V.Tshitoyan,G.Ceder,ScientiﬁcData",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2019)17.S.Huang,J.M.Cole,ScientiﬁcData",
-      "page": 25
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2020)18.Prodi.gy.Prodi.gy:AnannotationtoolforAI,MachineLearning,andNLP.",
+      "text": "Methods in Natural Language Processing (2017), pp. 35–45",
       "page": 25
     },
     {
       "level": "H2",
-      "text": "AAAIWorkshop:ScholarlyBigData",
+      "text": "I. Foster, in 15th International Conference on eScience (IEEE, 2019), pp. 126–135",
       "page": 25
     },
     {
-      "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength2521.B.Gatos,D.Danatsas,I.Pratikakis,S.J.Perantonis,in",
+      "level": "H2",
+      "text": "66. A.R. Camacho, in 14th IAPR International Workshop on Document Analysis Systems,",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "69. M. Surdeanu, J. Tibshirani, R. Nallapati, C.D. Manning, in Joint Conference on Em-",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "76. A. Fader, S. Soderland, O. Etzioni, in Conference on Empirical Methods in Natural",
       "page": 26
     },
     {
       "level": "H1",
-      "text": "InternationalConferenceonPatternRecognitionandImageAnalysis",
-      "page": 26
+      "text": "National Science Foundation (2019). https://ncses.nsf.gov/pubs/nsb20206/",
+      "page": 27
     },
     {
       "level": "H1",
-      "text": "(Springer,2005),pp.609–61822.I.Kavasidis,C.Pino,S.Palazzo,F.Rundo,D.Giordano,P.Messina,C.Spampinato,in",
-      "page": 26
+      "text": "81. E. Riloﬀ, in 11th National Conference on Artiﬁcial intelligence (1993), pp. 811–816",
+      "page": 27
     },
     {
       "level": "H1",
-      "text": "InternationalConferenceonImageAnalysisandProcessing",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(Springer,2019),pp.292–30223.V.Tshitoyan,J.Dagdelen,L.Weston,A.Dunn,Z.Rong,O.Kononova,K.A.Persson,G.Ceder,A.Jain,Nature",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(7763),95(2019)24.D.Nadeau,S.Sekine,LingvisticaeInvestigationes",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(1),3(2007)25.J.Li,A.Sun,J.Han,C.Li,IEEETransactionsonKnowledgeandDataEngineering(2020)26.Y.Zhu,R.Kiros,R.Zemel,R.Salakhutdinov,R.Urtasun,A.Torralba,S.Fidler,in",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "IEEEInternationalConferenceonComputerVision",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": ",103392(2020)28.A.Yates,M.Banko,M.Broadhead,M.J.Cafarella,O.Etzioni,S.Soderland,in",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "An-nualConferenceoftheNorthAmericanChapteroftheAssociationforComputationalLinguistics",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2012)35.M.M.Miro´nczuk,KnowledgeandInformationSystems",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(3),711(2018)36.R.B.Tchoua,K.Chard,D.Audus,J.Qin,J.dePablo,I.Foster,ProcediaComputerScience",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": ",386(2016)37.R.B.Tchoua,K.Chard,D.J.Audus,L.T.Ward,J.Lequieu,J.J.DePablo,I.T.Foster,in",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "IEEE13thInternationalConferenceone-Science",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(IEEE,2017),pp.109–11838.R.Tchoua,A.Ajith,Z.Hong,L.Ward,K.Chard,D.Audus,S.Patel,J.dePablo,I.Foster,in",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(IEEE,2019),pp.126–13539.Z.Hong,R.Tchoua,K.Chard,I.Foster,in",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "InternationalConferenceonComputationalScience",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(Springer,2020),pp.308–32140.R.Tchoua,Z.Hong,D.Audus,S.Patel,L.Ward,K.Chard,J.DePablo,I.Foster,BulletinoftheAmericanPhysicalSociety",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(2020)41.L.VonAhn,B.Maurer,C.McMillen,D.Abraham,M.Blum,Science",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(5895),1465(2008)42.F.Hillen,B.H¨oﬂe,InternationalJournalofAppliedEarthObservationandGeoinforma-tion",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": ",29(2015)43.S.Yan,W.S.Spangler,Y.Chen,IEEE/ACMTransactionsonComputationalBiologyandBioinformatics",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "AMIAAnnualSymposiumProceedings",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "Proceedingsofthelinguisticannotationworkshop",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": ",103631(2021)49.S.M.Swanberg,JournaloftheMedicalLibraryAssociation",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "(1),106(2017)50.I.Beltagy,K.Lo,A.Cohan,in",
-      "page": 26
-    },
-    {
-      "level": "H1",
-      "text": "Demonstrationsatthe14thConferenceoftheEuropeanChapteroftheAssociationforComputationalLinguis-tics",
+      "text": "E. White, L. Hunter, in BioNLP 2009 Workshop Companion Volume for Shared Task",
       "page": 27
     },
     {
       "level": "H2",
-      "text": "PaciﬁcSymposiumonBiocomputing",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(WorldScientiﬁc,2014),pp.282–29354.C.G.Northcutt,A.Athalye,J.Mueller,arXivpreprintarXiv:2103.14749(2021)55.R.B.Tchoua,J.Qin,D.J.Audus,K.Chard,I.T.Foster,J.dePablo,JournalofChemicalEducation",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2015)57.S.Mysore,Z.Jensen,E.Kim,K.Huang,H.S.Chang,E.Strubell,J.Flanigan,A.McCal-lum,E.Olivetti,in",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(AssociationforComputationalLinguistics,2019),pp.56–6458.A.Peskin,A.Dima,IntegratingMaterialsandManufacturingInnovation",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(2),187(2017)59.L.VonAhn,Computer",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(6),92(2006)60.A.Kawrykow,G.Roumanis,A.Kam,D.Kwak,C.Leung,C.Wu,E.Zarour,L.Sarmenta,M.Blanchette,J.Waldisp¨uhl,PloSone",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "InternationalConferenceonComputationalLin-guistics",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(2016)62.H.A.Favre,W.H.Powell,",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "Nomenclatureoforganicchemistry:IUPACrecommendationsandpreferrednames2013",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(RoyalSocietyofChemistry,London,UK,2013)63.H.L.Morgan,JournalofChemicalDocumentation",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(2),107(1965)64.C.Bizer,J.Lehmann,G.Kobilarov,S.Auer,C.Becker,R.Cyganiak,S.Hellmann,JournalofWebSemantics",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(3),154(2009)65.B.Settles,SynthesisLecturesonArtiﬁcialIntelligenceandMachineLearning",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2012)66.A.R.Camacho,in",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "JointConferenceofthe47thAnnualMeetingoftheACLandthe4thInternationalJointConferenceonNaturalLanguageProcessingoftheAFNLP",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "JointEuropeanConferenceonMachineLearningandKnowledgeDiscoveryinDatabases",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(Springer,2010),pp.148–16369.M.Surdeanu,J.Tibshirani,R.Nallapati,C.D.Manning,in",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "JointConferenceonEm-piricalMethodsinNaturalLanguageProcessingandComputationalNaturalLanguageLearning",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(1),649(2018)73.K.Ravikumar,H.Liu,J.D.Cohn,M.E.Wall,K.Verspoor,JournalofBiomedicalSe-mantics",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(3),1(2012)74.C.Quirk,H.Poon,in",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "EuropeanSemanticWebConference",
-      "page": 27
-    },
-    {
-      "level": "H1",
-      "text": "(Springer,2019),pp.8–1276.A.Fader,S.Soderland,O.Etzioni,in",
+      "text": "91. E. Riloﬀ, J. Wiebe, T. Wilson, in 7th Conference on Natural Language Learning (2003),",
       "page": 27
     },
     {
       "level": "H2",
-      "text": "(3),93(2010)",
+      "text": "93. J. Wiebe, E. Riloﬀ, in International Conference on Intelligent Text Processing and Com-",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Mining and Knowledge Discovery (Springer, 2001), pp. 326–337",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "103. J. Devlin, M.W. Chang, K. Lee, K. Toutanova, in Conference of the North American",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Chapter of the Association for Computational Linguistics: Human Language Technolo-",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Sentiment in Social and Expressive Media: Approaches and Perspectives from AI (2013)",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "International Conference on Language Resources and Evaluation (European Language",
       "page": 27
     },
     {
       "level": "H1",
-      "text": "TitleSuppressedDuetoExcessiveLength2778.Y.Luan,L.He,M.Ostendorf,H.Hajishirzi,in",
+      "text": "28\nZhi Hong et al.",
       "page": 28
     },
     {
       "level": "H1",
-      "text": "81.E.Riloﬀ,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(1),233(1999)83.E.Murphy,Ensemblelabelingtowardsscientiﬁcinformationextraction(ELSIE).Ph.D.thesis,CollegeofComputingandDigitalMedia(2020)84.I.Hendrickx,S.N.Kim,Z.Kozareva,P.Nakov,D.´OS´eaghdha,S.Pad´o,M.Pennac-chiotti,L.Romano,S.Szpakowicz,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(AssociationforComputationalLinguistics,2010),pp.33–3885.D.D.A.Bui,G.DelFiol,S.Jonnalagadda,JournalofBiomedicalInformatics",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": ",141(2016)86.C.Blaschke,L.Hirschman,A.Valencia,BrieﬁngsinBioinformatics",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(2),154(2002)87.K.B.Cohen,K.Verspoor,H.L.Johnson,C.Roeder,P.Ogren,W.A.BaumgartnerJr,E.White,L.Hunter,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "BioNLP2009WorkshopCompanionVolumeforSharedTask",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2010)89.V.Pillet,M´ethodologied’extractionautomatiqued’information`apartirdelalitt´eraturescientiﬁqueenvued’alimenterunnouveausyst`emed’information:application`alag´en´etiquemol´eculairepourl’extractiond’informationsurlesinteractions.Ph.D.the-sis,Univ.d’Aix-Marseille3(2000)90.J.R.Quinlan,",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "C4.5:ProgramsforMachineLearning",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(MorganKaufmannPublishersInc.,SanFrancisco,CA,USA,1993)91.E.Riloﬀ,J.Wiebe,T.Wilson,in",
-      "page": 28
-    },
-    {
-      "level": "H2",
-      "text": "AAAI",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "InternationalConferenceonIntelligentTextProcessingandCom-putationalLinguistics",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(Springer,2005),pp.486–49794.J.Wiebe,E.Riloﬀ,IEEETransactionsonAﬀectiveComputing",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(4),175(2011)95.C.N´edellec,M.O.A.Vetah,P.Bessieres,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "EuropeanConferenceonPrinciplesofDataMiningandKnowledgeDiscovery",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(Springer,2001),pp.326–33796.A.H.Aliwy,E.A.Ameer,InternationalJournalofAppliedEngineeringResearch",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(14),4309(2017)97.A.Ratner,S.H.Bach,H.Ehrenberg,J.Fries,S.Wu,C.R´e,InternationalConferenceonVeryLargeDataBases",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(3),269(2017)98.A.J.Ratner,S.H.Bach,H.R.Ehrenberg,C.R´e,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "ACMInternationalConferenceonManagementofData",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "101.J.Pennington,R.Socher,C.D.Manning,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "InternationalConferenceonLanguageResourcesandEvaluation",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(2018)103.J.Devlin,M.W.Chang,K.Lee,K.Toutanova,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "ConferenceoftheNorthAmericanChapteroftheAssociationforComputationalLinguistics:HumanLanguageTechnolo-gies",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(AssociationforComputationalLinguistics,2019),pp.4171–4186104.C.Rosset,MicrosoftResearchBlog(2020).",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "105.H.Saif,M.Fernandez,Y.He,H.Alani,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(2013)106.A.L.Maas,R.E.Daly,P.T.Pham,D.Huang,A.Y.Ng,C.Potts,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(AssociationforComputationalLinguistics,2011),pp.142–150107.H.Elsahar,P.Vougiouklis,A.Remaci,C.Gravier,J.Hare,F.Laforest,E.Simperl,in",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "(EuropeanLanguageResourcesAssociation,2018)",
-      "page": 28
-    },
-    {
-      "level": "H1",
-      "text": "28ZhiHongetal.108.W.Sun,X.Peng,X.Wan,in",
+      "text": "136. D. Metzler, Y. Tay, D. Bahri, M. Najork, arXiv preprint arXiv:2105.02274 (2021)",
       "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "ProceedingsoftheSixthInternationalJointConferenceonNaturalLanguageProcessing",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2017)112.E.Kim,Z.Jensen,A.vanGrootel,K.Huang,M.Staib,S.Mysore,H.S.Chang,E.Strubell,A.McCallum,S.Jegelka,E.Olivetti,JournalofChemicalInformationandModeling",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(3),1194(2020)113.D.S.Maitra,U.Bhattacharya,S.K.Parui,in",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(IEEE,2015),pp.1021–1025114.Y.Wu,M.Schuster,Z.Chen,Q.V.Le,M.Norouzi,W.Macherey,M.Krikun,Y.Cao,Q.Gao,K.Macherey,J.Klingner,A.Shah,M.Johnson,X.Liu,(cid:32)LukaszKaiser,S.Gouws,Y.Kato,T.Kudo,H.Kazawa,K.Stevens,G.Kurian,N.Patil,W.Wang,C.Young,J.Smith,J.Riesa,A.Rudnick,O.Vinyals,G.Corrado,M.Hughes,J.Dean,arXivpreprintarXiv:1609.08144(2016)115.C.B.Do,A.Y.Ng,AdvancesinNeuralInformationProcessingSystems",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": ",299(2005)116.M.Raghu,C.Zhang,J.Kleinberg,S.Bengio,in",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(2019)117.H.Yamada,C.Liu,S.Wu,Y.Koyama,S.Ju,J.Shiomi,J.Morikawa,R.Yoshida,ACSCentralScience",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(10),1717(2019)118.Y.Gong,H.Shao,J.Luo,Z.Li,CompositeStructures",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": ",112681(2020)119.T.Mikolov,K.Chen,G.Corrado,J.Dean,arXivpreprintarXiv:1301.3781(2013)120.T.Mikolov,I.Sutskever,K.Chen,G.Corrado,J.Dean,in",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(27),273002(2017).DOI10.1088/1361-648x/aa680e.URL",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "126.M.C.Swain,J.M.Cole,Journalofchemicalinformationandmodeling",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(10),1894(2016)127.S.R.Hall,F.H.Allen,I.D.Brown,ActaCrystallographicaSectionA:FoundationsofCrystallography",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(6),655(1991)128.C.Draxl,M.Scheﬄer,MRSBulletin",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(9),676(2018)129.B.Blaiszik,K.Chard,J.Pruyne,R.Ananthakrishnan,S.Tuecke,I.Foster,JournalofMaterials(2016)130.B.Blaiszik,L.Ward,M.Schwarting,J.Gaﬀ,R.Chard,D.Pike,K.Chard,I.Foster,MRSCommunications",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(4),1125(2019)131.M.R.Seringhaus,M.B.Gerstein,BMCbioinformatics",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(1),1(2007)132.B.Mons,H.vanHaagen,C.Chichester,J.T.denDunnen,G.vanOmmen,E.vanMul-ligen,B.Singh,R.Hooft,M.Roos,J.Hammond,etal.,Naturegenetics",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "(3),541(2006).DOI10.1351/pac200678030541.URL",
-      "page": 29
-    },
-    {
-      "level": "H1",
-      "text": "134.C.W.Andersen,R.Armiento,E.Blokhin,G.J.Conduit,S.Dwaraknath,M.L.Evans,´A.Fekete,A.Gopakumar,S.Graˇzulis,A.Merkys,F.Mohamed,C.Oses,G.Pizzi,G.M.Rignanese,M.Scheidgen,L.Talirz,C.Toher,D.Winston,R.Aversa,K.Choud-hary,P.Colinet,S.Curtarolo,D.D.Stefano,C.Draxl,S.Er,M.Esters,M.Fornari,M.Giantomassi,M.Govoni,G.Hautier,V.Hegde,M.K.Horton,P.Huck,G.Huhs,",
-      "page": 29
-    },
-    {
-      "level": "H2",
-      "text": "(1)(2021).DOI10.1038/s41597-021-00974-z.URL",
-      "page": 30
-    },
-    {
-      "level": "H1",
-      "text": "135.L.Ward,M.Aykol,B.Blaiszik,I.Foster,B.Meredig,J.Saal,S.Suram,MRSBulletin",
-      "page": 30
-    },
-    {
-      "level": "H1",
-      "text": "(9),683(2018).DOI10.1557/mrs.2018.204.URL",
-      "page": 30
-    },
-    {
-      "level": "H1",
-      "text": "136.D.Metzler,Y.Tay,D.Bahri,M.Najork,arXivpreprintarXiv:2105.02274(2021)",
-      "page": 30
-    },
-    {
-      "level": "H1",
-      "text": "View publication stats",
-      "page": 30
     }
   ]
 }

@@ -2,14 +2,24 @@
   "title": "Application form for grant of LTC advance",
   "outline": [
     {
-      "level": "H1",
-      "text": "Whether permanent or temporary",
-      "page": 1
+      "level": "H3",
+      "text": "5.  Whether permanent or temporary",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Name\nAge\nRelationship\nS.No\n1.\n2.\n3.\n4.\n5.\n6.",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "Amount of advance required.\nRs.",
+      "page": 0
     },
     {
       "level": "H1",
-      "text": "Amount of advance required. Rs.",
-      "page": 1
+      "text": "Date\nSignature of Government Servant.",
+      "page": 0
     }
   ]
 }

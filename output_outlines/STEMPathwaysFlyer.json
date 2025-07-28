@@ -2,124 +2,59 @@
   "title": "Parsippany -Troy Hills STEM Pathways",
   "outline": [
     {
-      "level": "H2",
-      "text": "Mission Statement:",
-      "page": 1
-    },
-    {
-      "level": "H2",
+      "level": "H3",
       "text": "Goals:",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "•",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "•",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "•",
-      "page": 1
-    },
-    {
-      "level": "H1",
-      "text": "PATHWAY OPTIONS",
-      "page": 1
+      "page": 0
     },
     {
       "level": "H1",
       "text": "REGULAR PATHWAY",
-      "page": 1
+      "page": 0
     },
     {
-      "level": "H1",
-      "text": ". *",
-      "page": 1
-    },
-    {
-      "level": "H1",
+      "level": "H2",
       "text": "DISTINCTION PATHWAY",
-      "page": 1
+      "page": 0
     },
     {
       "level": "H1",
       "text": "Elective Course Offerings",
-      "page": 2
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Science\nMath\nComputer Science/\nTechnology\nArt\nApplied\nTechnology/\nFamily Consumer\nScience and Other",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "•\n•\n•\n•\n•\n•",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "•\n•\n•\n•",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• MythBusting: The\nOrganic Chemistry\nGenetics\nAstronomy\nBioethics\nScience of\nLiterature and\nFilms",
+      "page": 1
     },
     {
       "level": "H2",
-      "text": "•",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "•••••",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "MythBusting: The Organic ChemistryGeneticsAstronomyBioethicsScience of Literature and Films",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "AP Calculus",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "AP Statistics",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "CalculusProbability, Statistics, and Discrete Math",
-      "page": 2
+      "text": "***AP\nCaptsone -\nSeminar and\nResearch w/\nadvisor\napproval",
+      "page": 1
     },
     {
       "level": "H1",
       "text": "What Colleges Say!",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "When asked the question,",
-      "page": 2
+      "page": 1
     },
     {
       "level": "H1",
-      "text": "Drew University:",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "SUNY Binghamton:",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "NJIT:",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Ithaca College:",
-      "page": 2
-    },
-    {
-      "level": "H2",
-      "text": "Towson University:",
-      "page": 2
-    },
-    {
-      "level": "H1",
-      "text": "Montclair University:",
-      "page": 2
+      "text": "For more information and our application please visit our website by clicking here.",
+      "page": 1
     }
   ]
 }
