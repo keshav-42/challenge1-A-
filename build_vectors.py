@@ -122,6 +122,6 @@ if __name__ == '__main__':
     #    - `output_vectors`: An empty folder for this script's output.
     # 3. Run from your terminal:
     #
-    #    python build_vectors.py --input_dir output_features --output_dir output_vectors
+    #    python build_vectors.py --input_dir output --output_dir output_vectors
 
     process_directory(args.input_dir, args.output_dir)

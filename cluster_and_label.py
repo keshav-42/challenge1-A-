@@ -49,6 +49,111 @@ def infer_numbering_heading(text: str) -> str | None:
         return f"H{level}"
     return None
 
+# --- New Functions for Pipeline Branching ---
+
+def is_document_style_uniform(blocks: List[Dict[str, Any]], std_dev_threshold: float = 0.5, unique_count_threshold: int = 2) -> bool:
+    """
+    Determines if a document's styling is 'flat' or uniform, making clustering
+    by font style ineffective.
+    """
+    if len(blocks) < 10:  # Not enough data to be sure, assume varied for safety
+        return False
+
+    fontsizes = [b.get('fontsize', 0) for b in blocks]
+    if not fontsizes:
+        return True  # No font data, so we must use rules
+
+    # 1. Check if the standard deviation of font sizes is very low
+    if np.std(fontsizes) < std_dev_threshold:
+        return True
+
+    # 2. Check if there are very few unique font sizes
+    if len(set(fontsizes)) <= unique_count_threshold:
+        return True
+
+    return False
+
+def label_blocks_by_rule(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Assigns hierarchical labels (Title, H1, H2, H3) for low-variance docs
+    using a rule-based scoring system.
+    """
+    # 1. Pre-computation: Sort blocks and calculate the vertical space before each block.
+    # This helps identify headings, which often have more space above them.
+    blocks.sort(key=lambda b: (b['page_number'], -b['features'].get('y_coordinate', 0)))
+
+    for i, block in enumerate(blocks):
+        # The first block on a page is given a large default space.
+        if i == 0 or blocks[i-1]['page_number'] != block['page_number']:
+            block['features']['space_before'] = 100
+        else:
+            prev_block = blocks[i - 1]
+            space = prev_block['features'].get('y_coordinate', 0) - block['features'].get('y_coordinate', 0)
+            block['features']['space_before'] = max(0, space)
+
+    # 2. Labeling: Iterate through blocks and apply rules based on features.
+    for i, block in enumerate(blocks):
+        features = block['features']
+        text = block['text'].strip()
+        label = "Body"  # Start with the default label
+
+        # Rule 0: Filter out noise like page numbers or isolated symbols.
+        if is_page_number(text) or (features['word_count'] == 1 and not text.isalnum()):
+            block['predicted_label'] = "Noise"
+            continue
+
+        # Rule 1: The very first block of the document is likely the Title if it's short.
+        if i == 0 and features['word_count'] < 25:
+            label = "Title"
+        else:
+            # Rule 2: Use a scoring system for all other blocks to find headings.
+            heading_score = 0
+
+            # --- Attribute Scores ---
+            # Style: Bold text is a strong indicator of a heading.
+            if features.get('is_bold', 0):
+                heading_score += 3
+            if features.get('is_italics', 0):
+                heading_score += 3
+            if features.get('is_underline', 0):
+                heading_score += 3
+            if features.get('is_all_caps', 0):
+                heading_score += 3
+            if text.isupper() and features['word_count'] > 1:
+                heading_score += 1
+
+            # Layout: More space before a block suggests it's a new section.
+            space_before = features.get('space_before', 0)
+            if space_before > 25:  # Significant gap
+                heading_score += 2
+            elif space_before > 15: # Moderate gap
+                heading_score += 1
+
+            # Content: Headings are typically shorter than body text.
+            word_count = features['word_count']
+            if word_count < 10:  # Very short text
+                heading_score += 2
+            elif word_count < 20: # Moderately short
+                heading_score += 1
+
+            # Pattern: Numbered headings (e.g., "1.1 Introduction") are a very strong signal.
+            if infer_numbering_heading(text):
+                heading_score += 4
+
+            # --- Thresholding ---
+            # Apply labels hierarchically based on the final score.
+            if heading_score >= 7:
+                label = "H1"
+            elif heading_score >= 5:
+                label = "H2"
+            elif heading_score >= 3:
+                label = "H3"
+            # If the score is below the H3 threshold, the label remains "Body".
+
+        block['predicted_label'] = label
+
+    # 3. Final Cleanup: Remove blocks labeled as "Noise" from the final output.
+    return [b for b in blocks if b.get("predicted_label") != "Noise"]
 # --- Core Processing Steps ---
 
 def load_blocks(filepath: str) -> List[Dict[str, Any]]:
@@ -79,7 +184,6 @@ def perform_clustering(blocks: List[Dict[str, Any]], n_clusters: int) -> List[Di
 def map_clusters_to_labels(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """Assigns initial semantic labels (Title, H1, etc.) based on cluster font size."""
     cluster_labels = {block['cluster_label'] for block in blocks}
-    n_clusters = len(cluster_labels)
 
     avg_font_sizes = {
         i: np.mean([b['fontsize'] for b in blocks if b['cluster_label'] == i])
@@ -87,18 +191,20 @@ def map_clusters_to_labels(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]
     }
 
     sorted_clusters = sorted(avg_font_sizes.items(), key=lambda item: item[1], reverse=True)
-    
+
     semantic_map = ["Title", "H1", "H2", "H3", "Body"]
-    label_map = {cluster_id: semantic_map[i] for i, (cluster_id, _) in enumerate(sorted_clusters)}
+    # Adjust map size to number of actual clusters found
+    label_map = {cluster_id: semantic_map[i] for i, (cluster_id, _) in enumerate(sorted_clusters) if i < len(semantic_map)}
 
     for block in blocks:
+        # Default to 'Body' if a cluster is beyond the primary semantic labels
         block['predicted_label'] = label_map.get(block.get('cluster_label'), 'Body')
     return blocks
 
 def post_process_blocks(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Applies a single pass of rules to clean and correct block labels."""
+    """Applies a single pass of rules to clean and correct block labels from ANY pipeline."""
 
-    # 0. Detect repeating text (running headers/footers)
+    # 0. Detect repeating text (likely running headers/footers)
     text_occurrences = defaultdict(list)
     for block in blocks:
         text_key = block['text'].strip()
@@ -111,15 +217,7 @@ def post_process_blocks(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         if len(set(pages)) > 2
     }
 
-    # 1. Detect running headers
-    header_candidates = defaultdict(list)
-    for block in blocks:
-        if block.get('features', {}).get('y_norm', 0) > 0.90:
-            header_candidates[block['text'].strip()].append(block['page_number'])
-    
-    repeated_header_texts = {text for text, pages in header_candidates.items() if len(set(pages)) > 2}
-
-    # 2. Process each block once with a set of ordered rules
+    # 1. Process each block once with a set of ordered rules
     title_found = False
     for block in blocks:
         text = block["text"].strip()
@@ -133,24 +231,26 @@ def post_process_blocks(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             block["predicted_label"] = "Body"
             continue
 
-        # Rule 2: Re-classify based on numbering (strong signal)
+        # Rule 2: Re-classify based on numbering (strong signal), overrides previous labels
         inferred_level = infer_numbering_heading(text)
         if inferred_level:
             block["predicted_label"] = inferred_level
-        
+
         # Rule 3: Final checks for heading/title candidates
         label = block["predicted_label"]
         if label.startswith("H") or label == "Title":
+            # Ensure only one Title exists, demote others
             if label == "Title":
                 if not title_found:
                     title_found = True
                 else:
                     block['predicted_label'] = 'H1'
-            
+
+            # Demote headings that are too long or start with a lowercase letter
             word_count = block["features"].get("word_count", 0)
-            if word_count > 8 or not is_valid_heading_start(text):
-                 block["predicted_label"] = "Body"
-                 
+            if word_count > 15 or not is_valid_heading_start(text):
+                block["predicted_label"] = "Body"
+
     return blocks
 
 def save_blocks(blocks: List[Dict[str, Any]], filepath: str):
@@ -165,16 +265,27 @@ def save_blocks(blocks: List[Dict[str, Any]], filepath: str):
 # --- Main Pipeline Orchestration ---
 
 def run_pipeline_for_file(json_path: str, output_path: str, n_clusters: int = 5):
-    """Executes the full clustering and labeling pipeline for a single file."""
+    """
+    Executes the full labeling pipeline for a single file, choosing the best
+    strategy (clustering vs. rule-based) based on the document's styling.
+    """
     blocks = load_blocks(json_path)
     if not blocks:
         print(f"  - SKIPPING: No data loaded from '{json_path}'.")
         return
 
-    blocks = perform_clustering(blocks, n_clusters)
-    blocks = map_clusters_to_labels(blocks)
+    # BRANCH: Decide which pipeline to use based on font style analysis
+    if is_document_style_uniform(blocks):
+        print("  - INFO: Uniform document style detected. Using rule-based pipeline.")
+        blocks = label_blocks_by_rule(blocks)
+    else:
+        print("  - INFO: Varied document style detected. Using clustering pipeline.")
+        blocks = perform_clustering(blocks, n_clusters)
+        blocks = map_clusters_to_labels(blocks)
+
+    # Apply a final, universal post-processing step to clean up results from either pipeline
     blocks = post_process_blocks(blocks)
-    
+
     save_blocks(blocks, output_path)
 
 def process_directory(input_dir: str, output_dir: str):
@@ -208,6 +319,7 @@ if __name__ == '__main__':
     # --- How to Run ---
     #  python cluster_and_label.py --input_dir output_vectors --output_dir output_labeled
     process_directory(args.input_dir, args.output_dir)
+
 
 
 
