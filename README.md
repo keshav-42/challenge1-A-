@@ -4,73 +4,57 @@ A comprehensive automated pipeline for processing PDF documents through parsing,
 
 ## Approach
 
-This solution implements a 4-stage sequential pipeline:
+This solution implements a 4-stage sequential pipeline that processes PDF documents to extract hierarchical document structure:
 
 1. **Parsing & Feature Engineering** (`parsing.py`)
 
-   - Extracts text blocks from PDF documents
-   - Performs feature engineering on extracted content
+   - Extracts text blocks from PDF documents using pdfminer.six
+   - Performs feature engineering on extracted content (font size, position, styling)
    - Outputs structured JSON with text blocks and metadata
 
 2. **Vector Building** (`build_vectors.py`)
 
    - Creates feature vectors from parsed text blocks
-   - Uses NLP techniques for text representation
-   - Generates embeddings for downstream processing
+   - Uses numerical features like font size, position, word count, styling attributes
+   - Generates standardized feature representations for machine learning
 
 3. **Clustering & Labeling** (`cluster_and_label.py`)
 
-   - Clusters similar text blocks using machine learning
-   - Assigns meaningful labels to clustered content
-   - Organizes document structure semantically
+   - Uses MiniBatchKMeans clustering to group similar text blocks
+   - Applies intelligent document-type detection (uniform vs varied styling)
+   - Falls back to rule-based classification for uniform documents
+   - Assigns hierarchical labels (Title, H1, H2, H3, Body) based on clustering results
+   - Includes advanced post-processing for text classification accuracy
 
 4. **Outline Generation** (`generate_outline.py`)
-   - Creates hierarchical document outlines
+   - Creates hierarchical document outlines from labeled blocks
    - Generates structured representations of document content
-   - Produces final JSON output with document hierarchy
+   - Produces final JSON output with clean document hierarchy
 
 ## Models and Libraries Used
 
 ### Core Dependencies
 
 - **Python 3.11**: Base runtime environment
-- **NumPy & Pandas**: Data manipulation and numerical computing
-- **scikit-learn**: Machine learning algorithms and clustering
-- **SciPy**: Scientific computing utilities
+- **pdfminer.six**: PDF parsing and text extraction (primary PDF processor)
+- **scikit-learn**: Machine learning algorithms and clustering (MiniBatchKMeans, StandardScaler)
+- **numpy**: Numerical computing and array operations
+- **matplotlib**: Visualization for clustering analysis
+- **seaborn**: Enhanced statistical visualization
 
-### PDF Processing
+### Machine Learning Approach
 
-- **PyPDF2**: PDF parsing and text extraction
-- **pdfplumber**: Advanced PDF content extraction
-- **pdf2image**: PDF to image conversion
-- **Pillow**: Image processing
+- **MiniBatchKMeans**: Primary clustering algorithm for grouping text blocks by similarity
+- **StandardScaler**: Feature normalization for consistent clustering results
+- **Rule-based Classification**: Fallback system for documents with uniform styling
+- **Post-processing Pipeline**: Advanced text pattern detection and hierarchy adjustment
 
-### Natural Language Processing
+### Key Algorithms
 
-- **NLTK**: Natural language toolkit for text processing
-- **spaCy**: Advanced NLP pipeline
-- **transformers**: Pre-trained language models
-- **sentence-transformers**: Semantic text embeddings
-- **PyTorch**: Deep learning framework
-
-### Machine Learning & Clustering
-
-- **UMAP**: Dimensionality reduction
-- **HDBSCAN**: Hierarchical density-based clustering
-- **OpenCV**: Computer vision operations
-
-### System Dependencies
-
-- **Poppler**: PDF rendering utilities
-- **Tesseract OCR**: Optical character recognition
-
-## Architecture
-
-```
-Input PDFs → Parsing → Vectorization → Clustering → Outline → Output JSONs
-     ↓           ↓            ↓           ↓          ↓
-   /app/input  Stage 1     Stage 2    Stage 3   Stage 4   /app/output
-```
+- **Font-size based hierarchy**: Uses visual cues to determine heading levels
+- **Pattern detection**: Identifies table of contents, references, page numbers
+- **Same-page hierarchy adjustment**: Prevents multiple H1 headings on same page
+- **Document style analysis**: Automatically chooses between clustering and rule-based approaches
 
 ## How to Build and Run
 
@@ -88,6 +72,10 @@ docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
 ### Running the Solution
 
 ```bash
+# For Windows Git Bash:
+docker run --rm -v //$(pwd)/input:/app/input -v //$(pwd)/output:/app/output --network none mysolutionname:somerandomidentifier
+
+# For Linux/Mac:
 docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none mysolutionname:somerandomidentifier
 ```
 
@@ -100,20 +88,7 @@ The container will:
 3. **Generate individual outputs** in `/app/output` directory:
    - `filename_output.json` for each `filename.pdf`
    - Each output contains the structured document outline
-
-### Directory Structure
-
-```
-/app/
-├── input/              # Mounted input directory (your PDFs)
-├── output/             # Mounted output directory (generated JSONs)
-├── pipeline.py         # Main pipeline orchestrator
-├── parsing.py          # Stage 1: PDF parsing
-├── build_vectors.py    # Stage 2: Vector generation
-├── cluster_and_label.py # Stage 3: Clustering & labeling
-├── generate_outline.py # Stage 4: Outline generation
-└── requirements.txt    # Python dependencies
-```
+4. **Clean processing**: No intermediate files, only final outputs
 
 ### Output Format
 
@@ -137,23 +112,29 @@ Each generated JSON file contains:
 }
 ```
 
+## Architecture
+
+```
+Input PDFs → Parsing → Vectorization → Clustering → Outline → Output JSONs
+     ↓           ↓            ↓           ↓          ↓
+   /app/input  Stage 1     Stage 2    Stage 3   Stage 4   /app/output
+```
+
 ## Features
 
-- ✅ **Clean Environment**: Automatically resets on each run
+- ✅ **Intelligent Document Analysis**: Automatically detects document styling patterns
+- ✅ **Dual Processing Modes**: Clustering for styled documents, rules for uniform documents
+- ✅ **Advanced Post-Processing**: Pattern detection for references, TOC, page numbers
+- ✅ **Hierarchy Optimization**: Font-size based heading level adjustment
+- ✅ **Clean Output**: Only final JSON files, no intermediate directories
 - ✅ **Error Handling**: Graceful failure handling per document
-- ✅ **Progress Tracking**: Clear stage-by-stage output
-- ✅ **Individual Outputs**: Separate JSON for each PDF
-- ✅ **Docker Optimized**: Efficient containerized execution
+- ✅ **Docker Optimized**: Minimal dependencies, efficient containerized execution
 - ✅ **Network Isolated**: Runs without external network access
 
-## Troubleshooting
+## Technical Highlights
 
-### Common Issues
-
-1. **No output files**: Check that PDFs are valid and in the input directory
-2. **Processing failures**: Verify PDF files are not corrupted or password-protected
-3. **Memory issues**: Large PDFs may require more container memory
-
-### Logs
-
-The container provides detailed logging for each processing stage, making it easy to identify and debug issues.
+- **Adaptive Pipeline**: Chooses optimal processing strategy based on document characteristics
+- **Font-size Intelligence**: Uses visual hierarchy cues for accurate heading detection
+- **Pattern Recognition**: Identifies and correctly classifies special text patterns
+- **Memory Efficient**: In-memory processing without persistent intermediate files
+- **Robust Classification**: Multiple fallback mechanisms ensure reliable document structure extraction
