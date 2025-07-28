@@ -33,6 +33,50 @@ def is_date(text: str) -> bool:
         re.search(r"\b\d{1,2}[/-]\d{1,2}[/-]\d{2,4}\b", text)
     )
 
+def is_table_of_contents_entry(text: str) -> bool:
+    """Checks if text appears to be a table of contents entry with dotted leaders."""
+    # Pattern: text followed by dots/periods and ending with a number (page number)
+    # Examples: "Introduction to Foundation Level Extensions\n............................................................................\n6"
+    #          "Chapter 1: Getting Started .................... 10"
+    #          "Section 2.1 Overview ..................... 25"
+    
+    # Check for dotted leaders pattern: 3 or more consecutive dots/periods
+    has_dots = bool(re.search(r'\.{3,}', text))
+    
+    # Check if it ends with a number (likely page number), allowing for whitespace and newlines
+    ends_with_number = bool(re.search(r'\s*\d+\s*$', text))
+    
+    # Additional pattern: Check for common TOC structures
+    # Look for patterns like "Section X.Y" or "Chapter N" followed by dots and numbers
+    has_section_pattern = bool(re.search(r'(section|chapter|\d+\.?\d*)\s+.*\.{3,}.*\d+', text, re.IGNORECASE))
+    
+    return has_dots and ends_with_number or has_section_pattern
+
+def is_reference_or_citation(text: str) -> bool:
+    """Checks if text appears to be a reference, citation, or identifier that starts with brackets."""
+    # Pattern: text that starts with brackets like [ISTQB-Web], [1], [Smith2021], etc.
+    # Examples: "[ISTQB-Web]", "[1]", "[Smith et al., 2021]", "[RFC-3986]"
+    
+    stripped_text = text.strip()
+    
+    # Check if text starts with opening bracket and contains closing bracket
+    starts_with_bracket = stripped_text.startswith('[')
+    has_closing_bracket = ']' in stripped_text
+    
+    # Additional patterns for common reference formats
+    # Pattern 1: [word-word] or [word_word] (like [ISTQB-Web])
+    reference_pattern = bool(re.match(r'^\[[A-Za-z0-9_-]+\]', stripped_text))
+    
+    # Pattern 2: [number] (like [1], [23])
+    numeric_ref_pattern = bool(re.match(r'^\[\d+\]', stripped_text))
+    
+    # Pattern 3: [Author Year] or [Author et al., Year] (like [Smith 2021])
+    citation_pattern = bool(re.match(r'^\[[A-Za-z]+.*\d{4}.*\]', stripped_text))
+    
+    return (starts_with_bracket and has_closing_bracket) and (
+        reference_pattern or numeric_ref_pattern or citation_pattern
+    )
+
 def is_valid_heading_start(text: str) -> bool:
     """Returns False only if the first alphabetic character is lowercase."""
     for char in text:
@@ -226,6 +270,8 @@ def post_process_blocks(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         if (text in repeating_texts or
             is_page_number(text) or
             is_date(text) or
+            is_table_of_contents_entry(text) or
+            is_reference_or_citation(text) or
             is_mostly_punctuation(text) or
             is_only_symbols_or_digits(text)):
             block["predicted_label"] = "Body"

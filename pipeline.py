@@ -40,14 +40,20 @@ class DocumentProcessingPipeline:
         """Clean and recreate all output directories."""
         print("Resetting pipeline environment...")
         
-        # Remove existing output directory if it exists
+        # For Docker environments, we can't remove mounted volumes
+        # Instead, clean the contents of the output directory
         if os.path.exists(self.output_dir):
-            shutil.rmtree(self.output_dir)
-            print(f"  Cleaned existing output directory: {self.output_dir}")
+            # Remove all contents except the directory itself
+            for item in os.listdir(self.output_dir):
+                item_path = os.path.join(self.output_dir, item)
+                if os.path.isfile(item_path):
+                    os.remove(item_path)
+                elif os.path.isdir(item_path):
+                    shutil.rmtree(item_path)
+            print(f"  Cleaned contents of output directory: {self.output_dir}")
         
-        # Create fresh directory structure
-        directories = [
-            self.output_dir,
+        # Create fresh intermediate directory structure
+        intermediate_directories = [
             self.stages_dir,
             self.parsed_dir,
             self.vectors_dir,
@@ -55,7 +61,9 @@ class DocumentProcessingPipeline:
             self.outlines_dir
         ]
         
-        for dir_path in directories:
+        for dir_path in intermediate_directories:
+            if os.path.exists(dir_path):
+                shutil.rmtree(dir_path)
             os.makedirs(dir_path, exist_ok=True)
         
         print("  Created fresh directory structure")
@@ -111,7 +119,7 @@ class DocumentProcessingPipeline:
             print(f"Processed {len(successful_files)} files:")
             for filename in successful_files:
                 print(f"  - {filename}")
-            print(f"Individual outputs saved in: {self.output_dir}")
+            print(f"Outputs saved in: {self.output_dir}")
             return True
         else:
             print("Pipeline failed - no documents processed successfully.")
@@ -246,44 +254,45 @@ class DocumentProcessingPipeline:
         filename = result['filename']
         base_name = result['base_name']
         
-        # Create individual output with pipeline info
-        individual_output = {
-            "document_info": {
-                "filename": filename,
-                "base_name": base_name,
-                "pipeline_stages": [
-                    "parsing",
-                    "build_vectors", 
-                    "cluster_and_label",
-                    "generate_outline"
-                ]
-            },
-            "outline": result['outline']
-        }
+        # Save just the outline data directly
+        outline_data = result['outline']
         
         # Save to individual file
         output_file = os.path.join(self.output_dir, f"{base_name}_output.json")
         with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(individual_output, f, ensure_ascii=False, indent=2)
+            json.dump(outline_data, f, ensure_ascii=False, indent=2)
         
         print(f"  Individual output saved: {base_name}_output.json")
 
 def main():
     """Main function to run the pipeline."""
-    # Hardcoded directories - adjust these paths as needed
-    input_directory = "input"          # Directory containing PDF files
-    output_directory = "pipeline_output"  # Directory to save all outputs
-    
-    # Validate input directory
-    if not os.path.exists(input_directory):
-        print(f"Error: Input directory '{input_directory}' does not exist.")
-        print(f"Please create the directory and place your PDF files there.")
-        sys.exit(1)
+    # Docker-compatible directories
+    input_directory = "/app/input"          # Docker input mount point
+    output_directory = "/app/output"        # Docker output mount point
     
     print(f"Using input directory: {os.path.abspath(input_directory)}")
     print(f"Using output directory: {os.path.abspath(output_directory)}")
     
-    # Create and run pipeline
+    # Debug: List contents of input directory
+    if os.path.exists(input_directory):
+        print(f"Input directory contents:")
+        try:
+            files = os.listdir(input_directory)
+            for file in files:
+                print(f"  - {file}")
+            if not files:
+                print("  (directory is empty)")
+        except Exception as e:
+            print(f"  Error listing directory: {e}")
+    else:
+        print(f"Error: Input directory '{input_directory}' does not exist.")
+        print(f"Please mount your input directory to /app/input")
+        sys.exit(1)
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(output_directory, exist_ok=True)
+    
+    # Create and run pipeline with Docker paths
     pipeline = DocumentProcessingPipeline(input_directory, output_directory)
     success = pipeline.run_pipeline()
     
